@@ -1,0 +1,126 @@
+Event	ID	Name			Wwise Object Path	Notes
+	16204334	NoAmmo			\Default Work Unit\Main\NoAmmo	
+	32029953	Pain_Goblin			\Default Work Unit\Main\Pain\Pain_Goblin	
+	52370326	Pain_Slith			\Default Work Unit\Main\Pain\Pain_Slith	
+	81429765	Fire_Rifle_Monster			\Default Work Unit\Main\Weapons\Fire_Rifle_Monster	
+	87064326	Pain_Rhino			\Default Work Unit\Main\Pain\Pain_Rhino	
+	157639802	Rumble			\Default Work Unit\Main\Rumble	
+	157654016	Fire_Fireball_Monster			\Default Work Unit\Main\Weapons\Fire_Fireball_Monster	
+	160686570	SplashIn_Monster			\Default Work Unit\Main\SplashIn_Monster	
+	199291532	Fire_SlimeBall_Monster			\Default Work Unit\Main\Weapons\Fire_SlimeBall_Monster	
+	227445756	ItemHealth200			\Default Work Unit\Main\ItemHealth200	
+	360217301	End_Slimeball_Monster			\Default Work Unit\Main\Weapons\End_Slimeball_Monster	
+	379950478	Hit_Slimeball_Player			\Default Work Unit\Main\Weapons\Hit_Slimeball_Player	
+	401958326	Grunt_Slith			\Default Work Unit\Main\Grunt\Grunt_Slith	Posted when monster sees player and wakes up from sleeping state
+	436652326	Grunt_Rhino			\Default Work Unit\Main\Grunt\Grunt_Rhino	Posted when monster sees player and wakes up from sleeping state
+	530129416	Teleport			\Default Work Unit\Main\Teleport	
+	590006878	Death_Rhino			\Default Work Unit\Main\Death\Death_Rhino	
+	598337033	Emitter_Teleport			\Default Work Unit\Main\Emitter_Teleport	
+	674522502	Land			\Default Work Unit\Main\Land	
+	779629997	Spawn_Monster			\Default Work Unit\Main\Spawn_Monster	
+	784615425	Fire_Bite_Monster			\Default Work Unit\Main\Weapons\Fire_Bite_Monster	
+	840179825	Fire_Iceball_Monster			\Default Work Unit\Main\Weapons\Fire_Iceball_Monster	
+	856071815	Grunt_Bauul			\Default Work Unit\Main\Grunt\Grunt_Bauul	Posted when monster sees player and wakes up from sleeping state
+	930941543	Pain_Bauul			\Default Work Unit\Main\Pain\Pain_Bauul	
+	977466717	Death_Rat			\Default Work Unit\Main\Death\Death_Rat	
+	1110865203	Hit_Fireball_Monster			\Default Work Unit\Main\Weapons\Hit_Fireball_Monster	
+	1125681085	ItemSpawn			\Default Work Unit\Main\ItemSpawn	
+	1174245414	ItemArmour150			\Default Work Unit\Main\ItemArmour150	
+	1207059019	Pain_Knight			\Default Work Unit\Main\Pain\Pain_Knight	
+	1258133445	ItemArmour100			\Default Work Unit\Main\ItemArmour100	
+	1296031497	End_Iceball_Player			\Default Work Unit\Main\Weapons\End_Iceball_Player	
+	1363190628	End_Rocket_Monster			\Default Work Unit\Main\Weapons\End_Rocket_Monster	
+	1367775454	Fire_Shotgun_Player			\Default Work Unit\Main\Weapons\Fire_Shotgun_Player	
+	1379053034	Spawn_Player			\Default Work Unit\Main\Spawn_Player	
+	1470163250	End_Slimeball_Player			\Default Work Unit\Main\Weapons\End_Slimeball_Player	
+	1511371941	Hit_Iceball_Player			\Default Work Unit\Main\Weapons\Hit_Iceball_Player	
+	1532553273	Foot_Ogre			\Default Work Unit\Main\Foot\Foot_Ogre	
+	1563934831	Death_Bauul			\Default Work Unit\Main\Death\Death_Bauul	
+	1636303851	Grunt_Knight			\Default Work Unit\Main\Grunt\Grunt_Knight	Posted when monster sees player and wakes up from sleeping state
+	1698673413	Pain_Rat			\Default Work Unit\Main\Pain\Pain_Rat	
+	1714600999	Death_HellPig			\Default Work Unit\Main\Death\Death_HellPig	
+	1729244423	ItemPup			\Default Work Unit\Main\ItemPup	
+	1758594367	Map_Loaded			\Default Work Unit\Main\Map_Loaded	
+	1894362767	Foot_Player			\Default Work Unit\Main\Foot\Foot_Player	
+	1992030584	Hit_Rocket_Monster			\Default Work Unit\Main\Weapons\Hit_Rocket_Monster	
+	1996139369	Pain			\Default Work Unit\Main\Pain\Pain	
+	2007968988	End_Iceball_Monster			\Default Work Unit\Main\Weapons\End_Iceball_Monster	
+	2017135346	ItemAmmo			\Default Work Unit\Main\ItemAmmo	
+	2052767559	Foot_Knight			\Default Work Unit\Main\Foot\Foot_Knight	
+	2057306229	Foot_Goblin			\Default Work Unit\Main\Foot\Foot_Goblin	
+	2148509378	Fire_Rifle_Player			\Default Work Unit\Main\Weapons\Fire_Rifle_Player	
+	2202981293	Grunt_Ogre			\Default Work Unit\Main\Grunt\Grunt_Ogre	Posted when monster sees player and wakes up from sleeping state
+	2465710861	Pain_Ogre			\Default Work Unit\Main\Pain\Pain_Ogre	
+	2642900100	Fire_Rocket_Player			\Default Work Unit\Main\Weapons\Fire_Rocket_Player	
+	2656775276	End_Fireball_Player			\Default Work Unit\Main\Weapons\End_Fireball_Player	
+	2676121589	Hit_Rocket_Player			\Default Work Unit\Main\Weapons\Hit_Rocket_Player	
+	2677419351	ItemHealth100			\Default Work Unit\Main\ItemHealth100	
+	2677919691	Foot_Bauul			\Default Work Unit\Main\Foot\Foot_Bauul	
+	2725484349	Fire_Fireball_Player			\Default Work Unit\Main\Weapons\Fire_Fireball_Player	
+	2798325225	Foot_Rat			\Default Work Unit\Main\Foot\Foot_Rat	
+	2957699042	WeapLoad			\Default Work Unit\Main\WeapLoad	
+	2980152002	Fire_Fist_Player			\Default Work Unit\Main\Weapons\Fire_Fist_Player	
+	3010130547	Death_Knight			\Default Work Unit\Main\Death\Death_Knight	
+	3024368545	Hit_Slimeball_Monster			\Default Work Unit\Main\Weapons\Hit_Slimeball_Monster	
+	3102123049	Death_Goblin			\Default Work Unit\Main\Death\Death_Goblin	
+	3156728271	Fire_Rocket_Monster			\Default Work Unit\Main\Weapons\Fire_Rocket_Monster	
+	3245662041	Fire_SlimeBall_Player			\Default Work Unit\Main\Weapons\Fire_SlimeBall_Player	
+	3304704240	Fire_Chaingun_Monster			\Default Work Unit\Main\Weapons\Fire_Chaingun_Monster	
+	3475891921	End_Rocket_Player			\Default Work Unit\Main\Weapons\End_Rocket_Player	
+	3507362942	Fire_Iceball_Player			\Default Work Unit\Main\Weapons\Fire_Iceball_Player	
+	3638319432	Hit_Fireball_Player			\Default Work Unit\Main\Weapons\Hit_Fireball_Player	
+	3732061108	PupOut			\Default Work Unit\Main\PupOut	
+	3787035475	Death_Player			\Default Work Unit\Main\Death\Death_Player	
+	3826003282	Foot_Rhino			\Default Work Unit\Main\Foot\Foot_Rhino	
+	3833651337	Jump			\Default Work Unit\Main\Jump	
+	3838741285	Grunt_Rat			\Default Work Unit\Main\Grunt\Grunt_Rat	Posted when monster sees player and wakes up from sleeping state
+	3877293442	Foot_Slith			\Default Work Unit\Main\Foot\Foot_Slith	
+	3877942876	SplashOut_Player			\Default Work Unit\Main\SplashOut_Player	
+	3954482959	SplashIn_Player			\Default Work Unit\Main\SplashIn_Player	
+	3957683912	Hit_Iceball_Monster			\Default Work Unit\Main\Weapons\Hit_Iceball_Monster	
+	3977213604	PupFire			\Default Work Unit\Main\PupFire	
+	3999919399	SplashOut_Monster			\Default Work Unit\Main\SplashOut_Monster	
+	4005537029	Death_Ogre			\Default Work Unit\Main\Death\Death_Ogre	
+	4013911457	Grunt_Goblin			\Default Work Unit\Main\Grunt\Grunt_Goblin	Posted when monster sees player and wakes up from sleeping state
+	4052749775	Pain_HellPig			\Default Work Unit\Main\Pain\Pain_HellPig	
+	4053570031	Grunt_HellPig			\Default Work Unit\Main\Grunt\Grunt_HellPig	Posted when monster sees player and wakes up from sleeping state
+	4108509389	Fire_Chaingun_Player			\Default Work Unit\Main\Weapons\Fire_Chaingun_Player	
+	4149105284	JumpPad			\Default Work Unit\Main\JumpPad	
+	4171831390	Death_Slith			\Default Work Unit\Main\Death\Death_Slith	
+	4214542295	End_Fireball_Monster			\Default Work Unit\Main\Weapons\End_Fireball_Monster	
+	4226354843	Foot_HellPig			\Default Work Unit\Main\Foot\Foot_HellPig	
+	4227791953	Fire_Shotgun_Monster			\Default Work Unit\Main\Weapons\Fire_Shotgun_Monster	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	3865314626	Material			\Default Work Unit\Material	
+
+Switch	ID	Name	Switch Group			Notes
+	803837735	Sand	Material			
+	841620460	Concrete	Material			
+	1216965916	Stone	Material			
+	2058049674	Wood	Material			
+	2185786256	Gravel	Material			
+	2473969246	Metal	Material			
+	2637588553	Tile	Material			
+	2654748154	Water	Material			
+	4248645337	Grass	Material			
+
+Effect plug-ins	ID	Name	Type				Notes
+	80123201	Pickup_UI (Define custom)	Wwise Matrix Reverb			
+	212838827	Default (Custom)	Wwise Parametric EQ			
+	254804172	Default (Custom)	Wwise Parametric EQ			
+	309761280	Default (Custom)	Wwise Parametric EQ			
+	341045171	Default (Custom)	Wwise Parametric EQ			
+	442282816	Default (Custom)	Wwise Parametric EQ			
+	479948303	Default (Custom)	Wwise Parametric EQ			
+	652610570	Default (Custom)	Wwise Parametric EQ			
+	881704081	Default (Custom)	Wwise Parametric EQ			
+	882616228	Pickup_UI (Define custom)	Wwise Matrix Reverb			
+	1062760824	Default (Custom)	Wwise Parametric EQ			
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	1016407289	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Main\Monsters\Monster_Spawn\Wwise Silence	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	197648221	Shotgun_Blast	Y:\Desktop\WwiseProject\.cache\Windows\SFX\Pew_Pew-DKnight556-1379997159_F109A50D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Weapons\Shotgun_Blast		6852
+

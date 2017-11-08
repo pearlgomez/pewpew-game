@@ -1,0 +1,8 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1656055475	Map_Completed			\Music\Map_Completed	
+	1815461482	Story_End			\Music\Story_End	
+	2415014760	Monsters_Unaware			\Music\Monsters_Unaware	
+	2778113369	Story_Start			\Music\Story_Start	
+	2985974755	Boss_Start			\Music\Boss_Start	
+	3430883159	Monsters_Aware			\Music\Monsters_Aware	
+

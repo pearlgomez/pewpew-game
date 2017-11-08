@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationCache Version="1" SchemaVersion="80">
+	<ValidationCacheItem File="Y:\Desktop\WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1814215808" DateHigh="30626352"/>
+	<ValidationCacheItem File="Y:\Desktop\WwiseProject\Actor-Mixer Hierarchy\Music.wwu" DateLow="3740452736" DateHigh="30622109"/>
+	<ValidationCacheItem File="Y:\Desktop\WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="3740452736" DateHigh="30622109"/>
+	<ValidationCacheItem File="Y:\Desktop\WwiseProject\Attenuations\My Cube.wwu" DateLow="3740452736" DateHigh="30622109"/>
+	<ValidationCacheItem File="Y:\Desktop\WwiseProject\Audio Devices\Default Work Unit.wwu" DateLow="3740452736" DateHigh="30622109"/>
+	<ValidationCacheItem File="Y:\Desktop\WwiseProject\Control Surface Sessions\Default Work Unit.wwu" DateLow="3740452736" DateHigh="30622109"/>
+	<ValidationCacheItem File="Y:\Desktop\WwiseProject\Conversion Settings\Default Work Unit.wwu" DateLow="3740452736" DateHigh="30622109"/>
+	<ValidationCacheItem File="Y:\Desktop\WwiseProject\Cube.crossover.wsettings" DateLow="1914972416" DateHigh="30627904"/>
+	<ValidationCacheItem File="Y:\Desktop\WwiseProject\Cube.wproj" DateLow="1640648960" DateHigh="30622115"/>
+	<ValidationCacheItem File="Y:\Desktop\WwiseProject\Dynamic Dialogue\Default Work Unit.wwu" DateLow="3740452736" DateHigh="30622109"/>
+	<ValidationCacheItem File="Y:\Desktop\WwiseProject\Effects\Default Work Unit.wwu" DateLow="3740452736" DateHigh="30622109"/>
+	<ValidationCacheItem File="Y:\Desktop\WwiseProject\Effects\Factory Effects.wwu" DateLow="3740452736" DateHigh="30622109"/>
+	<ValidationCacheItem File="Y:\Desktop\WwiseProject\Events\Default Work Unit.wwu" DateLow="4019117696" DateHigh="30626349"/>
+	<ValidationCacheItem File="Y:\Desktop\WwiseProject\Events\Music.wwu" DateLow="3740452736" DateHigh="30622109"/>
+	<ValidationCacheItem File="Y:\Desktop\WwiseProject\Game Parameters\Default Work Unit.wwu" DateLow="3740452736" DateHigh="30622109"/>
+	<ValidationCacheItem File="Y:\Desktop\WwiseProject\Game Parameters\Music.wwu" DateLow="3740452736" DateHigh="30622109"/>
+	<ValidationCacheItem File="Y:\Desktop\WwiseProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="3740452736" DateHigh="30622109"/>
+	<ValidationCacheItem File="Y:\Desktop\WwiseProject\Interactive Music Hierarchy\Music.wwu" DateLow="3740452736" DateHigh="30622109"/>
+	<ValidationCacheItem File="Y:\Desktop\WwiseProject\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="3740452736" DateHigh="30622109"/>
+	<ValidationCacheItem File="Y:\Desktop\WwiseProject\Mixing Sessions\Default Work Unit.wwu" DateLow="3740452736" DateHigh="30622109"/>
+	<ValidationCacheItem File="Y:\Desktop\WwiseProject\Modulators\Default Work Unit.wwu" DateLow="3740452736" DateHigh="30622109"/>
+	<ValidationCacheItem File="Y:\Desktop\WwiseProject\Presets\Default Work Unit.wwu" DateLow="3740452736" DateHigh="30622109"/>
+	<ValidationCacheItem File="Y:\Desktop\WwiseProject\Queries\Default Work Unit.wwu" DateLow="3740452736" DateHigh="30622109"/>
+	<ValidationCacheItem File="Y:\Desktop\WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="4019117696" DateHigh="30626349"/>
+	<ValidationCacheItem File="Y:\Desktop\WwiseProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="3740452736" DateHigh="30622109"/>
+	<ValidationCacheItem File="Y:\Desktop\WwiseProject\States\Default Work Unit.wwu" DateLow="3740452736" DateHigh="30622109"/>
+	<ValidationCacheItem File="Y:\Desktop\WwiseProject\States\Music.wwu" DateLow="3740452736" DateHigh="30622109"/>
+	<ValidationCacheItem File="Y:\Desktop\WwiseProject\Switches\Default Work Unit.wwu" DateLow="3740452736" DateHigh="30622109"/>
+	<ValidationCacheItem File="Y:\Desktop\WwiseProject\Switches\Music.wwu" DateLow="3740452736" DateHigh="30622109"/>
+	<ValidationCacheItem File="Y:\Desktop\WwiseProject\Triggers\Default Work Unit.wwu" DateLow="3740452736" DateHigh="30622109"/>
+	<ValidationCacheItem File="Y:\Desktop\WwiseProject\Triggers\Music.wwu" DateLow="3740452736" DateHigh="30622109"/>
+	<ValidationCacheItem File="Y:\Desktop\WwiseProject\Virtual Acoustics\Default Work Unit.wwu" DateLow="3740452736" DateHigh="30622109"/>
+</ValidationCache>

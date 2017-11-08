@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2D8BE14E-9F98-4828-BA8E-FE6B89928F7D}" SchemaVersion="80">
+	<Events>
+		<WorkUnit Name="Music" ID="{2D8BE14E-9F98-4828-BA8E-FE6B89928F7D}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Boss_Start" ID="{D8E461EF-8240-4A9D-AA85-A136349D02E5}">
+					<ChildrenList>
+						<Action Name="" ID="{2897B2C6-BC2C-47C5-858F-EA330E3D9B15}" ShortID="757366179">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Boss" ID="{4479A128-6B80-4063-84A3-AC9E91D1F0A5}" WorkUnitID="{8B2EEFEA-5215-4D9C-807B-C770197D52D9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Map_Completed" ID="{6E726DC1-EC8B-4AD8-9E2B-752C1BFBD65B}">
+					<ChildrenList>
+						<Action Name="" ID="{A565F9A0-C3AE-4810-BF85-33F457C41894}" ShortID="164175465">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Victory" ID="{CD350719-7205-45AC-B57A-2FB2E1E492AD}" WorkUnitID="{8B2EEFEA-5215-4D9C-807B-C770197D52D9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Monsters_Aware" ID="{400DABB5-CFB3-4068-9E76-036684DC0DB1}">
+					<ChildrenList>
+						<Action Name="" ID="{D593DAA9-E74B-49E5-8046-83BF834A0F73}" ShortID="492073238">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="38"/>
+								<Property Name="GameParameterValue" Type="Real64" Value="100"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="EnemyAware" ID="{D7FCBFCD-C593-4300-8BC4-68FE275599EF}" WorkUnitID="{900433B5-3A97-41C6-9F3E-34910C5B08DF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Monsters_Unaware" ID="{519947C9-7808-4931-9224-AA69CF530954}">
+					<ChildrenList>
+						<Action Name="" ID="{3EDDC883-F28E-45E4-862B-A0B8693592A4}" ShortID="688011877">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="38"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="EnemyAware" ID="{D7FCBFCD-C593-4300-8BC4-68FE275599EF}" WorkUnitID="{900433B5-3A97-41C6-9F3E-34910C5B08DF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Story_Start" ID="{9EDEB51C-92A6-48CD-83C5-75605FA1D890}">
+					<ChildrenList>
+						<Action Name="" ID="{45226CD7-C759-4247-A1A9-94F909A4C804}" ShortID="649345183">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Story" ID="{9C7E1D55-0381-41F2-A71F-F30BACE8101E}" WorkUnitID="{8B2EEFEA-5215-4D9C-807B-C770197D52D9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Story_End" ID="{8647A4E0-6373-4BF3-B8B5-4D5D6687E874}">
+					<ChildrenList>
+						<Action Name="" ID="{E8C0EF40-9A65-434D-9BE4-0ED82D135547}" ShortID="475344184">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Gameplay" ID="{C6F8D3B8-33CE-4A60-BB56-24F07BB2FD56}" WorkUnitID="{8B2EEFEA-5215-4D9C-807B-C770197D52D9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

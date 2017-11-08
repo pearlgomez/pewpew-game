@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="125">
+	<RootPaths>
+		<ProjectRoot>/Users/pearlgomez/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/y:/Desktop/WwiseProject/</ProjectRoot>
+		<SourceFilesRoot>/Users/pearlgomez/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/y:/Desktop/WwiseProject/.cache/Windows/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/pearlgomez/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/y:/Desktop/WwiseProject/GeneratedSoundBanks/Windows/</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>Y:\Desktop\cube\soundbanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="2981918260" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\DCP_the_core</ObjectPath>
+			<ShortName>DCP_the_core</ShortName>
+			<Path>DCP_the_core.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2245995848" Name="DCP_Enter01" ObjectPath="\Events\Default Work Unit\Maps\DCP_the_core\DCP_Enter01"/>
+				<Event Id="2245995851" Name="DCP_Enter02" ObjectPath="\Events\Default Work Unit\Maps\DCP_the_core\DCP_Enter02"/>
+				<Event Id="2245995850" Name="DCP_Enter03" ObjectPath="\Events\Default Work Unit\Maps\DCP_the_core\DCP_Enter03"/>
+				<Event Id="2245995853" Name="DCP_Enter04" ObjectPath="\Events\Default Work Unit\Maps\DCP_the_core\DCP_Enter04"/>
+				<Event Id="2245995852" Name="DCP_Enter05" ObjectPath="\Events\Default Work Unit\Maps\DCP_the_core\DCP_Enter05"/>
+				<Event Id="2245995855" Name="DCP_Enter06" ObjectPath="\Events\Default Work Unit\Maps\DCP_the_core\DCP_Enter06"/>
+				<Event Id="2245995854" Name="DCP_Enter07" ObjectPath="\Events\Default Work Unit\Maps\DCP_the_core\DCP_Enter07"/>
+				<Event Id="2245995841" Name="DCP_Enter08" ObjectPath="\Events\Default Work Unit\Maps\DCP_the_core\DCP_Enter08"/>
+				<Event Id="2245995840" Name="DCP_Enter09" ObjectPath="\Events\Default Work Unit\Maps\DCP_the_core\DCP_Enter09"/>
+				<Event Id="2229218262" Name="DCP_Enter10" ObjectPath="\Events\Default Work Unit\Maps\DCP_the_core\DCP_Enter10"/>
+				<Event Id="2229218263" Name="DCP_Enter11" ObjectPath="\Events\Default Work Unit\Maps\DCP_the_core\DCP_Enter11"/>
+				<Event Id="2229218260" Name="DCP_Enter12" ObjectPath="\Events\Default Work Unit\Maps\DCP_the_core\DCP_Enter12"/>
+				<Event Id="3721111614" Name="DCP_Music" ObjectPath="\Events\Default Work Unit\Maps\DCP_the_core\DCP_Music"/>
+				<Event Id="2829720188" Name="DCP_Signal01" ObjectPath="\Events\Default Work Unit\Maps\DCP_the_core\DCP_Signal01"/>
+				<Event Id="2829720191" Name="DCP_Signal02" ObjectPath="\Events\Default Work Unit\Maps\DCP_the_core\DCP_Signal02"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="55290557" Language="SFX">
+					<ShortName>enter10.wav</ShortName>
+					<Path>SFX/enter10_53CEE377.wem</Path>
+				</File>
+				<File Id="187024402" Language="SFX">
+					<ShortName>signal01.wav</ShortName>
+					<Path>SFX/signal01_53CEE377.wem</Path>
+				</File>
+				<File Id="209784911" Language="SFX">
+					<ShortName>enter12.wav</ShortName>
+					<Path>SFX/enter12_53CEE377.wem</Path>
+				</File>
+				<File Id="245661189" Language="SFX">
+					<ShortName>enter01.wav</ShortName>
+					<Path>SFX/enter01_53CEE377.wem</Path>
+				</File>
+				<File Id="396065929" Language="SFX">
+					<ShortName>enter02.wav</ShortName>
+					<Path>SFX/enter02_53CEE377.wem</Path>
+				</File>
+				<File Id="405744097" Language="SFX">
+					<ShortName>enter07.wav</ShortName>
+					<Path>SFX/enter07_53CEE377.wem</Path>
+				</File>
+				<File Id="504552545" Language="SFX">
+					<ShortName>enter04.wav</ShortName>
+					<Path>SFX/enter04_53CEE377.wem</Path>
+				</File>
+				<File Id="579081663" Language="SFX">
+					<ShortName>enter03.wav</ShortName>
+					<Path>SFX/enter03_53CEE377.wem</Path>
+				</File>
+				<File Id="603800779" Language="SFX">
+					<ShortName>signal02.wav</ShortName>
+					<Path>SFX/signal02_53CEE377.wem</Path>
+				</File>
+				<File Id="651618676" Language="SFX">
+					<ShortName>enter11.wav</ShortName>
+					<Path>SFX/enter11_53CEE377.wem</Path>
+				</File>
+				<File Id="705228804" Language="SFX">
+					<ShortName>enter05.wav</ShortName>
+					<Path>SFX/enter05_53CEE377.wem</Path>
+				</File>
+				<File Id="819733394" Language="SFX">
+					<ShortName>enter09.wav</ShortName>
+					<Path>SFX/enter09_53CEE377.wem</Path>
+				</File>
+				<File Id="882747087" Language="SFX">
+					<ShortName>enter06.wav</ShortName>
+					<Path>SFX/enter06_53CEE377.wem</Path>
+				</File>
+				<File Id="965577559" Language="SFX">
+					<ShortName>enter08.wav</ShortName>
+					<Path>SFX/enter08_53CEE377.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="3161908922" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1563934831" Name="Death_Bauul" ObjectPath="\Events\Default Work Unit\Main\Death\Death_Bauul"/>
+				<Event Id="3102123049" Name="Death_Goblin" ObjectPath="\Events\Default Work Unit\Main\Death\Death_Goblin"/>
+				<Event Id="1714600999" Name="Death_HellPig" ObjectPath="\Events\Default Work Unit\Main\Death\Death_HellPig"/>
+				<Event Id="3010130547" Name="Death_Knight" ObjectPath="\Events\Default Work Unit\Main\Death\Death_Knight"/>
+				<Event Id="4005537029" Name="Death_Ogre" ObjectPath="\Events\Default Work Unit\Main\Death\Death_Ogre"/>
+				<Event Id="3787035475" Name="Death_Player" ObjectPath="\Events\Default Work Unit\Main\Death\Death_Player"/>
+				<Event Id="977466717" Name="Death_Rat" ObjectPath="\Events\Default Work Unit\Main\Death\Death_Rat"/>
+				<Event Id="590006878" Name="Death_Rhino" ObjectPath="\Events\Default Work Unit\Main\Death\Death_Rhino"/>
+				<Event Id="4171831390" Name="Death_Slith" ObjectPath="\Events\Default Work Unit\Main\Death\Death_Slith"/>
+				<Event Id="598337033" Name="Emitter_Teleport" ObjectPath="\Events\Default Work Unit\Main\Emitter_Teleport"/>
+				<Event Id="4214542295" Name="End_Fireball_Monster" ObjectPath="\Events\Default Work Unit\Main\Weapons\End_Fireball_Monster"/>
+				<Event Id="2656775276" Name="End_Fireball_Player" ObjectPath="\Events\Default Work Unit\Main\Weapons\End_Fireball_Player"/>
+				<Event Id="2007968988" Name="End_Iceball_Monster" ObjectPath="\Events\Default Work Unit\Main\Weapons\End_Iceball_Monster"/>
+				<Event Id="1296031497" Name="End_Iceball_Player" ObjectPath="\Events\Default Work Unit\Main\Weapons\End_Iceball_Player"/>
+				<Event Id="1363190628" Name="End_Rocket_Monster" ObjectPath="\Events\Default Work Unit\Main\Weapons\End_Rocket_Monster"/>
+				<Event Id="3475891921" Name="End_Rocket_Player" ObjectPath="\Events\Default Work Unit\Main\Weapons\End_Rocket_Player"/>
+				<Event Id="360217301" Name="End_Slimeball_Monster" ObjectPath="\Events\Default Work Unit\Main\Weapons\End_Slimeball_Monster"/>
+				<Event Id="1470163250" Name="End_Slimeball_Player" ObjectPath="\Events\Default Work Unit\Main\Weapons\End_Slimeball_Player"/>
+				<Event Id="784615425" Name="Fire_Bite_Monster" ObjectPath="\Events\Default Work Unit\Main\Weapons\Fire_Bite_Monster"/>
+				<Event Id="3304704240" Name="Fire_Chaingun_Monster" ObjectPath="\Events\Default Work Unit\Main\Weapons\Fire_Chaingun_Monster"/>
+				<Event Id="4108509389" Name="Fire_Chaingun_Player" ObjectPath="\Events\Default Work Unit\Main\Weapons\Fire_Chaingun_Player"/>
+				<Event Id="157654016" Name="Fire_Fireball_Monster" ObjectPath="\Events\Default Work Unit\Main\Weapons\Fire_Fireball_Monster"/>
+				<Event Id="2725484349" Name="Fire_Fireball_Player" ObjectPath="\Events\Default Work Unit\Main\Weapons\Fire_Fireball_Player"/>
+				<Event Id="2980152002" Name="Fire_Fist_Player" ObjectPath="\Events\Default Work Unit\Main\Weapons\Fire_Fist_Player"/>
+				<Event Id="840179825" Name="Fire_Iceball_Monster" ObjectPath="\Events\Default Work Unit\Main\Weapons\Fire_Iceball_Monster"/>
+				<Event Id="3507362942" Name="Fire_Iceball_Player" ObjectPath="\Events\Default Work Unit\Main\Weapons\Fire_Iceball_Player"/>
+				<Event Id="81429765" Name="Fire_Rifle_Monster" ObjectPath="\Events\Default Work Unit\Main\Weapons\Fire_Rifle_Monster"/>
+				<Event Id="2148509378" Name="Fire_Rifle_Player" ObjectPath="\Events\Default Work Unit\Main\Weapons\Fire_Rifle_Player"/>
+				<Event Id="3156728271" Name="Fire_Rocket_Monster" ObjectPath="\Events\Default Work Unit\Main\Weapons\Fire_Rocket_Monster"/>
+				<Event Id="2642900100" Name="Fire_Rocket_Player" ObjectPath="\Events\Default Work Unit\Main\Weapons\Fire_Rocket_Player"/>
+				<Event Id="4227791953" Name="Fire_Shotgun_Monster" ObjectPath="\Events\Default Work Unit\Main\Weapons\Fire_Shotgun_Monster"/>
+				<Event Id="1367775454" Name="Fire_Shotgun_Player" ObjectPath="\Events\Default Work Unit\Main\Weapons\Fire_Shotgun_Player"/>
+				<Event Id="199291532" Name="Fire_SlimeBall_Monster" ObjectPath="\Events\Default Work Unit\Main\Weapons\Fire_SlimeBall_Monster"/>
+				<Event Id="3245662041" Name="Fire_SlimeBall_Player" ObjectPath="\Events\Default Work Unit\Main\Weapons\Fire_SlimeBall_Player"/>
+				<Event Id="2677919691" Name="Foot_Bauul" ObjectPath="\Events\Default Work Unit\Main\Foot\Foot_Bauul"/>
+				<Event Id="2057306229" Name="Foot_Goblin" ObjectPath="\Events\Default Work Unit\Main\Foot\Foot_Goblin"/>
+				<Event Id="4226354843" Name="Foot_HellPig" ObjectPath="\Events\Default Work Unit\Main\Foot\Foot_HellPig"/>
+				<Event Id="2052767559" Name="Foot_Knight" ObjectPath="\Events\Default Work Unit\Main\Foot\Foot_Knight"/>
+				<Event Id="1532553273" Name="Foot_Ogre" ObjectPath="\Events\Default Work Unit\Main\Foot\Foot_Ogre"/>
+				<Event Id="1894362767" Name="Foot_Player" ObjectPath="\Events\Default Work Unit\Main\Foot\Foot_Player"/>
+				<Event Id="2798325225" Name="Foot_Rat" ObjectPath="\Events\Default Work Unit\Main\Foot\Foot_Rat"/>
+				<Event Id="3826003282" Name="Foot_Rhino" ObjectPath="\Events\Default Work Unit\Main\Foot\Foot_Rhino"/>
+				<Event Id="3877293442" Name="Foot_Slith" ObjectPath="\Events\Default Work Unit\Main\Foot\Foot_Slith"/>
+				<Event Id="856071815" Name="Grunt_Bauul" ObjectPath="\Events\Default Work Unit\Main\Grunt\Grunt_Bauul"/>
+				<Event Id="4013911457" Name="Grunt_Goblin" ObjectPath="\Events\Default Work Unit\Main\Grunt\Grunt_Goblin"/>
+				<Event Id="4053570031" Name="Grunt_HellPig" ObjectPath="\Events\Default Work Unit\Main\Grunt\Grunt_HellPig"/>
+				<Event Id="1636303851" Name="Grunt_Knight" ObjectPath="\Events\Default Work Unit\Main\Grunt\Grunt_Knight"/>
+				<Event Id="2202981293" Name="Grunt_Ogre" ObjectPath="\Events\Default Work Unit\Main\Grunt\Grunt_Ogre"/>
+				<Event Id="3838741285" Name="Grunt_Rat" ObjectPath="\Events\Default Work Unit\Main\Grunt\Grunt_Rat"/>
+				<Event Id="436652326" Name="Grunt_Rhino" ObjectPath="\Events\Default Work Unit\Main\Grunt\Grunt_Rhino"/>
+				<Event Id="401958326" Name="Grunt_Slith" ObjectPath="\Events\Default Work Unit\Main\Grunt\Grunt_Slith"/>
+				<Event Id="1110865203" Name="Hit_Fireball_Monster" ObjectPath="\Events\Default Work Unit\Main\Weapons\Hit_Fireball_Monster"/>
+				<Event Id="3638319432" Name="Hit_Fireball_Player" ObjectPath="\Events\Default Work Unit\Main\Weapons\Hit_Fireball_Player"/>
+				<Event Id="3957683912" Name="Hit_Iceball_Monster" ObjectPath="\Events\Default Work Unit\Main\Weapons\Hit_Iceball_Monster"/>
+				<Event Id="1511371941" Name="Hit_Iceball_Player" ObjectPath="\Events\Default Work Unit\Main\Weapons\Hit_Iceball_Player"/>
+				<Event Id="1992030584" Name="Hit_Rocket_Monster" ObjectPath="\Events\Default Work Unit\Main\Weapons\Hit_Rocket_Monster"/>
+				<Event Id="2676121589" Name="Hit_Rocket_Player" ObjectPath="\Events\Default Work Unit\Main\Weapons\Hit_Rocket_Player"/>
+				<Event Id="3024368545" Name="Hit_Slimeball_Monster" ObjectPath="\Events\Default Work Unit\Main\Weapons\Hit_Slimeball_Monster"/>
+				<Event Id="379950478" Name="Hit_Slimeball_Player" ObjectPath="\Events\Default Work Unit\Main\Weapons\Hit_Slimeball_Player"/>
+				<Event Id="2017135346" Name="ItemAmmo" ObjectPath="\Events\Default Work Unit\Main\ItemAmmo"/>
+				<Event Id="1258133445" Name="ItemArmour100" ObjectPath="\Events\Default Work Unit\Main\ItemArmour100"/>
+				<Event Id="1174245414" Name="ItemArmour150" ObjectPath="\Events\Default Work Unit\Main\ItemArmour150"/>
+				<Event Id="2677419351" Name="ItemHealth100" ObjectPath="\Events\Default Work Unit\Main\ItemHealth100"/>
+				<Event Id="227445756" Name="ItemHealth200" ObjectPath="\Events\Default Work Unit\Main\ItemHealth200"/>
+				<Event Id="1729244423" Name="ItemPup" ObjectPath="\Events\Default Work Unit\Main\ItemPup"/>
+				<Event Id="1125681085" Name="ItemSpawn" ObjectPath="\Events\Default Work Unit\Main\ItemSpawn"/>
+				<Event Id="3833651337" Name="Jump" ObjectPath="\Events\Default Work Unit\Main\Jump"/>
+				<Event Id="4149105284" Name="JumpPad" ObjectPath="\Events\Default Work Unit\Main\JumpPad"/>
+				<Event Id="674522502" Name="Land" ObjectPath="\Events\Default Work Unit\Main\Land"/>
+				<Event Id="1758594367" Name="Map_Loaded" ObjectPath="\Events\Default Work Unit\Main\Map_Loaded"/>
+				<Event Id="16204334" Name="NoAmmo" ObjectPath="\Events\Default Work Unit\Main\NoAmmo"/>
+				<Event Id="1996139369" Name="Pain" ObjectPath="\Events\Default Work Unit\Main\Pain\Pain"/>
+				<Event Id="930941543" Name="Pain_Bauul" ObjectPath="\Events\Default Work Unit\Main\Pain\Pain_Bauul"/>
+				<Event Id="32029953" Name="Pain_Goblin" ObjectPath="\Events\Default Work Unit\Main\Pain\Pain_Goblin"/>
+				<Event Id="4052749775" Name="Pain_HellPig" ObjectPath="\Events\Default Work Unit\Main\Pain\Pain_HellPig"/>
+				<Event Id="1207059019" Name="Pain_Knight" ObjectPath="\Events\Default Work Unit\Main\Pain\Pain_Knight"/>
+				<Event Id="2465710861" Name="Pain_Ogre" ObjectPath="\Events\Default Work Unit\Main\Pain\Pain_Ogre"/>
+				<Event Id="1698673413" Name="Pain_Rat" ObjectPath="\Events\Default Work Unit\Main\Pain\Pain_Rat"/>
+				<Event Id="87064326" Name="Pain_Rhino" ObjectPath="\Events\Default Work Unit\Main\Pain\Pain_Rhino"/>
+				<Event Id="52370326" Name="Pain_Slith" ObjectPath="\Events\Default Work Unit\Main\Pain\Pain_Slith"/>
+				<Event Id="3977213604" Name="PupFire" ObjectPath="\Events\Default Work Unit\Main\PupFire"/>
+				<Event Id="3732061108" Name="PupOut" ObjectPath="\Events\Default Work Unit\Main\PupOut"/>
+				<Event Id="157639802" Name="Rumble" ObjectPath="\Events\Default Work Unit\Main\Rumble"/>
+				<Event Id="779629997" Name="Spawn_Monster" ObjectPath="\Events\Default Work Unit\Main\Spawn_Monster"/>
+				<Event Id="1379053034" Name="Spawn_Player" ObjectPath="\Events\Default Work Unit\Main\Spawn_Player"/>
+				<Event Id="160686570" Name="SplashIn_Monster" ObjectPath="\Events\Default Work Unit\Main\SplashIn_Monster"/>
+				<Event Id="3954482959" Name="SplashIn_Player" ObjectPath="\Events\Default Work Unit\Main\SplashIn_Player"/>
+				<Event Id="3999919399" Name="SplashOut_Monster" ObjectPath="\Events\Default Work Unit\Main\SplashOut_Monster"/>
+				<Event Id="3877942876" Name="SplashOut_Player" ObjectPath="\Events\Default Work Unit\Main\SplashOut_Player"/>
+				<Event Id="530129416" Name="Teleport" ObjectPath="\Events\Default Work Unit\Main\Teleport"/>
+				<Event Id="2957699042" Name="WeapLoad" ObjectPath="\Events\Default Work Unit\Main\WeapLoad"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="197648221" Language="SFX">
+					<ShortName>Pew_Pew-DKnight556-1379997159.wav</ShortName>
+					<Path>SFX/Pew_Pew-DKnight556-1379997159_F109A50D.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="3991942870" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Music</ObjectPath>
+			<ShortName>Music</ShortName>
+			<Path>Music.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2985974755" Name="Boss_Start" ObjectPath="\Events\Music\Boss_Start"/>
+				<Event Id="1656055475" Name="Map_Completed" ObjectPath="\Events\Music\Map_Completed"/>
+				<Event Id="3430883159" Name="Monsters_Aware" ObjectPath="\Events\Music\Monsters_Aware"/>
+				<Event Id="2415014760" Name="Monsters_Unaware" ObjectPath="\Events\Music\Monsters_Unaware"/>
+				<Event Id="1815461482" Name="Story_End" ObjectPath="\Events\Music\Story_End"/>
+				<Event Id="2778113369" Name="Story_Start" ObjectPath="\Events\Music\Story_Start"/>
+			</IncludedEvents>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
