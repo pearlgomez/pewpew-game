@@ -202,6 +202,10 @@
 					<ShortName>eiya.wav</ShortName>
 					<Path>SFX/eiya_F109A50D.wem</Path>
 				</File>
+				<File Id="959326497" Language="SFX">
+					<ShortName>SOUND EFFECT HELLO DARKNESS MY OLD FRIEND(ORIGINAL).wav</ShortName>
+					<Path>SFX/SOUND EFFECT HELLO DARKNESS MY OLD FRIEND(ORIGINAL)_53CEE377.wem</Path>
+				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
 		<SoundBank Id="3991942870" Language="SFX">

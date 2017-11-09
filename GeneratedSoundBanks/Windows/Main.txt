@@ -124,4 +124,5 @@ Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	197648221	Shotgun_Blast	Y:\Documents\GitHub\pewpew-game\.cache\Windows\SFX\Pew_Pew-DKnight556-1379997159_F109A50D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Weapons\Shotgun_Blast		6852
 	643295112	eiya	Y:\Documents\GitHub\pewpew-game\.cache\Windows\SFX\eiya_F109A50D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Weapons\Punches\eiya		8892
+	959326497	SOUND EFFECT HELLO DARKNESS MY OLD FRIEND(ORIGINAL)	Y:\Documents\GitHub\pewpew-game\.cache\Windows\SFX\SOUND EFFECT HELLO DARKNESS MY OLD FRIEND(ORIGINAL)_53CEE377.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Main Character\Die\SOUND EFFECT HELLO DARKNESS MY OLD FRIEND(ORIGINAL)		1609792
 

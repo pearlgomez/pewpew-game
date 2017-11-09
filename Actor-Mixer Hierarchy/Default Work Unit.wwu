@@ -1501,6 +1501,28 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 												</Reference>
 											</ReferenceList>
 										</Sound>
+										<Sound Name="SOUND EFFECT HELLO DARKNESS MY OLD FRIEND(ORIGINAL)" ID="{790C5744-5425-41F8-B81C-BD0C0ECC17A3}" ShortID="608847545">
+											<PropertyList>
+												<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAF928FC-2A2A-4F7A-8A7C-0010690433A5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F10B222B-2801-430A-B717-538AC6BBF93D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SOUND EFFECT HELLO DARKNESS MY OLD FRIEND(ORIGINAL)" ID="{76A5A7CF-3F55-45BA-8601-7D56EB24642F}" ShortID="959326497">
+													<Language>SFX</Language>
+													<AudioFile>SOUND EFFECT HELLO DARKNESS MY OLD FRIEND(ORIGINAL).wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SOUND EFFECT HELLO DARKNESS MY OLD FRIEND(ORIGINAL)" ID="{76A5A7CF-3F55-45BA-8601-7D56EB24642F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Pain" ID="{43397481-8324-41C6-8098-4481D132BFF0}" ShortID="111">

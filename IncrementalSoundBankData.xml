@@ -11,13 +11,13 @@
 			<Language ID="393239870">
 				<File Name="DCP_the_core" Hash="895206743" Timestamp="131546811930000000"/>
 				<File Name="Init" Hash="3743387619" Timestamp="131546811930000000"/>
-				<File Name="Main" Hash="943474883" Timestamp="131546815630000000"/>
+				<File Name="Main" Hash="527179216" Timestamp="131546831330000000"/>
 				<File Name="Music" Hash="3131170957" Timestamp="131546811930000000"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="3771781628" Timestamp="131546815630000000"/>
+				<File Name="" Hash="127973111" Timestamp="131546831330000000"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
@@ -26,13 +26,13 @@
 			<Language ID="393239870">
 				<File Name="DCP_the_core" Hash="895206743" Timestamp="131545862210000000"/>
 				<File Name="Init" Hash="1015255221" Timestamp="131545862210000000"/>
-				<File Name="Main" Hash="4108663519" Timestamp="131546815630000000"/>
+				<File Name="Main" Hash="914376582" Timestamp="131546831340000000"/>
 				<File Name="Music" Hash="3131170957" Timestamp="131545862210000000"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="2150382494" Timestamp="131546815630000000"/>
+				<File Name="" Hash="2313593017" Timestamp="131546831340000000"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
