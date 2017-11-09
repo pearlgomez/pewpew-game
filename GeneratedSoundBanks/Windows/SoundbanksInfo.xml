@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="125">
 	<RootPaths>
-		<ProjectRoot>/Users/pearlgomez/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/y:/Desktop/WwiseProject/</ProjectRoot>
-		<SourceFilesRoot>/Users/pearlgomez/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/y:/Desktop/WwiseProject/.cache/Windows/</SourceFilesRoot>
-		<SoundBanksRoot>/Users/pearlgomez/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/y:/Desktop/WwiseProject/GeneratedSoundBanks/Windows/</SoundBanksRoot>
+		<ProjectRoot>/Users/amanda/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/y:/Documents/GitHub/pewpew-game/</ProjectRoot>
+		<SourceFilesRoot>/Users/amanda/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/y:/Documents/GitHub/pewpew-game/.cache/Windows/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/amanda/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/y:/Documents/GitHub/pewpew-game/GeneratedSoundBanks/Windows/</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Y:\Desktop\cube\soundbanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Y:\Documents\GitHub\cube\soundbanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -197,6 +197,10 @@
 				<File Id="197648221" Language="SFX">
 					<ShortName>Pew_Pew-DKnight556-1379997159.wav</ShortName>
 					<Path>SFX/Pew_Pew-DKnight556-1379997159_F109A50D.wem</Path>
+				</File>
+				<File Id="643295112" Language="SFX">
+					<ShortName>eiya.wav</ShortName>
+					<Path>SFX/eiya_F109A50D.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

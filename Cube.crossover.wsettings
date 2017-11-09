@@ -4,7 +4,9 @@
 		<UserProjectSettings Name="" ID="{2DAA45F2-342A-4706-891A-1C65647C9B4E}">
 			<PropertyList>
 				<Property Name="AudioFilesImporter\Path" Type="string" Value="Y:\Downloads"/>
+				<Property Name="Event Action List\{46C1B536-0950-44E1-B25D-339128C747C6}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{CEF6613A-DBA1-4B5B-9CF3-4D148A0E111A}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{E2BFDC16-779C-4D15-8D4E-C940818E5DD3}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="EventView\FilterMode1" Type="int32" Value="2"/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
 					<ValueList>
@@ -77,7 +79,7 @@
 				<Property Name="ProjectExplorer\x64_Expanded_1_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_20_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_21_1" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="sig80aet+EGG1Fx8Oqw5kDZub99FeIZGk778ouY8eYi7ymWNQ3Z1R4xFO38yXXPv"/>
+				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="sig80aet+EGG1Fx8Oqw5kB5tAlLu67FChIAOOixXsgw2bm/fRXiGRpO+/KLmPHmIu8pljUN2dUeMRTt/Ml1z7w=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_3_1" Type="string" Value="RvyZPRiGz0OhkE2oeX/Dh2H8rCeIhi1IofbyFlTqS96k/zsF12MrTKl0U0vAt2RA"/>
 				<Property Name="ProjectExplorer\x64_Expanded_4_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_5_1" Type="string" Value=""/>
