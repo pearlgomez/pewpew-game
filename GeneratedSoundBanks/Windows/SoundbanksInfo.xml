@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="125">
 	<RootPaths>
-		<ProjectRoot>/Users/amanda/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/y:/Documents/GitHub/pewpew-game/</ProjectRoot>
-		<SourceFilesRoot>/Users/amanda/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/y:/Documents/GitHub/pewpew-game/.cache/Windows/</SourceFilesRoot>
-		<SoundBanksRoot>/Users/amanda/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/y:/Documents/GitHub/pewpew-game/GeneratedSoundBanks/Windows/</SoundBanksRoot>
+		<ProjectRoot>/Users/pearlgomez/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/y:/Desktop/WwiseProject/</ProjectRoot>
+		<SourceFilesRoot>/Users/pearlgomez/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/y:/Desktop/WwiseProject/.cache/Windows/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/pearlgomez/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/y:/Desktop/WwiseProject/GeneratedSoundBanks/Windows/</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Y:\Documents\GitHub\cube\soundbanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Y:\Desktop\cube\soundbanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -171,6 +171,7 @@
 				<Event Id="4149105284" Name="JumpPad" ObjectPath="\Events\Default Work Unit\Main\JumpPad"/>
 				<Event Id="674522502" Name="Land" ObjectPath="\Events\Default Work Unit\Main\Land"/>
 				<Event Id="1758594367" Name="Map_Loaded" ObjectPath="\Events\Default Work Unit\Main\Map_Loaded"/>
+				<Event Id="2415014760" Name="Monsters_Unaware" ObjectPath="\Events\Music\Monsters_Unaware"/>
 				<Event Id="16204334" Name="NoAmmo" ObjectPath="\Events\Default Work Unit\Main\NoAmmo"/>
 				<Event Id="1996139369" Name="Pain" ObjectPath="\Events\Default Work Unit\Main\Pain\Pain"/>
 				<Event Id="930941543" Name="Pain_Bauul" ObjectPath="\Events\Default Work Unit\Main\Pain\Pain_Bauul"/>
@@ -194,17 +195,73 @@
 				<Event Id="2957699042" Name="WeapLoad" ObjectPath="\Events\Default Work Unit\Main\WeapLoad"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="9031633" Language="SFX">
+					<ShortName>Zombie Long Death-SoundBible.com-554299929.wav</ShortName>
+					<Path>SFX/Zombie Long Death-SoundBible.com-554299929_7704D6E2.wem</Path>
+				</File>
+				<File Id="108686981" Language="SFX">
+					<ShortName>Banana Peel Slip Zip-SoundBible.com-803276918.wav</ShortName>
+					<Path>SFX/Banana Peel Slip Zip-SoundBible.com-803276918_53CEE377.wem</Path>
+				</File>
 				<File Id="197648221" Language="SFX">
 					<ShortName>Pew_Pew-DKnight556-1379997159.wav</ShortName>
 					<Path>SFX/Pew_Pew-DKnight556-1379997159_F109A50D.wem</Path>
+				</File>
+				<File Id="381394182" Language="SFX">
+					<ShortName>Cartoon Walking-SoundBible.com-2130722123.wav</ShortName>
+					<Path>SFX/Cartoon Walking-SoundBible.com-2130722123_78981797.wem</Path>
+				</File>
+				<File Id="389149876" Language="SFX">
+					<ShortName>Angry Chipmunk-SoundBible.com-980210050.wav</ShortName>
+					<Path>SFX/Angry Chipmunk-SoundBible.com-980210050_965A4CA7.wem</Path>
+				</File>
+				<File Id="483961884" Language="SFX">
+					<ShortName>Zombie Moan-SoundBible.com-565291980.wav</ShortName>
+					<Path>SFX/Zombie Moan-SoundBible.com-565291980_3EDC8118.wem</Path>
+				</File>
+				<File Id="509845718" Language="SFX">
+					<ShortName>Growling Lion-SoundBible.com-495747737.wav</ShortName>
+					<Path>SFX/Growling Lion-SoundBible.com-495747737_61B786E2.wem</Path>
+				</File>
+				<File Id="577530091" Language="SFX">
+					<ShortName>Kid_Says_Hey_4x-Mike_Koenig-1120910186.wav</ShortName>
+					<Path>SFX/Kid_Says_Hey_4x-Mike_Koenig-1120910186_4CAF982B.wem</Path>
+				</File>
+				<File Id="636178009" Language="SFX">
+					<ShortName>Shooting An MP5-SoundBible.com-704967207.wav</ShortName>
+					<Path>SFX/Shooting An MP5-SoundBible.com-704967207_953D1720.wem</Path>
 				</File>
 				<File Id="643295112" Language="SFX">
 					<ShortName>eiya.wav</ShortName>
 					<Path>SFX/eiya_F109A50D.wem</Path>
 				</File>
+				<File Id="674718906" Language="SFX">
+					<ShortName>Dinosaur Footstep-SoundBible.com-1559542884.wav</ShortName>
+					<Path>SFX/Dinosaur Footstep-SoundBible.com-1559542884_0DFDD2CF.wem</Path>
+				</File>
+				<File Id="752080961" Language="SFX">
+					<ShortName>Comet-SoundBible.com-1256431940.wav</ShortName>
+					<Path>SFX/Comet-SoundBible.com-1256431940_39285A8C.wem</Path>
+				</File>
+				<File Id="894863162" Language="SFX">
+					<ShortName>Evil Yelling-SoundBible.com-1774362373.wav</ShortName>
+					<Path>SFX/Evil Yelling-SoundBible.com-1774362373_BDC0CB48.wem</Path>
+				</File>
+				<File Id="905382295" Language="SFX">
+					<ShortName>Tap Dancing-SoundBible.com-1631634159.wav</ShortName>
+					<Path>SFX/Tap Dancing-SoundBible.com-1631634159_36F53861.wem</Path>
+				</File>
+				<File Id="936993231" Language="SFX">
+					<ShortName>Zombie In Pain-SoundBible.com-134322253.wav</ShortName>
+					<Path>SFX/Zombie In Pain-SoundBible.com-134322253_FB0EE930.wem</Path>
+				</File>
 				<File Id="959326497" Language="SFX">
 					<ShortName>SOUND EFFECT HELLO DARKNESS MY OLD FRIEND(ORIGINAL).wav</ShortName>
 					<Path>SFX/SOUND EFFECT HELLO DARKNESS MY OLD FRIEND(ORIGINAL)_53CEE377.wem</Path>
+				</File>
+				<File Id="988986733" Language="SFX">
+					<ShortName>voice-prompts-male-voice-male-jazz-scat-slow-singing-vocalization-bass-song-human-voice.wav</ShortName>
+					<Path>SFX/voice-prompts-male-voice-male-jazz-scat-slow-singing-vocalization-bass-song-human-voice_D3E32E6F.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
@@ -220,6 +277,12 @@
 				<Event Id="1815461482" Name="Story_End" ObjectPath="\Events\Music\Story_End"/>
 				<Event Id="2778113369" Name="Story_Start" ObjectPath="\Events\Music\Story_Start"/>
 			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="988986733" Language="SFX">
+					<ShortName>voice-prompts-male-voice-male-jazz-scat-slow-singing-vocalization-bass-song-human-voice.wav</ShortName>
+					<Path>SFX/voice-prompts-male-voice-male-jazz-scat-slow-singing-vocalization-bass-song-human-voice_D3E32E6F.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

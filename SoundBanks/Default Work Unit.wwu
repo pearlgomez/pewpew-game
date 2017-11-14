@@ -66,6 +66,7 @@
 						<ObjectRef Name="Pain_Slith" ID="{68B553D5-0722-4916-BE8D-FEA731505008}" WorkUnitID="{27ACFC61-8688-482D-A1F6-F21654EA4BDE}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Pain" ID="{205CAFC8-40E9-4916-AEF4-AD19AAEE452D}" WorkUnitID="{27ACFC61-8688-482D-A1F6-F21654EA4BDE}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Fire_Fireball_Monster" ID="{40000095-17E5-4926-9DFF-EE98AA5A5106}" WorkUnitID="{27ACFC61-8688-482D-A1F6-F21654EA4BDE}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Monsters_Unaware" ID="{519947C9-7808-4931-9224-AA69CF530954}" WorkUnitID="{2D8BE14E-9F98-4828-BA8E-FE6B89928F7D}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Hit_Iceball_Player" ID="{861B53EF-F969-4941-90C1-F76CCE5AF889}" WorkUnitID="{27ACFC61-8688-482D-A1F6-F21654EA4BDE}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="SplashOut_Player" ID="{1F115BF9-EDEF-4945-9B41-31CD41C7E8A3}" WorkUnitID="{27ACFC61-8688-482D-A1F6-F21654EA4BDE}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Death_Rhino" ID="{0CAF8333-BD93-4952-B5B9-FD3078F8F165}" WorkUnitID="{27ACFC61-8688-482D-A1F6-F21654EA4BDE}" Filter="7" Origin="Manual"/>
@@ -73,6 +74,7 @@
 						<ObjectRef Name="Foot_Knight" ID="{5259E026-E09A-4967-9090-7F7C3D289EB1}" WorkUnitID="{27ACFC61-8688-482D-A1F6-F21654EA4BDE}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="End_Iceball_Monster" ID="{130F1CA7-01C2-499A-A468-4E6699000AD2}" WorkUnitID="{27ACFC61-8688-482D-A1F6-F21654EA4BDE}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Pain_Goblin" ID="{A3782F49-31DF-499A-95CB-1B9BDCFABECC}" WorkUnitID="{27ACFC61-8688-482D-A1F6-F21654EA4BDE}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Monster_Spawn" ID="{501B59E8-3953-49D0-9DD9-2F60E5C41019}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="End_Slimeball_Monster" ID="{04BC0749-F2E2-49F9-9BFF-A5CEDDA4047E}" WorkUnitID="{27ACFC61-8688-482D-A1F6-F21654EA4BDE}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Foot_Bauul" ID="{9FAE8CB1-1076-49FF-A0B2-E9DED53AF113}" WorkUnitID="{27ACFC61-8688-482D-A1F6-F21654EA4BDE}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Hit_Iceball_Monster" ID="{E4844786-F014-4A01-8157-7E0ECF0208A8}" WorkUnitID="{27ACFC61-8688-482D-A1F6-F21654EA4BDE}" Filter="7" Origin="Manual"/>
@@ -83,6 +85,7 @@
 						<ObjectRef Name="Grunt_HellPig" ID="{A02938C8-6BEE-4AFD-99DC-BF0E9B1AA592}" WorkUnitID="{27ACFC61-8688-482D-A1F6-F21654EA4BDE}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Foot_Slith" ID="{685B470C-ADC5-4B2A-B1DF-2F83B22791E8}" WorkUnitID="{27ACFC61-8688-482D-A1F6-F21654EA4BDE}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Fire_Shotgun_Player" ID="{CEF6613A-DBA1-4B5B-9CF3-4D148A0E111A}" WorkUnitID="{27ACFC61-8688-482D-A1F6-F21654EA4BDE}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Fire_Chaingun" ID="{C6CF2C7E-00CA-4BFF-97E6-EB89BDA16B27}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="WeapLoad" ID="{77BABEC5-EEFB-4C21-B44E-7EB212A60E9C}" WorkUnitID="{27ACFC61-8688-482D-A1F6-F21654EA4BDE}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="ItemHealth100" ID="{3F0A3FBB-3263-4C35-90D5-17307F4C4DA1}" WorkUnitID="{27ACFC61-8688-482D-A1F6-F21654EA4BDE}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Grunt_Goblin" ID="{4CE88C3B-8B3B-4C73-BB07-78B83CB03E1D}" WorkUnitID="{27ACFC61-8688-482D-A1F6-F21654EA4BDE}" Filter="7" Origin="Manual"/>

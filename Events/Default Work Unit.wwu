@@ -118,7 +118,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Jump" ID="{68F6A2A6-6900-491D-B0C5-CEE97FCF28D1}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
+											<ObjectRef Name="Jump" ID="{C68DCB9A-4A53-4A11-88C8-A181DB28C2C4}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -671,7 +671,7 @@
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="FLaunch" ID="{FA52FB46-0985-49CF-9BA8-6220B17AB0F1}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
+													<ObjectRef Name="Fire_Fireball" ID="{AB57D21E-90A4-4B2B-BCA4-97D12E0515F1}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -685,7 +685,7 @@
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="CG1" ID="{315F8025-47E2-47F0-AA3E-8C5021C911F6}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
+													<ObjectRef Name="Fire_Chaingun" ID="{C6CF2C7E-00CA-4BFF-97E6-EB89BDA16B27}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -903,7 +903,7 @@
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Grunt" ID="{923FB8F9-890E-44D0-AD05-1C905020F514}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
+													<ObjectRef Name="Grunt_Ogre" ID="{D8FE6B15-3CA9-4242-9657-1F50187A7D99}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -948,7 +948,7 @@
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Grunt" ID="{923FB8F9-890E-44D0-AD05-1C905020F514}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
+													<ObjectRef Name="Grunt_Rhino" ID="{2A9DCAA2-EA21-473B-99B5-C81BD1D28ACB}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -981,7 +981,7 @@
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Die" ID="{0FA7AA01-7ED4-4FD1-AA25-7A2F6BE395DA}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
+													<ObjectRef Name="Death_Player" ID="{790C5744-5425-41F8-B81C-BD0C0ECC17A3}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -1076,7 +1076,7 @@
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Death_Slith" ID="{BEB0E0E8-DEDA-4573-9474-852E15B468E4}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
+													<ObjectRef Name="Death_Ogre" ID="{5EF80705-329B-4E70-8363-D6DB3A900284}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -1122,7 +1122,7 @@
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Footsteps" ID="{586A2ECC-C3FE-4B8A-9C97-0F3B825CDFA2}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
+													<ObjectRef Name="Foot_Player" ID="{B8193C99-BA0E-4648-A26F-7D0E5257E118}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -1192,7 +1192,7 @@
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Footsteps" ID="{586A2ECC-C3FE-4B8A-9C97-0F3B825CDFA2}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
+													<ObjectRef Name="Foot_Ogre" ID="{E3FFC019-BD57-4420-934A-0C8AF76A86B9}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -1220,7 +1220,7 @@
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Footsteps" ID="{586A2ECC-C3FE-4B8A-9C97-0F3B825CDFA2}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
+													<ObjectRef Name="Foot_Rhino" ID="{67DA40A5-101D-43BB-8D3D-964E59D3A2D4}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -1280,13 +1280,18 @@
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Pain" ID="{43397481-8324-41C6-8098-4481D132BFF0}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
+													<ObjectRef Name="Pain_Player" ID="{C6BE04BB-6E6D-4161-A181-1AD8E9206C2E}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
 										<Action Name="" ID="{C55692A8-D4BB-4AD5-8509-77AD32A34968}" ShortID="664340133">
 											<PropertyList>
 												<Property Name="ActionType" Type="int16" Value="1"/>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Target">

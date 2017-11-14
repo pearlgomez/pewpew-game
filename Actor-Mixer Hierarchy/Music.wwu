@@ -403,6 +403,37 @@
 						</Sound>
 					</ChildrenList>
 				</BlendContainer>
+				<Sound Name="Monster_Unaware" ID="{B94CB362-C69D-4283-98BD-4DAAC1734739}" ShortID="184992481">
+					<PropertyList>
+						<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-17</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAF928FC-2A2A-4F7A-8A7C-0010690433A5}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F10B222B-2801-430A-B717-538AC6BBF93D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="voice-prompts-male-voice-male-jazz-scat-slow-singing-vocalization-bass-song-human-voice" ID="{0D6B9DE5-2C26-4F82-8C28-82776D41AFDE}" ShortID="988986733">
+							<PropertyList>
+								<Property Name="FadeOutDuration" Type="Real64" Value="0.420702898227125"/>
+								<Property Name="TrimEnd" Type="Real64" Value="6.26847318358416"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>voice-prompts-male-voice-male-jazz-scat-slow-singing-vocalization-bass-song-human-voice.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="voice-prompts-male-voice-male-jazz-scat-slow-singing-vocalization-bass-song-human-voice" ID="{0D6B9DE5-2C26-4F82-8C28-82776D41AFDE}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

@@ -50,6 +50,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2057306229	Foot_Goblin			\Default Work Unit\Main\Foot\Foot_Goblin	
 	2148509378	Fire_Rifle_Player			\Default Work Unit\Main\Weapons\Fire_Rifle_Player	
 	2202981293	Grunt_Ogre			\Default Work Unit\Main\Grunt\Grunt_Ogre	Posted when monster sees player and wakes up from sleeping state
+	2415014760	Monsters_Unaware			\Music\Monsters_Unaware	
 	2465710861	Pain_Ogre			\Default Work Unit\Main\Pain\Pain_Ogre	
 	2642900100	Fire_Rocket_Player			\Default Work Unit\Main\Weapons\Fire_Rocket_Player	
 	2656775276	End_Fireball_Player			\Default Work Unit\Main\Weapons\End_Fireball_Player	
@@ -113,16 +114,25 @@ Effect plug-ins	ID	Name	Type				Notes
 	341045171	Default (Custom)	Wwise Parametric EQ			
 	442282816	Default (Custom)	Wwise Parametric EQ			
 	479948303	Default (Custom)	Wwise Parametric EQ			
-	652610570	Default (Custom)	Wwise Parametric EQ			
-	881704081	Default (Custom)	Wwise Parametric EQ			
 	882616228	Pickup_UI (Define custom)	Wwise Matrix Reverb			
 	1062760824	Default (Custom)	Wwise Parametric EQ			
 
-Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
-	1016407289	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Main\Monsters\Monster_Spawn\Wwise Silence	
-
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	197648221	Shotgun_Blast	Y:\Documents\GitHub\pewpew-game\.cache\Windows\SFX\Pew_Pew-DKnight556-1379997159_F109A50D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Weapons\Shotgun_Blast		6852
-	643295112	eiya	Y:\Documents\GitHub\pewpew-game\.cache\Windows\SFX\eiya_F109A50D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Weapons\Punches\eiya		8892
-	959326497	SOUND EFFECT HELLO DARKNESS MY OLD FRIEND(ORIGINAL)	Y:\Documents\GitHub\pewpew-game\.cache\Windows\SFX\SOUND EFFECT HELLO DARKNESS MY OLD FRIEND(ORIGINAL)_53CEE377.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Main Character\Die\SOUND EFFECT HELLO DARKNESS MY OLD FRIEND(ORIGINAL)		1609792
+	9031633	Death_Ogre	Y:\Desktop\WwiseProject\.cache\Windows\SFX\Zombie Long Death-SoundBible.com-554299929_7704D6E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Monsters\Death_Ogre	Audiokinetic Inc. All rights reserved. Audio content provided by Alexander Brandon © 2008 Alexander Brandon www.alexanderbrandon.net  The Audio Content contained in this file is the property of Alexander Brandon.  Y our sole right with regard to this Audio Content is to listen to the Audio Content as part of this project.   This Audio Content cannot be used or modified for a commercial purpose nor for public demonstration.	123476
+	108686981	Jump_Player	Y:\Desktop\WwiseProject\.cache\Windows\SFX\Banana Peel Slip Zip-SoundBible.com-803276918_53CEE377.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Main Character\Jump\Jump_Player		15542
+	197648221	Shotgun_Blast	Y:\Desktop\WwiseProject\.cache\Windows\SFX\Pew_Pew-DKnight556-1379997159_F109A50D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Weapons\Shotgun_Blast		6852
+	381394182	Foot_Player	Y:\Desktop\WwiseProject\.cache\Windows\SFX\Cartoon Walking-SoundBible.com-2130722123_78981797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Main Character\Footsteps\Foot_Player		47812
+	389149876	Grunt_Rhino	Y:\Desktop\WwiseProject\.cache\Windows\SFX\Angry Chipmunk-SoundBible.com-980210050_965A4CA7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Monsters\Grunt\Grunt_Rhino		138696
+	483961884	Monster_Spawn	Y:\Desktop\WwiseProject\.cache\Windows\SFX\Zombie Moan-SoundBible.com-565291980_3EDC8118.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Monsters\Monster_Spawn		192688
+	509845718	Grunt_Ogre	Y:\Desktop\WwiseProject\.cache\Windows\SFX\Growling Lion-SoundBible.com-495747737_61B786E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Monsters\Grunt\Grunt_Ogre		91738
+	577530091	Pain_Player	Y:\Desktop\WwiseProject\.cache\Windows\SFX\Kid_Says_Hey_4x-Mike_Koenig-1120910186_4CAF982B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Main Character\Pain_Player		100964
+	636178009	Fire_Chaingun	Y:\Desktop\WwiseProject\.cache\Windows\SFX\Shooting An MP5-SoundBible.com-704967207_953D1720.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Weapons\Fire_Chaingun		8658
+	643295112	eiya	Y:\Desktop\WwiseProject\.cache\Windows\SFX\eiya_F109A50D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Weapons\Punches\eiya		8892
+	674718906	Foot_Ogre	Y:\Desktop\WwiseProject\.cache\Windows\SFX\Dinosaur Footstep-SoundBible.com-1559542884_0DFDD2CF.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Monsters\Foot\Foot_Ogre		8590
+	752080961	Fire_Fireball	Y:\Desktop\WwiseProject\.cache\Windows\SFX\Comet-SoundBible.com-1256431940_39285A8C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Weapons\Fire_Fireball		15629
+	894863162	Death_Rhino	Y:\Desktop\WwiseProject\.cache\Windows\SFX\Evil Yelling-SoundBible.com-1774362373_BDC0CB48.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Monsters\Death_Rhino	Audiokinetic Inc. All rights reserved. Audio content provided by Alexander Brandon © 2008 Alexander Brandon www.alexanderbrandon.net  The Audio Content contained in this file is the property of Alexander Brandon.  Y our sole right with regard to this Audio Content is to listen to the Audio Content as part of this project.   This Audio Content cannot be used or modified for a commercial purpose nor for public demonstration.	66320
+	905382295	Foot_Rhino	Y:\Desktop\WwiseProject\.cache\Windows\SFX\Tap Dancing-SoundBible.com-1631634159_36F53861.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Monsters\Foot\Foot_Rhino		38004
+	936993231	Death_Rat	Y:\Desktop\WwiseProject\.cache\Windows\SFX\Zombie In Pain-SoundBible.com-134322253_FB0EE930.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Monsters\Death_Rat	Audiokinetic Inc. All rights reserved. Audio content provided by Alexander Brandon © 2008 Alexander Brandon www.alexanderbrandon.net  The Audio Content contained in this file is the property of Alexander Brandon.  Y our sole right with regard to this Audio Content is to listen to the Audio Content as part of this project.   This Audio Content cannot be used or modified for a commercial purpose nor for public demonstration.	117504
+	959326497	Death_Player	Y:\Desktop\WwiseProject\.cache\Windows\SFX\SOUND EFFECT HELLO DARKNESS MY OLD FRIEND(ORIGINAL)_53CEE377.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Main Character\Death_Player		1609792
+	988986733	Monster_Unaware	Y:\Desktop\WwiseProject\.cache\Windows\SFX\voice-prompts-male-voice-male-jazz-scat-slow-singing-vocalization-bass-song-human-voice_D3E32E6F.wem		\Actor-Mixer Hierarchy\Music\Monster_Unaware		552944
 

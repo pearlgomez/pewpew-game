@@ -1094,6 +1094,11 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 											<ChildrenList>
 												<Sound Name="FS_Dirt_01" ID="{FB751A70-5A71-48B7-9CC2-801C723A35D4}" ShortID="56">
 													<PropertyList>
+														<Property Name="Inclusion" Type="bool">
+															<ValueList>
+																<Value>False</Value>
+															</ValueList>
+														</Property>
 														<Property Name="PositioningType" Type="int16" Value="1"/>
 													</PropertyList>
 													<ReferenceList>
@@ -1110,6 +1115,11 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 												</Sound>
 												<Sound Name="FS_Dirt_02" ID="{CF987B58-338A-4D11-8005-02BCDB3F0FA4}" ShortID="57">
 													<PropertyList>
+														<Property Name="Inclusion" Type="bool">
+															<ValueList>
+																<Value>False</Value>
+															</ValueList>
+														</Property>
 														<Property Name="PositioningType" Type="int16" Value="1"/>
 													</PropertyList>
 													<ReferenceList>
@@ -1126,6 +1136,11 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 												</Sound>
 												<Sound Name="FS_Dirt_03" ID="{56C8749D-C290-43D4-9DEF-DE2F4936A24F}" ShortID="58">
 													<PropertyList>
+														<Property Name="Inclusion" Type="bool">
+															<ValueList>
+																<Value>False</Value>
+															</ValueList>
+														</Property>
 														<Property Name="PositioningType" Type="int16" Value="1"/>
 													</PropertyList>
 													<ReferenceList>
@@ -1340,6 +1355,37 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 												</Sound>
 											</ChildrenList>
 										</RandomSequenceContainer>
+										<Sound Name="Foot_Player" ID="{B8193C99-BA0E-4648-A26F-7D0E5257E118}" ShortID="411656962">
+											<PropertyList>
+												<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-17</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAF928FC-2A2A-4F7A-8A7C-0010690433A5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F10B222B-2801-430A-B717-538AC6BBF93D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Cartoon Walking-SoundBible_com-2130722123" ID="{92C14BDE-1E83-49E2-B18B-BDD53872ED0F}" ShortID="381394182">
+													<PropertyList>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.270685804591713"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Cartoon Walking-SoundBible.com-2130722123.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Cartoon Walking-SoundBible_com-2130722123" ID="{92C14BDE-1E83-49E2-B18B-BDD53872ED0F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
 									<GroupingInfo>
 										<GroupRef Name="Material" ID="{84EE54A9-8C89-4269-883C-19ACAFCBA945}"/>
@@ -1347,6 +1393,9 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 										<GroupingBehaviorList>
 											<GroupingBehavior>
 												<ItemRef Name="Gravel" ID="{D3E4B98B-A44A-496D-986D-A3C32ABD6C13}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Foot_Player" ID="{B8193C99-BA0E-4648-A26F-7D0E5257E118}"/>
 											</GroupingBehavior>
 											<GroupingBehavior>
 												<ItemRef Name="Dirt" ID="{280703A8-DE18-41EF-B886-1C3F1586F0E7}"/>
@@ -1416,279 +1465,6 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 										</GroupingList>
 									</GroupingInfo>
 								</SwitchContainer>
-								<RandomSequenceContainer Name="Die" ID="{0FA7AA01-7ED4-4FD1-AA25-7A2F6BE395DA}" ShortID="118">
-									<Comment>Audiokinetic Inc. All rights reserved.
-Audio content provided by Alexander Brandon
-© 2008 Alexander Brandon
-www.alexanderbrandon.net
-
-The Audio Content contained in this file is the property of Alexander Brandon.  Y
-our sole right with regard to this Audio Content is to listen to the Audio Content as part of this project.  
-This Audio Content cannot be used or modified for a commercial purpose nor for public demonstration.</Comment>
-									<PropertyList>
-										<Property Name="Pitch" Type="int32">
-											<ModifierList>
-												<ModifierInfo>
-													<Modifier Name="" ID="{05F95E79-0A9A-443B-ADCF-4EC87B62D184}">
-														<PropertyList>
-															<Property Name="Enabled" Type="bool" Value="False"/>
-															<Property Name="Max" Type="Real64" Value="250"/>
-															<Property Name="Min" Type="Real64" Value="-250"/>
-														</PropertyList>
-													</Modifier>
-												</ModifierInfo>
-											</ModifierList>
-										</Property>
-										<Property Name="PositioningType" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Attenuation">
-											<ObjectRef Name="Main Attenuation" ID="{CB118EF0-7984-49E5-A075-7431C2392256}" WorkUnitID="{23276E4C-2FE8-487E-8901-9951885E0682}"/>
-										</Reference>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAF928FC-2A2A-4F7A-8A7C-0010690433A5}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F10B222B-2801-430A-B717-538AC6BBF93D}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="Die1" ID="{5EF80705-329B-4E70-8363-D6DB3A900284}" ShortID="116">
-											<Comment>Audiokinetic Inc. All rights reserved.
-Audio content provided by Alexander Brandon
-© 2008 Alexander Brandon
-www.alexanderbrandon.net
-
-The Audio Content contained in this file is the property of Alexander Brandon.  Y
-our sole right with regard to this Audio Content is to listen to the Audio Content as part of this project.  
-This Audio Content cannot be used or modified for a commercial purpose nor for public demonstration.</Comment>
-											<PropertyList>
-												<Property Name="PositioningType" Type="int16" Value="1"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Attenuation">
-													<ObjectRef Name="Main Attenuation" ID="{CB118EF0-7984-49E5-A075-7431C2392256}" WorkUnitID="{23276E4C-2FE8-487E-8901-9951885E0682}"/>
-												</Reference>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAF928FC-2A2A-4F7A-8A7C-0010690433A5}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F10B222B-2801-430A-B717-538AC6BBF93D}"/>
-												</Reference>
-											</ReferenceList>
-										</Sound>
-										<Sound Name="Die2" ID="{B10E57BC-5E87-49DA-B01B-B4D2AA6CA482}" ShortID="117">
-											<Comment>Audiokinetic Inc. All rights reserved.
-Audio content provided by Alexander Brandon
-© 2008 Alexander Brandon
-www.alexanderbrandon.net
-
-The Audio Content contained in this file is the property of Alexander Brandon.  Y
-our sole right with regard to this Audio Content is to listen to the Audio Content as part of this project.  
-This Audio Content cannot be used or modified for a commercial purpose nor for public demonstration.</Comment>
-											<PropertyList>
-												<Property Name="PositioningType" Type="int16" Value="1"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Attenuation">
-													<ObjectRef Name="Main Attenuation" ID="{CB118EF0-7984-49E5-A075-7431C2392256}" WorkUnitID="{23276E4C-2FE8-487E-8901-9951885E0682}"/>
-												</Reference>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAF928FC-2A2A-4F7A-8A7C-0010690433A5}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F10B222B-2801-430A-B717-538AC6BBF93D}"/>
-												</Reference>
-											</ReferenceList>
-										</Sound>
-										<Sound Name="SOUND EFFECT HELLO DARKNESS MY OLD FRIEND(ORIGINAL)" ID="{790C5744-5425-41F8-B81C-BD0C0ECC17A3}" ShortID="608847545">
-											<PropertyList>
-												<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAF928FC-2A2A-4F7A-8A7C-0010690433A5}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F10B222B-2801-430A-B717-538AC6BBF93D}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="SOUND EFFECT HELLO DARKNESS MY OLD FRIEND(ORIGINAL)" ID="{76A5A7CF-3F55-45BA-8601-7D56EB24642F}" ShortID="959326497">
-													<Language>SFX</Language>
-													<AudioFile>SOUND EFFECT HELLO DARKNESS MY OLD FRIEND(ORIGINAL).wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="SOUND EFFECT HELLO DARKNESS MY OLD FRIEND(ORIGINAL)" ID="{76A5A7CF-3F55-45BA-8601-7D56EB24642F}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="Pain" ID="{43397481-8324-41C6-8098-4481D132BFF0}" ShortID="111">
-									<PropertyList>
-										<Property Name="BypassEffect0" Type="bool">
-											<ValueList>
-												<Value>True</Value>
-											</ValueList>
-										</Property>
-										<Property Name="OverrideEffect" Type="bool" Value="True"/>
-										<Property Name="Pitch" Type="int32">
-											<ModifierList>
-												<ModifierInfo>
-													<Modifier Name="" ID="{938EF81A-46D1-4C22-8D3B-F90E3FA0A408}">
-														<PropertyList>
-															<Property Name="Enabled" Type="bool" Value="False"/>
-															<Property Name="Max" Type="Real64" Value="250"/>
-															<Property Name="Min" Type="Real64" Value="-250"/>
-														</PropertyList>
-													</Modifier>
-												</ModifierInfo>
-											</ModifierList>
-										</Property>
-										<Property Name="PositioningType" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Attenuation">
-											<ObjectRef Name="Main Attenuation" ID="{CB118EF0-7984-49E5-A075-7431C2392256}" WorkUnitID="{23276E4C-2FE8-487E-8901-9951885E0682}"/>
-										</Reference>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAF928FC-2A2A-4F7A-8A7C-0010690433A5}"/>
-										</Reference>
-										<Reference Name="Effect0">
-											<Custom>
-												<Effect Name="Default (Custom)" ID="{0AD8A928-0F57-4FB4-9ACD-F6AAD6310631}" ShortID="652610570" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
-													<PropertyList>
-														<Property Name="GainBand3" Type="Real32" Value="-8"/>
-													</PropertyList>
-												</Effect>
-											</Custom>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F10B222B-2801-430A-B717-538AC6BBF93D}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="Pain1" ID="{C6BE04BB-6E6D-4161-A181-1AD8E9206C2E}" ShortID="105">
-											<PropertyList>
-												<Property Name="PositioningType" Type="int16" Value="1"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Attenuation">
-													<ObjectRef Name="Main Attenuation" ID="{CB118EF0-7984-49E5-A075-7431C2392256}" WorkUnitID="{23276E4C-2FE8-487E-8901-9951885E0682}"/>
-												</Reference>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAF928FC-2A2A-4F7A-8A7C-0010690433A5}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F10B222B-2801-430A-B717-538AC6BBF93D}"/>
-												</Reference>
-											</ReferenceList>
-										</Sound>
-										<Sound Name="Pain2" ID="{E92A51A0-5B50-4606-A73D-09A189391753}" ShortID="106">
-											<PropertyList>
-												<Property Name="PositioningType" Type="int16" Value="1"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Attenuation">
-													<ObjectRef Name="Main Attenuation" ID="{CB118EF0-7984-49E5-A075-7431C2392256}" WorkUnitID="{23276E4C-2FE8-487E-8901-9951885E0682}"/>
-												</Reference>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAF928FC-2A2A-4F7A-8A7C-0010690433A5}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F10B222B-2801-430A-B717-538AC6BBF93D}"/>
-												</Reference>
-											</ReferenceList>
-										</Sound>
-										<Sound Name="Pain3" ID="{7F0D2DEF-8BF7-4FE3-A210-0D0672FB6B88}" ShortID="107">
-											<PropertyList>
-												<Property Name="PositioningType" Type="int16" Value="1"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Attenuation">
-													<ObjectRef Name="Main Attenuation" ID="{CB118EF0-7984-49E5-A075-7431C2392256}" WorkUnitID="{23276E4C-2FE8-487E-8901-9951885E0682}"/>
-												</Reference>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAF928FC-2A2A-4F7A-8A7C-0010690433A5}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F10B222B-2801-430A-B717-538AC6BBF93D}"/>
-												</Reference>
-											</ReferenceList>
-										</Sound>
-										<Sound Name="Pain4" ID="{AC29F273-8A63-46DC-B565-A696D6A7F2A8}" ShortID="108">
-											<PropertyList>
-												<Property Name="PositioningType" Type="int16" Value="1"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Attenuation">
-													<ObjectRef Name="Main Attenuation" ID="{CB118EF0-7984-49E5-A075-7431C2392256}" WorkUnitID="{23276E4C-2FE8-487E-8901-9951885E0682}"/>
-												</Reference>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAF928FC-2A2A-4F7A-8A7C-0010690433A5}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F10B222B-2801-430A-B717-538AC6BBF93D}"/>
-												</Reference>
-											</ReferenceList>
-										</Sound>
-										<Sound Name="Pain5" ID="{5AE48A2F-EB6F-413F-A470-DA1123891543}" ShortID="109">
-											<PropertyList>
-												<Property Name="PositioningType" Type="int16" Value="1"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Attenuation">
-													<ObjectRef Name="Main Attenuation" ID="{CB118EF0-7984-49E5-A075-7431C2392256}" WorkUnitID="{23276E4C-2FE8-487E-8901-9951885E0682}"/>
-												</Reference>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAF928FC-2A2A-4F7A-8A7C-0010690433A5}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F10B222B-2801-430A-B717-538AC6BBF93D}"/>
-												</Reference>
-											</ReferenceList>
-										</Sound>
-										<Sound Name="Pain6" ID="{CC8C9226-DF49-4C7F-948D-472B58FD9C3B}" ShortID="110">
-											<PropertyList>
-												<Property Name="Inclusion" Type="bool">
-													<ValueList>
-														<Value Platform="Windows">False</Value>
-													</ValueList>
-												</Property>
-												<Property Name="PositioningType" Type="int16" Value="1"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Attenuation">
-													<ObjectRef Name="Main Attenuation" ID="{CB118EF0-7984-49E5-A075-7431C2392256}" WorkUnitID="{23276E4C-2FE8-487E-8901-9951885E0682}"/>
-												</Reference>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAF928FC-2A2A-4F7A-8A7C-0010690433A5}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F10B222B-2801-430A-B717-538AC6BBF93D}"/>
-												</Reference>
-											</ReferenceList>
-										</Sound>
-										<Sound Name="pain7" ID="{F150C021-037F-46D3-A926-66CC2C801342}" ShortID="670637585">
-											<PropertyList>
-												<Property Name="Inclusion" Type="bool">
-													<ValueList>
-														<Value Platform="Windows">False</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAF928FC-2A2A-4F7A-8A7C-0010690433A5}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F10B222B-2801-430A-B717-538AC6BBF93D}"/>
-												</Reference>
-											</ReferenceList>
-										</Sound>
-									</ChildrenList>
-								</RandomSequenceContainer>
 								<Sound Name="Body Impact" ID="{7F2C03FB-C0AA-42D4-A29B-F98126982FC9}" ShortID="370806637">
 									<PropertyList>
 										<Property Name="OverrideEffect" Type="bool" Value="True"/>
@@ -1713,89 +1489,6 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 										</Reference>
 									</ReferenceList>
 								</Sound>
-								<RandomSequenceContainer Name="Jump" ID="{68F6A2A6-6900-491D-B0C5-CEE97FCF28D1}" ShortID="157860496">
-									<Comment>Audiokinetic Inc. All rights reserved.
-Audio content provided by Alexander Brandon
-© 2008 Alexander Brandon
-www.alexanderbrandon.net
-
-The Audio Content contained in this file is the property of Alexander Brandon.  Y
-our sole right with regard to this Audio Content is to listen to the Audio Content as part of this project.  
-This Audio Content cannot be used or modified for a commercial purpose nor for public demonstration.</Comment>
-									<PropertyList>
-										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
-										<Property Name="OverridePositioning" Type="bool" Value="True"/>
-										<Property Name="Pitch" Type="int32">
-											<ModifierList>
-												<ModifierInfo>
-													<Modifier Name="" ID="{0EE2F36A-DF2B-4234-A7A1-432D506699C6}">
-														<PropertyList>
-															<Property Name="Enabled" Type="bool" Value="False"/>
-															<Property Name="Max" Type="Real64" Value="250"/>
-															<Property Name="Min" Type="Real64" Value="-250"/>
-														</PropertyList>
-													</Modifier>
-												</ModifierInfo>
-											</ModifierList>
-										</Property>
-										<Property Name="PositioningType" Type="int16" Value="1"/>
-										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
-										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Attenuation">
-											<ObjectRef Name="Main Attenuation" ID="{CB118EF0-7984-49E5-A075-7431C2392256}" WorkUnitID="{23276E4C-2FE8-487E-8901-9951885E0682}"/>
-										</Reference>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAF928FC-2A2A-4F7A-8A7C-0010690433A5}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F10B222B-2801-430A-B717-538AC6BBF93D}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="jump_1" ID="{31199B13-8456-43F0-BD32-F2394E1C22B3}" ShortID="402087177">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAF928FC-2A2A-4F7A-8A7C-0010690433A5}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F10B222B-2801-430A-B717-538AC6BBF93D}"/>
-												</Reference>
-											</ReferenceList>
-										</Sound>
-										<Sound Name="jump_2" ID="{D97297C0-37E0-486D-A0CC-1332459A7D4D}" ShortID="770047829">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAF928FC-2A2A-4F7A-8A7C-0010690433A5}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F10B222B-2801-430A-B717-538AC6BBF93D}"/>
-												</Reference>
-											</ReferenceList>
-										</Sound>
-										<Sound Name="jump_3" ID="{C16F9EC0-DA8A-4BA9-8384-D14E443BDEAA}" ShortID="1018862013">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAF928FC-2A2A-4F7A-8A7C-0010690433A5}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F10B222B-2801-430A-B717-538AC6BBF93D}"/>
-												</Reference>
-											</ReferenceList>
-										</Sound>
-										<Sound Name="jump_4" ID="{9332D496-C6F9-4A9B-AFE4-C9DDF609025C}" ShortID="238179141">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAF928FC-2A2A-4F7A-8A7C-0010690433A5}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F10B222B-2801-430A-B717-538AC6BBF93D}"/>
-												</Reference>
-											</ReferenceList>
-										</Sound>
-									</ChildrenList>
-								</RandomSequenceContainer>
 								<Sound Name="Heartbeat" ID="{4BEED43F-BFBF-4001-87F4-6E0AD5D1492A}" ShortID="350489082">
 									<PropertyList>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
@@ -1826,6 +1519,138 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 										</Reference>
 									</ReferenceList>
 								</Sound>
+								<Sound Name="Death_Player" ID="{790C5744-5425-41F8-B81C-BD0C0ECC17A3}" ShortID="608847545">
+									<PropertyList>
+										<Property Name="EnablePanner" Type="bool" Value="True"/>
+										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+										<Property Name="UserAuxSendVolume0" Type="Real64">
+											<ValueList>
+												<Value>12</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>12</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAF928FC-2A2A-4F7A-8A7C-0010690433A5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Character" ID="{07135C75-97AF-4EF9-8EDC-7B9585BE8B73}" WorkUnitID="{F10B222B-2801-430A-B717-538AC6BBF93D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SOUND EFFECT HELLO DARKNESS MY OLD FRIEND(ORIGINAL)" ID="{76A5A7CF-3F55-45BA-8601-7D56EB24642F}" ShortID="959326497">
+											<Language>SFX</Language>
+											<AudioFile>SOUND EFFECT HELLO DARKNESS MY OLD FRIEND(ORIGINAL).wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<PositioningInfo>
+										<Panner Name="" ID="{FC74A72B-44C3-4EBA-8D74-8EF220581521}">
+											<PropertyList>
+												<Property Name="PanY" Type="Real64" Value="90"/>
+											</PropertyList>
+										</Panner>
+									</PositioningInfo>
+									<ActiveSourceList>
+										<ActiveSource Name="SOUND EFFECT HELLO DARKNESS MY OLD FRIEND(ORIGINAL)" ID="{76A5A7CF-3F55-45BA-8601-7D56EB24642F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Pain_Player" ID="{C6BE04BB-6E6D-4161-A181-1AD8E9206C2E}" ShortID="105">
+									<PropertyList>
+										<Property Name="EnablePanner" Type="bool" Value="True"/>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+										<Property Name="UserAuxSendVolume0" Type="Real64">
+											<ValueList>
+												<Value>12</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAF928FC-2A2A-4F7A-8A7C-0010690433A5}"/>
+										</Reference>
+										<Reference Name="Effect0">
+											<Custom>
+												<Effect Name="Default (Custom)" ID="{1E82DC54-8B29-4312-AEBE-D6DFC429132A}" ShortID="323025369" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+													<PropertyList>
+														<Property Name="GainBand3" Type="Real32" Value="-8"/>
+													</PropertyList>
+												</Effect>
+											</Custom>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Character" ID="{07135C75-97AF-4EF9-8EDC-7B9585BE8B73}" WorkUnitID="{F10B222B-2801-430A-B717-538AC6BBF93D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Kid_Says_Hey_4x-Mike_Koenig-1120910186" ID="{EA55F33C-930C-40C3-AF9F-EEA0FDED18DE}" ShortID="577530091">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.255894550380327"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.827894133583411"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Kid_Says_Hey_4x-Mike_Koenig-1120910186.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<PositioningInfo>
+										<Panner Name="" ID="{36E0A4FD-6609-42B3-96E3-1BECBED83874}">
+											<PropertyList>
+												<Property Name="PanY" Type="Real64" Value="90"/>
+											</PropertyList>
+										</Panner>
+									</PositioningInfo>
+									<ActiveSourceList>
+										<ActiveSource Name="Kid_Says_Hey_4x-Mike_Koenig-1120910186" ID="{EA55F33C-930C-40C3-AF9F-EEA0FDED18DE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<RandomSequenceContainer Name="Jump" ID="{C68DCB9A-4A53-4A11-88C8-A181DB28C2C4}" ShortID="273234059">
+									<PropertyList>
+										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAF928FC-2A2A-4F7A-8A7C-0010690433A5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F10B222B-2801-430A-B717-538AC6BBF93D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Jump_Player" ID="{FA28DEBB-31D6-4DDB-831F-78EBDBC9188D}" ShortID="7648074">
+											<PropertyList>
+												<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-5</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAF928FC-2A2A-4F7A-8A7C-0010690433A5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F10B222B-2801-430A-B717-538AC6BBF93D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Banana Peel Slip Zip-SoundBible_com-803276918" ID="{6D88D175-AF56-48A4-9AF7-1D023D06EFCB}" ShortID="108686981">
+													<Language>SFX</Language>
+													<AudioFile>Banana Peel Slip Zip-SoundBible.com-803276918.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Banana Peel Slip Zip-SoundBible_com-803276918" ID="{6D88D175-AF56-48A4-9AF7-1D023D06EFCB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
 							</ChildrenList>
 							<PositioningInfo>
 								<Panner Name="" ID="{05817773-46D2-476F-851B-209FF1904194}">
@@ -1907,46 +1732,6 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 										</Reference>
 									</ReferenceList>
 								</Sound>
-								<Sound Name="PigGrunt1" ID="{DDF2AD68-EE7B-46C2-A393-41E8623A5EFD}" ShortID="115">
-									<PropertyList>
-										<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
-										<Property Name="PositioningType" Type="int16" Value="1"/>
-										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-4</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAF928FC-2A2A-4F7A-8A7C-0010690433A5}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="SFX" ID="{151C0E6C-362D-488B-86D0-E49251035307}" WorkUnitID="{F10B222B-2801-430A-B717-538AC6BBF93D}"/>
-										</Reference>
-									</ReferenceList>
-								</Sound>
-								<Sound Name="PigGrunt2" ID="{0BCD58A4-5D87-44CE-AF3F-58F8C8C70304}" ShortID="113">
-									<PropertyList>
-										<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
-										<Property Name="PositioningType" Type="int16" Value="1"/>
-										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-4</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAF928FC-2A2A-4F7A-8A7C-0010690433A5}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="SFX" ID="{151C0E6C-362D-488B-86D0-E49251035307}" WorkUnitID="{F10B222B-2801-430A-B717-538AC6BBF93D}"/>
-										</Reference>
-									</ReferenceList>
-								</Sound>
 								<Sound Name="Death_Rat" ID="{0DA06616-18EE-4177-A635-283651D249BF}" ShortID="122">
 									<Comment>Audiokinetic Inc. All rights reserved.
 Audio content provided by Alexander Brandon
@@ -1969,6 +1754,20 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 											<ObjectRef Name="SFX" ID="{151C0E6C-362D-488B-86D0-E49251035307}" WorkUnitID="{F10B222B-2801-430A-B717-538AC6BBF93D}"/>
 										</Reference>
 									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Zombie In Pain-SoundBible_com-134322253" ID="{EB5C47C6-552B-4439-838C-AE8CE0C68062}" ShortID="936993231">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.420387645940944"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.0894037075078026"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.755175997459524"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Zombie In Pain-SoundBible.com-134322253.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Zombie In Pain-SoundBible_com-134322253" ID="{EB5C47C6-552B-4439-838C-AE8CE0C68062}" Platform="Linked"/>
+									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Death_Rhino" ID="{B209173F-9971-454E-AC6E-B8F464155F15}" ShortID="91">
 									<Comment>Audiokinetic Inc. All rights reserved.
@@ -1992,6 +1791,19 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 											<ObjectRef Name="SFX" ID="{151C0E6C-362D-488B-86D0-E49251035307}" WorkUnitID="{F10B222B-2801-430A-B717-538AC6BBF93D}"/>
 										</Reference>
 									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Evil Yelling-SoundBible_com-1774362373" ID="{2CAD73E0-AA30-49B8-85C5-A4D8103D2761}" ShortID="894863162">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.251689267975608"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.375597830671291"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Evil Yelling-SoundBible.com-1774362373.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Evil Yelling-SoundBible_com-1774362373" ID="{2CAD73E0-AA30-49B8-85C5-A4D8103D2761}" Platform="Linked"/>
+									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Death_Slith" ID="{BEB0E0E8-DEDA-4573-9474-852E15B468E4}" ShortID="104">
 									<Comment>Audiokinetic Inc. All rights reserved.
@@ -2049,14 +1861,16 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="Grunt1" ID="{6D3B7854-03C8-4202-BE1D-D9A3F2DCBA22}" ShortID="98">
+										<Sound Name="Grunt_Rhino" ID="{2A9DCAA2-EA21-473B-99B5-C81BD1D28ACB}" ShortID="622283233">
 											<PropertyList>
-												<Property Name="PositioningType" Type="int16" Value="1"/>
+												<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-6</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
-												<Reference Name="Attenuation">
-													<ObjectRef Name="Main Attenuation" ID="{CB118EF0-7984-49E5-A075-7431C2392256}" WorkUnitID="{23276E4C-2FE8-487E-8901-9951885E0682}"/>
-												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAF928FC-2A2A-4F7A-8A7C-0010690433A5}"/>
 												</Reference>
@@ -2064,15 +1878,29 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F10B222B-2801-430A-B717-538AC6BBF93D}"/>
 												</Reference>
 											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Angry Chipmunk-SoundBible_com-980210050" ID="{A54D346E-E015-4D22-BFD3-35CAA3BCE38E}" ShortID="389149876">
+													<PropertyList>
+														<Property Name="TrimEnd" Type="Real64" Value="0.722039227753465"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Angry Chipmunk-SoundBible.com-980210050.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Angry Chipmunk-SoundBible_com-980210050" ID="{A54D346E-E015-4D22-BFD3-35CAA3BCE38E}" Platform="Linked"/>
+											</ActiveSourceList>
 										</Sound>
-										<Sound Name="Grunt2" ID="{EED847BC-BDFB-4494-9E4D-D59D6E0CE3EA}" ShortID="99">
+										<Sound Name="Grunt_Ogre" ID="{D8FE6B15-3CA9-4242-9657-1F50187A7D99}" ShortID="816893922">
 											<PropertyList>
-												<Property Name="PositioningType" Type="int16" Value="1"/>
+												<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-6</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
-												<Reference Name="Attenuation">
-													<ObjectRef Name="Main Attenuation" ID="{CB118EF0-7984-49E5-A075-7431C2392256}" WorkUnitID="{23276E4C-2FE8-487E-8901-9951885E0682}"/>
-												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAF928FC-2A2A-4F7A-8A7C-0010690433A5}"/>
 												</Reference>
@@ -2080,6 +1908,18 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F10B222B-2801-430A-B717-538AC6BBF93D}"/>
 												</Reference>
 											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Growling Lion-SoundBible_com-495747737" ID="{12249C73-71E6-4244-B97F-0D61F7EE2A1B}" ShortID="509845718">
+													<PropertyList>
+														<Property Name="TrimEnd" Type="Real64" Value="1.03938730853392"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Growling Lion-SoundBible.com-495747737.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Growling Lion-SoundBible_com-495747737" ID="{12249C73-71E6-4244-B97F-0D61F7EE2A1B}" Platform="Linked"/>
+											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
@@ -2713,6 +2553,11 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 								<Sound Name="Monster_Spawn" ID="{501B59E8-3953-49D0-9DD9-2F60E5C41019}" ShortID="38699064">
 									<PropertyList>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -2726,9 +2571,199 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 										<SourcePlugin Name="Wwise Silence" ID="{A6D6ECFC-C316-4247-9238-183B4637010A}" ShortID="1016407289" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
 											<Language>SFX</Language>
 										</SourcePlugin>
+										<AudioFileSource Name="running_feet_-Cam-942211296" ID="{6B754E69-ACF3-4E44-9AF5-720B6B0562AA}" ShortID="433452803">
+											<Language>SFX</Language>
+											<AudioFile>running_feet_-Cam-942211296.wav</AudioFile>
+										</AudioFileSource>
+										<AudioFileSource Name="Zombie Moan-SoundBible_com-565291980" ID="{A09462A7-A0F6-48A7-841F-4DA5FEDDBC08}" ShortID="483961884">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.00403935753732565"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.243707904751981"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.0417400278856984"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.13371301547607"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Zombie Moan-SoundBible.com-565291980.wav</AudioFile>
+										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Wwise Silence" ID="{A6D6ECFC-C316-4247-9238-183B4637010A}" Platform="Linked"/>
+										<ActiveSource Name="Zombie Moan-SoundBible_com-565291980" ID="{A09462A7-A0F6-48A7-841F-4DA5FEDDBC08}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<RandomSequenceContainer Name="Foot" ID="{A03F9EB3-6F44-44C2-B2DE-5D0A7CBC52AD}" ShortID="609493887">
+									<PropertyList>
+										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAF928FC-2A2A-4F7A-8A7C-0010690433A5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F10B222B-2801-430A-B717-538AC6BBF93D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Foot_Rhino" ID="{67DA40A5-101D-43BB-8D3D-964E59D3A2D4}" ShortID="456112248">
+											<PropertyList>
+												<Property Name="EnablePanner" Type="bool" Value="True"/>
+												<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>12</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-11</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAF928FC-2A2A-4F7A-8A7C-0010690433A5}"/>
+												</Reference>
+												<Reference Name="Effect0">
+													<Custom>
+														<Effect Name="Default (Custom)" ID="{169AAA6A-448B-4635-BD8E-E458DFE8CD18}" ShortID="373283248" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+															<PropertyList>
+																<Property Name="FrequencyBand1" Type="Real32" Value="250"/>
+																<Property Name="GainBand1" Type="Real32" Value="15"/>
+															</PropertyList>
+														</Effect>
+													</Custom>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Main Character" ID="{07135C75-97AF-4EF9-8EDC-7B9585BE8B73}" WorkUnitID="{F10B222B-2801-430A-B717-538AC6BBF93D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Tap Dancing-SoundBible_com-1631634159" ID="{4859AD5D-030B-420B-912D-92332E4C100E}" ShortID="905382295">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.207079390043764"/>
+														<Property Name="TrimBegin" Type="Real64" Value="1.73784272428884"/>
+														<Property Name="TrimEnd" Type="Real64" Value="2.03425047866521"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Tap Dancing-SoundBible.com-1631634159.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{AAB69558-F70C-41E7-9552-791C81480978}">
+													<PropertyList>
+														<Property Name="PanY" Type="Real64" Value="90"/>
+													</PropertyList>
+												</Panner>
+											</PositioningInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="Tap Dancing-SoundBible_com-1631634159" ID="{4859AD5D-030B-420B-912D-92332E4C100E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Foot_Ogre" ID="{E3FFC019-BD57-4420-934A-0C8AF76A86B9}" ShortID="705644164">
+											<PropertyList>
+												<Property Name="EnablePanner" Type="bool" Value="True"/>
+												<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>12</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>12</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAF928FC-2A2A-4F7A-8A7C-0010690433A5}"/>
+												</Reference>
+												<Reference Name="Effect0">
+													<Custom>
+														<Effect Name="Default (Custom)" ID="{99B6373E-4D61-498D-870B-B8751A25C0D2}" ShortID="853306943" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+															<PropertyList>
+																<Property Name="FrequencyBand1" Type="Real32" Value="250"/>
+																<Property Name="GainBand1" Type="Real32" Value="15"/>
+															</PropertyList>
+														</Effect>
+													</Custom>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Main Character" ID="{07135C75-97AF-4EF9-8EDC-7B9585BE8B73}" WorkUnitID="{F10B222B-2801-430A-B717-538AC6BBF93D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Dinosaur Footstep-SoundBible_com-1559542884" ID="{B72E2B0A-7E0C-4406-876B-4DB407967145}" ShortID="674718906">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.0190726268625612"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.29129102844639"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.15258101490049"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.539235177659686"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Dinosaur Footstep-SoundBible.com-1559542884.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{25095F50-E817-474B-96E1-45318606B3CC}">
+													<PropertyList>
+														<Property Name="PanY" Type="Real64" Value="90"/>
+													</PropertyList>
+												</Panner>
+											</PositioningInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="Dinosaur Footstep-SoundBible_com-1559542884" ID="{B72E2B0A-7E0C-4406-876B-4DB407967145}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<Sound Name="Death_Ogre" ID="{5EF80705-329B-4E70-8363-D6DB3A900284}" ShortID="116">
+									<Comment>Audiokinetic Inc. All rights reserved.
+Audio content provided by Alexander Brandon
+© 2008 Alexander Brandon
+www.alexanderbrandon.net
+
+The Audio Content contained in this file is the property of Alexander Brandon.  Y
+our sole right with regard to this Audio Content is to listen to the Audio Content as part of this project.  
+This Audio Content cannot be used or modified for a commercial purpose nor for public demonstration.</Comment>
+									<PropertyList>
+										<Property Name="EnablePanner" Type="bool" Value="True"/>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+										<Property Name="UserAuxSendVolume0" Type="Real64">
+											<ValueList>
+												<Value>12</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAF928FC-2A2A-4F7A-8A7C-0010690433A5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Character" ID="{07135C75-97AF-4EF9-8EDC-7B9585BE8B73}" WorkUnitID="{F10B222B-2801-430A-B717-538AC6BBF93D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Zombie Long Death-SoundBible_com-554299929_01" ID="{71CDC03F-E9BD-4093-AEF5-3B23B827744A}" ShortID="9031633">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.324027250579292"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.850571532770658"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.55017582379414"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Zombie Long Death-SoundBible.com-554299929.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<PositioningInfo>
+										<Panner Name="" ID="{9FC3AD79-FCFE-42D4-AC92-299357D8A0C5}">
+											<PropertyList>
+												<Property Name="PanY" Type="Real64" Value="90"/>
+											</PropertyList>
+										</Panner>
+									</PositioningInfo>
+									<ActiveSourceList>
+										<ActiveSource Name="Zombie Long Death-SoundBible_com-554299929_01" ID="{71CDC03F-E9BD-4093-AEF5-3B23B827744A}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
@@ -3883,7 +3918,7 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>12</Value>
+												<Value>-9</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -3911,6 +3946,91 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 									</ChildrenList>
 									<ActiveSourceList>
 										<ActiveSource Name="Pew_Pew-DKnight556-1379997159" ID="{FCB84CDD-864A-46E4-882B-EBC239E477FB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Fire_Chaingun" ID="{C6CF2C7E-00CA-4BFF-97E6-EB89BDA16B27}" ShortID="203452769">
+									<PropertyList>
+										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAF928FC-2A2A-4F7A-8A7C-0010690433A5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F10B222B-2801-430A-B717-538AC6BBF93D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Shooting An MP5-SoundBible_com-704967207" ID="{CC2F4624-3691-41E5-9945-595793403400}" ShortID="636178009">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.218697559257109"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.459651949766048"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Shooting An MP5-SoundBible.com-704967207.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Shooting An MP5-SoundBible_com-704967207" ID="{CC2F4624-3691-41E5-9945-595793403400}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<SwitchContainer Name="New Switch Container" ID="{3A910601-5ADC-4AFC-BF74-F2A0B458A97D}" ShortID="819415023">
+									<PropertyList>
+										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAF928FC-2A2A-4F7A-8A7C-0010690433A5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F10B222B-2801-430A-B717-538AC6BBF93D}"/>
+										</Reference>
+									</ReferenceList>
+									<GroupingInfo>
+										<GroupRef Name="" ID="{00000000-0000-0000-0000-000000000000}"/>
+										<DefaultSwitchRef Name="" ID="{00000000-0000-0000-0000-000000000000}"/>
+									</GroupingInfo>
+								</SwitchContainer>
+								<Sound Name="Fire_Fireball" ID="{AB57D21E-90A4-4B2B-BCA4-97D12E0515F1}" ShortID="569211440">
+									<PropertyList>
+										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Main Attenuation" ID="{CB118EF0-7984-49E5-A075-7431C2392256}" WorkUnitID="{23276E4C-2FE8-487E-8901-9951885E0682}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="SFX" ID="{AE8A4EDB-E552-4275-9909-2809490D427A}" WorkUnitID="{FAF928FC-2A2A-4F7A-8A7C-0010690433A5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Weapons" ID="{ACE33DD1-7E1E-4140-BD1C-FC1F438F0788}" WorkUnitID="{F10B222B-2801-430A-B717-538AC6BBF93D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Comet-SoundBible_com-1256431940" ID="{F999649F-5E93-41D2-841D-C8E1EB9E8942}" ShortID="752080961">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.196035864382223"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.490089660955557"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.140900777524723"/>
+												<Property Name="TrimEnd" Type="Real64" Value="2.23603407810973"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Comet-SoundBible.com-1256431940.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Comet-SoundBible_com-1256431940" ID="{F999649F-5E93-41D2-841D-C8E1EB9E8942}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>

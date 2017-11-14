@@ -60,6 +60,16 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{3F96DC98-6A58-4994-B137-AEC1AAA6B941}" ShortID="778349398">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Monster_Unaware" ID="{B94CB362-C69D-4283-98BD-4DAAC1734739}" WorkUnitID="{597F57E3-0AE0-489A-89D6-B675E86BC3BA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="Story_Start" ID="{9EDEB51C-92A6-48CD-83C5-75605FA1D890}">
