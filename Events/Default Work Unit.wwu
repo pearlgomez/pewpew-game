@@ -1662,7 +1662,30 @@
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="DCP_Music" ID="{286E1228-C70E-4521-BE23-4944D536BD11}"/>
+								<Event Name="DCP_Music" ID="{286E1228-C70E-4521-BE23-4944D536BD11}">
+									<ChildrenList>
+										<Action Name="" ID="{53877188-25DE-42A3-B185-10AE044797C8}" ShortID="1053183421">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Ambience_Bed" ID="{736D1EBC-50BB-40EC-B2DF-61F3560DDF1D}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{BF491D2C-1650-4489-9A12-185D9E5A9E61}" ShortID="189313419">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Ambience_one shot" ID="{F0E2BF6F-2DA9-4278-AC1D-EE45EF48E658}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>
