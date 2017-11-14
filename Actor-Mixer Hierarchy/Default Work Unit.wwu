@@ -3454,9 +3454,35 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 													<Language>SFX</Language>
 													<AudioFile>203335__kendrayoder__male-look-over-there.wav</AudioFile>
 												</AudioFileSource>
+												<AudioFileSource Name="341488__rocotilos__woo-hoo" ID="{046BB7BC-DA4F-4B79-A364-7B6267A87AA4}" ShortID="82781623">
+													<Language>SFX</Language>
+													<AudioFile>341488__rocotilos__woo-hoo.wav</AudioFile>
+												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="203335__kendrayoder__male-look-over-there" ID="{1A397B6A-BF0B-46CF-9904-2C8271FE0DA9}" Platform="Linked"/>
+												<ActiveSource Name="341488__rocotilos__woo-hoo" ID="{046BB7BC-DA4F-4B79-A364-7B6267A87AA4}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="rifle_1" ID="{5CA84CE9-22E2-4302-BB24-BBC3BB82597D}" ShortID="37399177">
+											<PropertyList>
+												<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAF928FC-2A2A-4F7A-8A7C-0010690433A5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F10B222B-2801-430A-B717-538AC6BBF93D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="404561__superphat__assaultrifle2" ID="{1342CD66-D7E3-4DF9-B2CC-CA39331E94B6}" ShortID="990557182">
+													<Language>SFX</Language>
+													<AudioFile>404561__superphat__assaultrifle2.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="404561__superphat__assaultrifle2" ID="{1342CD66-D7E3-4DF9-B2CC-CA39331E94B6}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
@@ -3509,6 +3535,18 @@ www.alexanderbrandon.net
 The Audio Content contained in this file is the property of Alexander Brandon.  Y
 our sole right with regard to this Audio Content is to listen to the Audio Content as part of this project.  
 This Audio Content cannot be used or modified for a commercial purpose nor for public demonstration.</Comment>
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>200</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-11</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAF928FC-2A2A-4F7A-8A7C-0010690433A5}"/>
@@ -3517,6 +3555,15 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F10B222B-2801-430A-B717-538AC6BBF93D}"/>
 												</Reference>
 											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="343969__reitanna__hoo-hoo-hoo" ID="{AF68B800-F3D9-4413-BDBA-261C67A1B42A}" ShortID="204156063">
+													<Language>SFX</Language>
+													<AudioFile>343969__reitanna__hoo-hoo-hoo.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="343969__reitanna__hoo-hoo-hoo" ID="{AF68B800-F3D9-4413-BDBA-261C67A1B42A}" Platform="Linked"/>
+											</ActiveSourceList>
 										</Sound>
 										<Sound Name="explodemini2" ID="{55E7EA2F-6F7F-482D-8218-DA1F8F6002DC}" ShortID="700725297">
 											<Comment>Audiokinetic Inc. All rights reserved.
@@ -3630,6 +3677,13 @@ www.alexanderbrandon.net
 The Audio Content contained in this file is the property of Alexander Brandon.  Y
 our sole right with regard to this Audio Content is to listen to the Audio Content as part of this project.  
 This Audio Content cannot be used or modified for a commercial purpose nor for public demonstration.</Comment>
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-5</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAF928FC-2A2A-4F7A-8A7C-0010690433A5}"/>
@@ -3638,6 +3692,15 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F10B222B-2801-430A-B717-538AC6BBF93D}"/>
 												</Reference>
 											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="376817__original-sound__impact-cinematic" ID="{9EC5BEEE-2FE0-42B1-8034-84CAB14E5521}" ShortID="90803256">
+													<Language>SFX</Language>
+													<AudioFile>376817__original-sound__impact-cinematic.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="376817__original-sound__impact-cinematic" ID="{9EC5BEEE-2FE0-42B1-8034-84CAB14E5521}" Platform="Linked"/>
+											</ActiveSourceList>
 										</Sound>
 										<Sound Name="iceball2" ID="{88470DCC-2764-4C52-B447-AB0E91D8E445}" ShortID="337365890">
 											<Comment>Audiokinetic Inc. All rights reserved.
@@ -4186,7 +4249,7 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
 										<Property Name="Pitch" Type="int32">
 											<ValueList>
-												<Value>-400</Value>
+												<Value>100</Value>
 											</ValueList>
 										</Property>
 										<Property Name="Volume" Type="Real64">
@@ -4216,9 +4279,16 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 											<Language>SFX</Language>
 											<AudioFile>classic_ricochet-Grant_Evans-2096178843.wav</AudioFile>
 										</AudioFileSource>
+										<AudioFileSource Name="365635__obxjohn__laser-gun-pew-pew" ID="{7708700A-8BD1-41F5-9338-EE9304A615BC}" ShortID="79256132">
+											<PropertyList>
+												<Property Name="TrimBegin" Type="Real64" Value="2.34390707413527"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>365635__obxjohn__laser-gun-pew-pew.wav</AudioFile>
+										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Pew_Pew-DKnight556-1379997159" ID="{FCB84CDD-864A-46E4-882B-EBC239E477FB}" Platform="Linked"/>
+										<ActiveSource Name="365635__obxjohn__laser-gun-pew-pew" ID="{7708700A-8BD1-41F5-9338-EE9304A615BC}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Fire_Chaingun" ID="{C6CF2C7E-00CA-4BFF-97E6-EB89BDA16B27}" ShortID="203452769">
@@ -4309,6 +4379,16 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 								<Sound Name="Fireball_player" ID="{9561AD9F-B35A-460A-9830-ECA4836B80B4}" ShortID="17825708">
 									<PropertyList>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>130</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-9</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -4318,6 +4398,47 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F10B222B-2801-430A-B717-538AC6BBF93D}"/>
 										</Reference>
 									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="343969__reitanna__hoo-hoo-hoo" ID="{9AB88C88-E2CE-4B98-B548-186183A1D4C4}" ShortID="703339300">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.167442802066122"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.148617871656321"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.775785290045997"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>343969__reitanna__hoo-hoo-hoo.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="343969__reitanna__hoo-hoo-hoo" ID="{9AB88C88-E2CE-4B98-B548-186183A1D4C4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="shotgun_monster" ID="{A9C1348A-766F-4369-A5DC-D17359901ABE}" ShortID="926356594">
+									<PropertyList>
+										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-9</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAF928FC-2A2A-4F7A-8A7C-0010690433A5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F10B222B-2801-430A-B717-538AC6BBF93D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="163455__lemudcrab__shotgun-shot" ID="{38F5D92F-B70E-410B-A644-A51AF237F265}" ShortID="69869991">
+											<Language>SFX</Language>
+											<AudioFile>163455__lemudcrab__shotgun-shot.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="163455__lemudcrab__shotgun-shot" ID="{38F5D92F-B70E-410B-A644-A51AF237F265}" Platform="Linked"/>
+									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
 						</ActorMixer>

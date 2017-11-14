@@ -411,7 +411,7 @@
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="rlaunch" ID="{CE5BEBBF-2391-4D8F-9311-EF3CE10B9D5C}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
+													<ObjectRef Name="explodemini1" ID="{122AD097-BF85-46C5-89F5-1AD6C8E961D1}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -492,7 +492,7 @@
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="ExplodeMini" ID="{416D2A2A-9B50-4443-AB39-49882E7ABE2F}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
+													<ObjectRef Name="Fireball_player" ID="{9561AD9F-B35A-460A-9830-ECA4836B80B4}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -506,7 +506,7 @@
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="FLaunch" ID="{FA52FB46-0985-49CF-9BA8-6220B17AB0F1}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
+													<ObjectRef Name="explodemini1" ID="{122AD097-BF85-46C5-89F5-1AD6C8E961D1}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -576,7 +576,7 @@
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Shotgun_Blast" ID="{D348433B-57F7-47B6-BD89-4B223923E2D9}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
+													<ObjectRef Name="shotgun_monster" ID="{A9C1348A-766F-4369-A5DC-D17359901ABE}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -614,7 +614,7 @@
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Rifle" ID="{1510F866-7AD1-41B7-B1E1-9461304C0A50}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
+													<ObjectRef Name="rifle_1" ID="{5CA84CE9-22E2-4302-BB24-BBC3BB82597D}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>

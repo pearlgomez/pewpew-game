@@ -201,7 +201,7 @@
 				</File>
 				<File Id="42457730" Language="SFX">
 					<ShortName>ShotgunShellsConcrete_1.wav</ShortName>
-					<Path>SFX/ShotgunShellsConcrete_1_86DBA7E9.wem</Path>
+					<Path>SFX/ShotgunShellsConcrete_1_09CF97ED.wem</Path>
 				</File>
 				<File Id="46033609" Language="SFX">
 					<ShortName>344014__reitanna__heheh.wav</ShortName>
@@ -209,35 +209,47 @@
 				</File>
 				<File Id="61401203" Language="SFX">
 					<ShortName>341666__sharesynth__electricity00.wav</ShortName>
-					<Path>SFX/341666__sharesynth__electricity00_97728F6A.wem</Path>
+					<Path>SFX/341666__sharesynth__electricity00_F12A510D.wem</Path>
+				</File>
+				<File Id="69869991" Language="SFX">
+					<ShortName>163455__lemudcrab__shotgun-shot.wav</ShortName>
+					<Path>SFX/163455__lemudcrab__shotgun-shot_F109A50D.wem</Path>
 				</File>
 				<File Id="75994475" Language="SFX">
 					<ShortName>ShotgunShellsConcrete_2.wav</ShortName>
-					<Path>SFX/ShotgunShellsConcrete_2_F2C1FCB3.wem</Path>
+					<Path>SFX/ShotgunShellsConcrete_2_EF43B3CA.wem</Path>
+				</File>
+				<File Id="79256132" Language="SFX">
+					<ShortName>365635__obxjohn__laser-gun-pew-pew.wav</ShortName>
+					<Path>SFX/365635__obxjohn__laser-gun-pew-pew_A7F96B65.wem</Path>
+				</File>
+				<File Id="82781623" Language="SFX">
+					<ShortName>341488__rocotilos__woo-hoo.wav</ShortName>
+					<Path>SFX/341488__rocotilos__woo-hoo_F109A50D.wem</Path>
+				</File>
+				<File Id="90803256" Language="SFX">
+					<ShortName>376817__original-sound__impact-cinematic.wav</ShortName>
+					<Path>SFX/376817__original-sound__impact-cinematic_F109A50D.wem</Path>
 				</File>
 				<File Id="93562048" Language="SFX">
 					<ShortName>ShotgunShellsConcrete_4.wav</ShortName>
-					<Path>SFX/ShotgunShellsConcrete_4_E5BB3E0F.wem</Path>
+					<Path>SFX/ShotgunShellsConcrete_4_50A2DD44.wem</Path>
 				</File>
 				<File Id="108686981" Language="SFX">
 					<ShortName>Banana Peel Slip Zip-SoundBible.com-803276918.wav</ShortName>
 					<Path>SFX/Banana Peel Slip Zip-SoundBible.com-803276918_53CEE377.wem</Path>
 				</File>
+				<File Id="204156063" Language="SFX">
+					<ShortName>343969__reitanna__hoo-hoo-hoo.wav</ShortName>
+					<Path>SFX/343969__reitanna__hoo-hoo-hoo_F109A50D.wem</Path>
+				</File>
 				<File Id="230262097" Language="SFX">
 					<ShortName>ShotgunShellsConcrete_2.wav</ShortName>
-					<Path>SFX/ShotgunShellsConcrete_2_D77EBC17.wem</Path>
+					<Path>SFX/ShotgunShellsConcrete_2_929C0248.wem</Path>
 				</File>
 				<File Id="239807211" Language="SFX">
 					<ShortName>144459__hemogrec__don.wav</ShortName>
 					<Path>SFX/144459__hemogrec__don_F109A50D.wem</Path>
-				</File>
-				<File Id="332866304" Language="SFX">
-					<ShortName>341488__rocotilos__woo-hoo.wav</ShortName>
-					<Path>SFX/341488__rocotilos__woo-hoo_ECDF4E70.wem</Path>
-				</File>
-				<File Id="378286723" Language="SFX">
-					<ShortName>163455__lemudcrab__shotgun-shot.wav</ShortName>
-					<Path>SFX/163455__lemudcrab__shotgun-shot_F109A50D.wem</Path>
 				</File>
 				<File Id="381394182" Language="SFX">
 					<ShortName>Cartoon Walking-SoundBible.com-2130722123.wav</ShortName>
@@ -249,7 +261,7 @@
 				</File>
 				<File Id="396311229" Language="SFX">
 					<ShortName>ShotgunShellsConcrete_4.wav</ShortName>
-					<Path>SFX/ShotgunShellsConcrete_4_3606F43F.wem</Path>
+					<Path>SFX/ShotgunShellsConcrete_4_76D5B355.wem</Path>
 				</File>
 				<File Id="483961884" Language="SFX">
 					<ShortName>Zombie Moan-SoundBible.com-565291980.wav</ShortName>
@@ -265,7 +277,7 @@
 				</File>
 				<File Id="641695933" Language="SFX">
 					<ShortName>405275__mousepatrol__what-evanbackoff1.wav</ShortName>
-					<Path>SFX/405275__mousepatrol__what-evanbackoff1_E99D3601.wem</Path>
+					<Path>SFX/405275__mousepatrol__what-evanbackoff1_C4C212BA.wem</Path>
 				</File>
 				<File Id="643295112" Language="SFX">
 					<ShortName>eiya.wav</ShortName>
@@ -277,35 +289,31 @@
 				</File>
 				<File Id="677085125" Language="SFX">
 					<ShortName>Pacman_Introduction_Music-KP-826387403.wav</ShortName>
-					<Path>SFX/Pacman_Introduction_Music-KP-826387403_111D9533.wem</Path>
+					<Path>SFX/Pacman_Introduction_Music-KP-826387403_F2279D9A.wem</Path>
 				</File>
-				<File Id="731234549" Language="SFX">
+				<File Id="703339300" Language="SFX">
 					<ShortName>343969__reitanna__hoo-hoo-hoo.wav</ShortName>
-					<Path>SFX/343969__reitanna__hoo-hoo-hoo_EBEE9468.wem</Path>
+					<Path>SFX/343969__reitanna__hoo-hoo-hoo_6E9785AD.wem</Path>
 				</File>
 				<File Id="752080961" Language="SFX">
 					<ShortName>Comet-SoundBible.com-1256431940.wav</ShortName>
 					<Path>SFX/Comet-SoundBible.com-1256431940_39285A8C.wem</Path>
 				</File>
-				<File Id="772503589" Language="SFX">
-					<ShortName>365635__obxjohn__laser-gun-pew-pew.wav</ShortName>
-					<Path>SFX/365635__obxjohn__laser-gun-pew-pew_CD22BA00.wem</Path>
-				</File>
 				<File Id="860634897" Language="SFX">
 					<ShortName>ShotgunShellsConcrete_3.wav</ShortName>
-					<Path>SFX/ShotgunShellsConcrete_3_D173D4E5.wem</Path>
+					<Path>SFX/ShotgunShellsConcrete_3_8A189FC2.wem</Path>
 				</File>
 				<File Id="863502451" Language="SFX">
 					<ShortName>382017__11linda__come-on.wav</ShortName>
-					<Path>SFX/382017__11linda__come-on_46DD36D6.wem</Path>
+					<Path>SFX/382017__11linda__come-on_7EBE03AB.wem</Path>
 				</File>
 				<File Id="863604603" Language="SFX">
 					<ShortName>ShotgunShellsConcrete_1.wav</ShortName>
-					<Path>SFX/ShotgunShellsConcrete_1_67115F5F.wem</Path>
+					<Path>SFX/ShotgunShellsConcrete_1_2C9BC335.wem</Path>
 				</File>
 				<File Id="875893140" Language="SFX">
 					<ShortName>ShotgunShellsConcrete_3.wav</ShortName>
-					<Path>SFX/ShotgunShellsConcrete_3_BA9E44A8.wem</Path>
+					<Path>SFX/ShotgunShellsConcrete_3_932A51B9.wem</Path>
 				</File>
 				<File Id="894863162" Language="SFX">
 					<ShortName>Evil Yelling-SoundBible.com-1774362373.wav</ShortName>
@@ -327,13 +335,9 @@
 					<ShortName>voice-prompts-male-voice-male-jazz-scat-slow-singing-vocalization-bass-song-human-voice.wav</ShortName>
 					<Path>SFX/voice-prompts-male-voice-male-jazz-scat-slow-singing-vocalization-bass-song-human-voice_D3E32E6F.wem</Path>
 				</File>
-				<File Id="1017730034" Language="SFX">
-					<ShortName>376817__original-sound__impact-cinematic.wav</ShortName>
-					<Path>SFX/376817__original-sound__impact-cinematic_F109A50D.wem</Path>
-				</File>
-				<File Id="1036230007" Language="SFX">
+				<File Id="990557182" Language="SFX">
 					<ShortName>404561__superphat__assaultrifle2.wav</ShortName>
-					<Path>SFX/404561__superphat__assaultrifle2_8BF76B05.wem</Path>
+					<Path>SFX/404561__superphat__assaultrifle2_F109A50D.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
