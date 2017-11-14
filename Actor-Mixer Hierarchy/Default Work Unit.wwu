@@ -600,6 +600,11 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 									<PropertyList>
 										<Property Name="EnablePanner" Type="bool" Value="True"/>
 										<Property Name="OverrideEffect" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
@@ -984,6 +989,11 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 								<Sound Name="Itempick_health" ID="{FAFA575D-F0FE-4F60-B63C-A5336C1C40DE}" ShortID="673992131">
 									<PropertyList>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-7</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -1394,7 +1404,7 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 												<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-17</Value>
+														<Value>-5</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -1654,7 +1664,7 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 										</Panner>
 									</PositioningInfo>
 									<ActiveSourceList>
-										<ActiveSource Name="405275__mousepatrol__what-evanbackoff1" ID="{66386C8D-C7FA-4C38-945E-8BB533E226DA}" Platform="Linked"/>
+										<ActiveSource Name="Kid_Says_Hey_4x-Mike_Koenig-1120910186" ID="{EA55F33C-930C-40C3-AF9F-EEA0FDED18DE}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 								<RandomSequenceContainer Name="Jump" ID="{C68DCB9A-4A53-4A11-88C8-A181DB28C2C4}" ShortID="273234059">
@@ -1675,7 +1685,7 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 												<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-5</Value>
+														<Value>-9</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -1793,6 +1803,11 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 										<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
 										<Property Name="PositioningType" Type="int16" Value="1"/>
 										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>4</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -1830,6 +1845,11 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 										<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
 										<Property Name="PositioningType" Type="int16" Value="1"/>
 										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>3</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -2601,11 +2621,6 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 								<Sound Name="Monster_Spawn" ID="{501B59E8-3953-49D0-9DD9-2F60E5C41019}" ShortID="38699064">
 									<PropertyList>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-4</Value>
-											</ValueList>
-										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -2781,6 +2796,11 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 										<Property Name="UserAuxSendVolume0" Type="Real64">
 											<ValueList>
 												<Value>12</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>6</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -4314,7 +4334,7 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="365635__obxjohn__laser-gun-pew-pew" ID="{7708700A-8BD1-41F5-9338-EE9304A615BC}" Platform="Linked"/>
+										<ActiveSource Name="Pew_Pew-DKnight556-1379997159" ID="{FCB84CDD-864A-46E4-882B-EBC239E477FB}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Fire_Chaingun" ID="{C6CF2C7E-00CA-4BFF-97E6-EB89BDA16B27}" ShortID="203452769">
@@ -4511,7 +4531,7 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-10</Value>
+												<Value>-3</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>

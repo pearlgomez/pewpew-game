@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="125">
 	<RootPaths>
-		<ProjectRoot>/Users/amanda/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/y:/Documents/GitHub/pewpew-game/</ProjectRoot>
-		<SourceFilesRoot>/Users/amanda/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/y:/Documents/GitHub/pewpew-game/.cache/Windows/</SourceFilesRoot>
-		<SoundBanksRoot>/Users/amanda/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/y:/Documents/GitHub/pewpew-game/GeneratedSoundBanks/Windows/</SoundBanksRoot>
+		<ProjectRoot>/Users/pearlgomez/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/y:/Desktop/WwiseProject/</ProjectRoot>
+		<SourceFilesRoot>/Users/pearlgomez/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/y:/Desktop/WwiseProject/.cache/Windows/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/pearlgomez/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/y:/Desktop/WwiseProject/GeneratedSoundBanks/Windows/</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Y:\Documents\GitHub\cube\soundbanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Y:\Desktop\cube\soundbanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -235,10 +235,6 @@
 					<ShortName>ShotgunShellsConcrete_2.wav</ShortName>
 					<Path>SFX/ShotgunShellsConcrete_2_EF43B3CA.wem</Path>
 				</File>
-				<File Id="79256132" Language="SFX">
-					<ShortName>365635__obxjohn__laser-gun-pew-pew.wav</ShortName>
-					<Path>SFX/365635__obxjohn__laser-gun-pew-pew_C2294867.wem</Path>
-				</File>
 				<File Id="82781623" Language="SFX">
 					<ShortName>341488__rocotilos__woo-hoo.wav</ShortName>
 					<Path>SFX/341488__rocotilos__woo-hoo_F109A50D.wem</Path>
@@ -254,6 +250,10 @@
 				<File Id="108686981" Language="SFX">
 					<ShortName>Banana Peel Slip Zip-SoundBible.com-803276918.wav</ShortName>
 					<Path>SFX/Banana Peel Slip Zip-SoundBible.com-803276918_53CEE377.wem</Path>
+				</File>
+				<File Id="197648221" Language="SFX">
+					<ShortName>Pew_Pew-DKnight556-1379997159.wav</ShortName>
+					<Path>SFX/Pew_Pew-DKnight556-1379997159_F109A50D.wem</Path>
 				</File>
 				<File Id="204156063" Language="SFX">
 					<ShortName>343969__reitanna__hoo-hoo-hoo.wav</ShortName>
@@ -291,13 +291,13 @@
 					<ShortName>Growling Lion-SoundBible.com-495747737.wav</ShortName>
 					<Path>SFX/Growling Lion-SoundBible.com-495747737_61B786E2.wem</Path>
 				</File>
+				<File Id="577530091" Language="SFX">
+					<ShortName>Kid_Says_Hey_4x-Mike_Koenig-1120910186.wav</ShortName>
+					<Path>SFX/Kid_Says_Hey_4x-Mike_Koenig-1120910186_4CAF982B.wem</Path>
+				</File>
 				<File Id="636178009" Language="SFX">
 					<ShortName>Shooting An MP5-SoundBible.com-704967207.wav</ShortName>
 					<Path>SFX/Shooting An MP5-SoundBible.com-704967207_953D1720.wem</Path>
-				</File>
-				<File Id="641695933" Language="SFX">
-					<ShortName>405275__mousepatrol__what-evanbackoff1.wav</ShortName>
-					<Path>SFX/405275__mousepatrol__what-evanbackoff1_C4C212BA.wem</Path>
 				</File>
 				<File Id="643295112" Language="SFX">
 					<ShortName>eiya.wav</ShortName>
