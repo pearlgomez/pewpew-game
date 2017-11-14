@@ -1132,7 +1132,7 @@
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Foot_Player" ID="{B8193C99-BA0E-4648-A26F-7D0E5257E118}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
+													<ObjectRef Name="Footsteps" ID="{586A2ECC-C3FE-4B8A-9C97-0F3B825CDFA2}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -1681,6 +1681,16 @@
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="Ambience_one shot" ID="{F0E2BF6F-2DA9-4278-AC1D-EE45EF48E658}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{463C5586-B4D7-4D2D-8E1C-BA8FC479596F}" ShortID="418546369">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Heartbeat" ID="{4BEED43F-BFBF-4001-87F4-6E0AD5D1492A}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>

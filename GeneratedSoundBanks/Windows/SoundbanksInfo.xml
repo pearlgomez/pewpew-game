@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="125">
 	<RootPaths>
-		<ProjectRoot>/Users/pearlgomez/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/y:/Desktop/WwiseProject/</ProjectRoot>
-		<SourceFilesRoot>/Users/pearlgomez/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/y:/Desktop/WwiseProject/.cache/Windows/</SourceFilesRoot>
-		<SoundBanksRoot>/Users/pearlgomez/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/y:/Desktop/WwiseProject/GeneratedSoundBanks/Windows/</SoundBanksRoot>
+		<ProjectRoot>/Users/amanda/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/y:/Documents/GitHub/pewpew-game/</ProjectRoot>
+		<SourceFilesRoot>/Users/amanda/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/y:/Documents/GitHub/pewpew-game/.cache/Windows/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/amanda/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/y:/Documents/GitHub/pewpew-game/GeneratedSoundBanks/Windows/</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Y:\Desktop\cube\soundbanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Y:\Documents\GitHub\cube\soundbanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -70,10 +70,6 @@
 					<ShortName>enter04.wav</ShortName>
 					<Path>SFX/enter04_53CEE377.wem</Path>
 				</File>
-				<File Id="556001437" Language="SFX">
-					<ShortName>Ambience Children Group Playground Distant 01.wav</ShortName>
-					<Path>SFX/Ambience Children Group Playground Distant 01_9452F465.wem</Path>
-				</File>
 				<File Id="579081663" Language="SFX">
 					<ShortName>enter03.wav</ShortName>
 					<Path>SFX/enter03_53CEE377.wem</Path>
@@ -90,6 +86,10 @@
 					<ShortName>enter05.wav</ShortName>
 					<Path>SFX/enter05_53CEE377.wem</Path>
 				</File>
+				<File Id="736216333" Language="SFX">
+					<ShortName>Heartbeat-SoundBible.com-1259974459.wav</ShortName>
+					<Path>SFX/Heartbeat-SoundBible.com-1259974459_9452F465.wem</Path>
+				</File>
 				<File Id="779474542" Language="SFX">
 					<ShortName>one_shot_1.wav</ShortName>
 					<Path>SFX/one_shot_1_53CEE377.wem</Path>
@@ -101,6 +101,10 @@
 				<File Id="882747087" Language="SFX">
 					<ShortName>enter06.wav</ShortName>
 					<Path>SFX/enter06_53CEE377.wem</Path>
+				</File>
+				<File Id="934535835" Language="SFX">
+					<ShortName>Wood Forest SOUND EFFECT - Ambience Background Wald SOUND.wav</ShortName>
+					<Path>SFX/Wood Forest SOUND EFFECT - Ambience Background Wald SOUND_9452F465.wem</Path>
 				</File>
 				<File Id="955125784" Language="SFX">
 					<ShortName>oneshot2.wav</ShortName>
@@ -251,6 +255,10 @@
 					<ShortName>Banana Peel Slip Zip-SoundBible.com-803276918.wav</ShortName>
 					<Path>SFX/Banana Peel Slip Zip-SoundBible.com-803276918_53CEE377.wem</Path>
 				</File>
+				<File Id="139449084" Language="SFX">
+					<ShortName>Crickets-SoundBible.com-1506135086.wav</ShortName>
+					<Path>SFX/Crickets-SoundBible.com-1506135086_9DB0EA81.wem</Path>
+				</File>
 				<File Id="197648221" Language="SFX">
 					<ShortName>Pew_Pew-DKnight556-1379997159.wav</ShortName>
 					<Path>SFX/Pew_Pew-DKnight556-1379997159_F109A50D.wem</Path>
@@ -267,10 +275,6 @@
 					<ShortName>144459__hemogrec__don.wav</ShortName>
 					<Path>SFX/144459__hemogrec__don_F109A50D.wem</Path>
 				</File>
-				<File Id="381394182" Language="SFX">
-					<ShortName>Cartoon Walking-SoundBible.com-2130722123.wav</ShortName>
-					<Path>SFX/Cartoon Walking-SoundBible.com-2130722123_78981797.wem</Path>
-				</File>
 				<File Id="389149876" Language="SFX">
 					<ShortName>Angry Chipmunk-SoundBible.com-980210050.wav</ShortName>
 					<Path>SFX/Angry Chipmunk-SoundBible.com-980210050_965A4CA7.wem</Path>
@@ -282,6 +286,10 @@
 				<File Id="445463663" Language="SFX">
 					<ShortName>250154__robinhood76__05433-stinger-rocket-deploy.wav</ShortName>
 					<Path>SFX/250154__robinhood76__05433-stinger-rocket-deploy_81C0D145.wem</Path>
+				</File>
+				<File Id="461053243" Language="SFX">
+					<ShortName>154774__jpkweli__footsteps-on-concrete.wav</ShortName>
+					<Path>SFX/154774__jpkweli__footsteps-on-concrete_D59B3CA3.wem</Path>
 				</File>
 				<File Id="483961884" Language="SFX">
 					<ShortName>Zombie Moan-SoundBible.com-565291980.wav</ShortName>
@@ -303,6 +311,10 @@
 					<ShortName>eiya.wav</ShortName>
 					<Path>SFX/eiya_F109A50D.wem</Path>
 				</File>
+				<File Id="657361137" Language="SFX">
+					<ShortName>Crickets-SoundBible.com-1506135086.wav</ShortName>
+					<Path>SFX/Crickets-SoundBible.com-1506135086_170F313C.wem</Path>
+				</File>
 				<File Id="674718906" Language="SFX">
 					<ShortName>Dinosaur Footstep-SoundBible.com-1559542884.wav</ShortName>
 					<Path>SFX/Dinosaur Footstep-SoundBible.com-1559542884_0DFDD2CF.wem</Path>
@@ -315,9 +327,21 @@
 					<ShortName>343969__reitanna__hoo-hoo-hoo.wav</ShortName>
 					<Path>SFX/343969__reitanna__hoo-hoo-hoo_4BB13AE7.wem</Path>
 				</File>
+				<File Id="717331168" Language="SFX">
+					<ShortName>Cartoon Walking-SoundBible.com-2130722123.wav</ShortName>
+					<Path>SFX/Cartoon Walking-SoundBible.com-2130722123_08C5BE0C.wem</Path>
+				</File>
 				<File Id="752080961" Language="SFX">
 					<ShortName>Comet-SoundBible.com-1256431940.wav</ShortName>
 					<Path>SFX/Comet-SoundBible.com-1256431940_39285A8C.wem</Path>
+				</File>
+				<File Id="753486443" Language="SFX">
+					<ShortName>204610__pikachu09__monster-snarl-3.wav</ShortName>
+					<Path>SFX/204610__pikachu09__monster-snarl-3_C3A90378.wem</Path>
+				</File>
+				<File Id="765365977" Language="SFX">
+					<ShortName>Crickets-SoundBible.com-1506135086.wav</ShortName>
+					<Path>SFX/Crickets-SoundBible.com-1506135086_DF01F6D6.wem</Path>
 				</File>
 				<File Id="860634897" Language="SFX">
 					<ShortName>ShotgunShellsConcrete_3.wav</ShortName>
@@ -335,6 +359,10 @@
 					<ShortName>ShotgunShellsConcrete_3.wav</ShortName>
 					<Path>SFX/ShotgunShellsConcrete_3_932A51B9.wem</Path>
 				</File>
+				<File Id="887367597" Language="SFX">
+					<ShortName>154774__jpkweli__footsteps-on-concrete.wav</ShortName>
+					<Path>SFX/154774__jpkweli__footsteps-on-concrete_E107EF6E.wem</Path>
+				</File>
 				<File Id="894863162" Language="SFX">
 					<ShortName>Evil Yelling-SoundBible.com-1774362373.wav</ShortName>
 					<Path>SFX/Evil Yelling-SoundBible.com-1774362373_BDC0CB48.wem</Path>
@@ -347,9 +375,17 @@
 					<ShortName>Zombie In Pain-SoundBible.com-134322253.wav</ShortName>
 					<Path>SFX/Zombie In Pain-SoundBible.com-134322253_FB0EE930.wem</Path>
 				</File>
+				<File Id="938649429" Language="SFX">
+					<ShortName>154774__jpkweli__footsteps-on-concrete.wav</ShortName>
+					<Path>SFX/154774__jpkweli__footsteps-on-concrete_9A55F2A4.wem</Path>
+				</File>
 				<File Id="959326497" Language="SFX">
 					<ShortName>SOUND EFFECT HELLO DARKNESS MY OLD FRIEND(ORIGINAL).wav</ShortName>
 					<Path>SFX/SOUND EFFECT HELLO DARKNESS MY OLD FRIEND(ORIGINAL)_53CEE377.wem</Path>
+				</File>
+				<File Id="974095749" Language="SFX">
+					<ShortName>204610__pikachu09__monster-snarl-3.wav</ShortName>
+					<Path>SFX/204610__pikachu09__monster-snarl-3_AC18C950.wem</Path>
 				</File>
 				<File Id="988986733" Language="SFX">
 					<ShortName>voice-prompts-male-voice-male-jazz-scat-slow-singing-vocalization-bass-song-human-voice.wav</ShortName>
@@ -358,6 +394,18 @@
 				<File Id="990557182" Language="SFX">
 					<ShortName>404561__superphat__assaultrifle2.wav</ShortName>
 					<Path>SFX/404561__superphat__assaultrifle2_F109A50D.wem</Path>
+				</File>
+				<File Id="996537914" Language="SFX">
+					<ShortName>220633__albertrella__monster.wav</ShortName>
+					<Path>SFX/220633__albertrella__monster_B1D801EF.wem</Path>
+				</File>
+				<File Id="1007094459" Language="SFX">
+					<ShortName>Cartoon Walking-SoundBible.com-2130722123.wav</ShortName>
+					<Path>SFX/Cartoon Walking-SoundBible.com-2130722123_F9C992D1.wem</Path>
+				</File>
+				<File Id="1057579811" Language="SFX">
+					<ShortName>Cartoon Walking-SoundBible.com-2130722123.wav</ShortName>
+					<Path>SFX/Cartoon Walking-SoundBible.com-2130722123_2AD427D0.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

@@ -1203,7 +1203,31 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="Concrete" ID="{6F5832F0-1BEA-43A0-ADF7-7DA1EB15CA30}" ShortID="65">
 											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{AE6A4345-7925-4861-B324-1F9E0CC48708}">
+																<PropertyList>
+																	<Property Name="Max" Type="Real64" Value="50"/>
+																	<Property Name="Min" Type="Real64" Value="-50"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
 												<Property Name="PositioningType" Type="int16" Value="1"/>
+												<Property Name="Volume" Type="Real64">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{3B1CA79D-8507-49A6-BB12-918AA78CB5D0}">
+																<PropertyList>
+																	<Property Name="Max" Type="Real64" Value="5"/>
+																	<Property Name="Min" Type="Real64" Value="-5"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Attenuation">
@@ -1219,6 +1243,11 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 											<ChildrenList>
 												<Sound Name="FS_Concrete_01" ID="{71E25E32-3165-435F-B275-8A0B741DB1D9}" ShortID="61">
 													<PropertyList>
+														<Property Name="Pitch" Type="int32">
+															<ValueList>
+																<Value>150</Value>
+															</ValueList>
+														</Property>
 														<Property Name="PositioningType" Type="int16" Value="1"/>
 													</PropertyList>
 													<ReferenceList>
@@ -1232,9 +1261,36 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F10B222B-2801-430A-B717-538AC6BBF93D}"/>
 														</Reference>
 													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Frying Pan Hit-SoundBible_com-2141771342" ID="{51C11084-2AD1-4D6D-81F1-38E513D3D94F}" ShortID="817976923">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.370147417099589"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.502061656172316"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Frying Pan Hit-SoundBible.com-2141771342.wav</AudioFile>
+														</AudioFileSource>
+														<AudioFileSource Name="154774__jpkweli__footsteps-on-concrete" ID="{1B9BAE0F-BA54-4D4F-93F0-B45E42C449FF}" ShortID="887367597">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.306141502552881"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.262407002188184"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.865943107221006"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>154774__jpkweli__footsteps-on-concrete.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="154774__jpkweli__footsteps-on-concrete" ID="{1B9BAE0F-BA54-4D4F-93F0-B45E42C449FF}" Platform="Linked"/>
+													</ActiveSourceList>
 												</Sound>
 												<Sound Name="FS_Concrete_02" ID="{B6CB56B2-F569-4525-BB7E-51D8D00EF02D}" ShortID="62">
 													<PropertyList>
+														<Property Name="Pitch" Type="int32">
+															<ValueList>
+																<Value>-230</Value>
+															</ValueList>
+														</Property>
 														<Property Name="PositioningType" Type="int16" Value="1"/>
 													</PropertyList>
 													<ReferenceList>
@@ -1248,9 +1304,38 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F10B222B-2801-430A-B717-538AC6BBF93D}"/>
 														</Reference>
 													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Frying Pan Hit-SoundBible_com-2141771342" ID="{7CAD45ED-C16A-4B18-ADB3-B7DD9F414B9C}" ShortID="943809512">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.102381200474355"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.0551283387169602"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.281548301304475"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Frying Pan Hit-SoundBible.com-2141771342.wav</AudioFile>
+														</AudioFileSource>
+														<AudioFileSource Name="154774__jpkweli__footsteps-on-concrete" ID="{826B0D00-9496-4D40-8EAB-6E744DC7A4D2}" ShortID="461053243">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.183684901531729"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.533560904449307"/>
+																<Property Name="TrimBegin" Type="Real64" Value="1.01464040846098"/>
+																<Property Name="TrimEnd" Type="Real64" Value="1.81935521517141"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>154774__jpkweli__footsteps-on-concrete.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="154774__jpkweli__footsteps-on-concrete" ID="{826B0D00-9496-4D40-8EAB-6E744DC7A4D2}" Platform="Linked"/>
+													</ActiveSourceList>
 												</Sound>
 												<Sound Name="FS_Concrete_03" ID="{B2BCAEA3-361C-44E8-AAD1-2D0325D36AFA}" ShortID="63">
 													<PropertyList>
+														<Property Name="Pitch" Type="int32">
+															<ValueList>
+																<Value>-450</Value>
+															</ValueList>
+														</Property>
 														<Property Name="PositioningType" Type="int16" Value="1"/>
 													</PropertyList>
 													<ReferenceList>
@@ -1264,6 +1349,30 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F10B222B-2801-430A-B717-538AC6BBF93D}"/>
 														</Reference>
 													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Frying Pan Hit-SoundBible_com-2141771342" ID="{EE1B602E-D3BE-49D6-8BFE-6D9F46FB997F}" ShortID="985045833">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.183104839309903"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.149634062231749"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.519781479331339"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Frying Pan Hit-SoundBible.com-2141771342.wav</AudioFile>
+														</AudioFileSource>
+														<AudioFileSource Name="154774__jpkweli__footsteps-on-concrete" ID="{A70FFDCC-4AE9-4537-9CF3-1399176ECAA5}" ShortID="938649429">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.227419401896426"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.131203501094092"/>
+																<Property Name="TrimBegin" Type="Real64" Value="2.46662582056893"/>
+																<Property Name="TrimEnd" Type="Real64" Value="3.07016192560175"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>154774__jpkweli__footsteps-on-concrete.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="154774__jpkweli__footsteps-on-concrete" ID="{A70FFDCC-4AE9-4537-9CF3-1399176ECAA5}" Platform="Linked"/>
+													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
 										</RandomSequenceContainer>
@@ -1335,7 +1444,31 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="Tile" ID="{854950FE-0A47-44D9-88EC-B0B445F6B8A6}" ShortID="75">
 											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{DC3FE38E-D5A4-424C-ABC5-772742CC37A0}">
+																<PropertyList>
+																	<Property Name="Max" Type="Real64" Value="50"/>
+																	<Property Name="Min" Type="Real64" Value="-50"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
 												<Property Name="PositioningType" Type="int16" Value="1"/>
+												<Property Name="Volume" Type="Real64">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{383BF3C0-137B-4C81-B2C1-0E7F12BAADDE}">
+																<PropertyList>
+																	<Property Name="Max" Type="Real64" Value="5"/>
+																	<Property Name="Min" Type="Real64" Value="-5"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Attenuation">
@@ -1364,6 +1497,19 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F10B222B-2801-430A-B717-538AC6BBF93D}"/>
 														</Reference>
 													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Cartoon Walking-SoundBible_com-2130722123" ID="{23223422-F423-4602-A821-2F89BAA65825}" ShortID="1057579811">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.169345306320924"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.338690612641847"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Cartoon Walking-SoundBible.com-2130722123.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Cartoon Walking-SoundBible_com-2130722123" ID="{23223422-F423-4602-A821-2F89BAA65825}" Platform="Linked"/>
+													</ActiveSourceList>
 												</Sound>
 												<Sound Name="FS_Tile_02" ID="{6B62AF3C-235A-4B28-A998-2A57B11681AE}" ShortID="72">
 													<PropertyList>
@@ -1380,6 +1526,21 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F10B222B-2801-430A-B717-538AC6BBF93D}"/>
 														</Reference>
 													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Cartoon Walking-SoundBible_com-2130722123" ID="{762760C4-4818-4067-9FF2-7FAC1D847A2A}" ShortID="717331168">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.117341629576703"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.0853393669648749"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.417362841562591"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.737385467680872"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Cartoon Walking-SoundBible.com-2130722123.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Cartoon Walking-SoundBible_com-2130722123" ID="{762760C4-4818-4067-9FF2-7FAC1D847A2A}" Platform="Linked"/>
+													</ActiveSourceList>
 												</Sound>
 												<Sound Name="FS_Tile_03" ID="{860A5B73-71E9-4BEC-A383-166000B3E648}" ShortID="73">
 													<PropertyList>
@@ -1396,6 +1557,21 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F10B222B-2801-430A-B717-538AC6BBF93D}"/>
 														</Reference>
 													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Cartoon Walking-SoundBible_com-2130722123" ID="{4615BBFB-A5F6-4FE0-82A6-928C465EEBEB}" ShortID="1007094459">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.10800763631492"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.10800763631492"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.844059676386966"/>
+																<Property Name="TrimEnd" Type="Real64" Value="1.1720828681582"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Cartoon Walking-SoundBible.com-2130722123.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Cartoon Walking-SoundBible_com-2130722123" ID="{4615BBFB-A5F6-4FE0-82A6-928C465EEBEB}" Platform="Linked"/>
+													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
 										</RandomSequenceContainer>
@@ -1430,6 +1606,148 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 												<ActiveSource Name="Cartoon Walking-SoundBible_com-2130722123" ID="{92C14BDE-1E83-49E2-B18B-BDD53872ED0F}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
+										<RandomSequenceContainer Name="Sand" ID="{7053ED93-BE7C-4DDA-B4C0-200429A5C54A}" ShortID="7074551">
+											<PropertyList>
+												<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{0F2DD8E3-7841-4ED7-94A6-BCB0B3C06C72}">
+																<PropertyList>
+																	<Property Name="Max" Type="Real64" Value="50"/>
+																	<Property Name="Min" Type="Real64" Value="-50"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-8</Value>
+													</ValueList>
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{F8871BA4-BE96-49C4-8324-51C7A9642B43}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="False"/>
+																	<Property Name="Max" Type="Real64" Value="5"/>
+																	<Property Name="Min" Type="Real64" Value="-5"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAF928FC-2A2A-4F7A-8A7C-0010690433A5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F10B222B-2801-430A-B717-538AC6BBF93D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="FS_Sand_01" ID="{235EAA3C-6028-4105-A67E-F8735D0B4755}" ShortID="798156946">
+													<PropertyList>
+														<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-12</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAF928FC-2A2A-4F7A-8A7C-0010690433A5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F10B222B-2801-430A-B717-538AC6BBF93D}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Crickets-SoundBible_com-1506135086" ID="{156BC7A0-730C-44F5-9A0D-EFD444AB8D04}" ShortID="139449084">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.750241593355066"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.242265514520907"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.734611560160169"/>
+																<Property Name="TrimEnd" Type="Real64" Value="2.49299029458611"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Crickets-SoundBible.com-1506135086.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Crickets-SoundBible_com-1506135086" ID="{156BC7A0-730C-44F5-9A0D-EFD444AB8D04}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="FS_Sand_02" ID="{831DF749-D2C7-413F-B4E6-5BBA4497E599}" ShortID="196826909">
+													<PropertyList>
+														<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-17</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAF928FC-2A2A-4F7A-8A7C-0010690433A5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F10B222B-2801-430A-B717-538AC6BBF93D}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Crickets-SoundBible_com-1506135086" ID="{66371434-2513-434D-81DB-89883D85BDFC}" ShortID="657361137">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.523606112029057"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.734611560160169"/>
+																<Property Name="TrimBegin" Type="Real64" Value="3.16508172196669"/>
+																<Property Name="TrimEnd" Type="Real64" Value="4.97816557257476"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Crickets-SoundBible.com-1506135086.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Crickets-SoundBible_com-1506135086" ID="{66371434-2513-434D-81DB-89883D85BDFC}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="FS_Sand_03" ID="{79F76F74-9B8A-497D-B078-93E08E505CB4}" ShortID="49410870">
+													<PropertyList>
+														<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-17</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAF928FC-2A2A-4F7A-8A7C-0010690433A5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F10B222B-2801-430A-B717-538AC6BBF93D}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Crickets-SoundBible_com-1506135086" ID="{D50136B2-4709-4FC3-9999-AD5D32F87B55}" ShortID="765365977">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="1.32855282156626"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="1.10191734024025"/>
+																<Property Name="TrimBegin" Type="Real64" Value="4.46237447714316"/>
+																<Property Name="TrimEnd" Type="Real64" Value="7.09603507048334"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Crickets-SoundBible.com-1506135086.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Crickets-SoundBible_com-1506135086" ID="{D50136B2-4709-4FC3-9999-AD5D32F87B55}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
 									</ChildrenList>
 									<GroupingInfo>
 										<GroupRef Name="Material" ID="{84EE54A9-8C89-4269-883C-19ACAFCBA945}"/>
@@ -1437,6 +1755,9 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 										<GroupingBehaviorList>
 											<GroupingBehavior>
 												<ItemRef Name="Gravel" ID="{D3E4B98B-A44A-496D-986D-A3C32ABD6C13}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Sand" ID="{7053ED93-BE7C-4DDA-B4C0-200429A5C54A}"/>
 											</GroupingBehavior>
 											<GroupingBehavior>
 												<ItemRef Name="Foot_Player" ID="{B8193C99-BA0E-4648-A26F-7D0E5257E118}"/>
@@ -1479,7 +1800,7 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 											<Grouping>
 												<SwitchRef Name="Sand" ID="{EC9B1B76-44A8-4F11-8EE3-AFB8C06C9897}"/>
 												<ItemList>
-													<ItemRef Name="Dirt" ID="{280703A8-DE18-41EF-B886-1C3F1586F0E7}"/>
+													<ItemRef Name="Sand" ID="{7053ED93-BE7C-4DDA-B4C0-200429A5C54A}"/>
 												</ItemList>
 											</Grouping>
 											<Grouping>
@@ -1503,7 +1824,7 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 											<Grouping>
 												<SwitchRef Name="Metal" ID="{A72BD8FB-A36D-410B-8882-203D5410142F}"/>
 												<ItemList>
-													<ItemRef Name="Tile" ID="{854950FE-0A47-44D9-88EC-B0B445F6B8A6}"/>
+													<ItemRef Name="Concrete" ID="{6F5832F0-1BEA-43A0-ADF7-7DA1EB15CA30}"/>
 												</ItemList>
 											</Grouping>
 										</GroupingList>
@@ -1537,6 +1858,34 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 									<PropertyList>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Lowpass" Type="int16">
+											<RTPCList>
+												<RTPC Name="" ID="{9B32BE82-2AD5-46BB-83CC-99A0CC7F1A61}" ShortID="799568856">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="PlayerHealth" ID="{B1BC4BE3-DED0-4EF1-89E0-83D78E80839C}" WorkUnitID="{3099D78D-24D8-428D-BDD1-C9B519ED933C}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{B8F31190-25FE-48F6-BDE3-117C54AD2B6B}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="65537"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-98</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>7</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
 										<Property Name="MakeUpGain" Type="Real64">
 											<ValueList>
 												<Value>8</Value>
@@ -1552,6 +1901,32 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 													</Modifier>
 												</ModifierInfo>
 											</ModifierList>
+											<RTPCList>
+												<RTPC Name="" ID="{CBAF277F-5165-47CD-98D7-FC4470C62474}" ShortID="485584663">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="PlayerHealth" ID="{B1BC4BE3-DED0-4EF1-89E0-83D78E80839C}" WorkUnitID="{3099D78D-24D8-428D-BDD1-C9B519ED933C}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{6C9AAEB4-5A35-48C4-861B-79026B7F27E6}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>0.84946</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>-38.11592</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
 										</Property>
 									</PropertyList>
 									<ReferenceList>
@@ -1562,6 +1937,15 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F10B222B-2801-430A-B717-538AC6BBF93D}"/>
 										</Reference>
 									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Heartbeat-SoundBible_com-1259974459" ID="{7919D014-1330-4C74-A7C8-991718932A93}" ShortID="736216333">
+											<Language>SFX</Language>
+											<AudioFile>Heartbeat-SoundBible.com-1259974459.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Heartbeat-SoundBible_com-1259974459" ID="{7919D014-1330-4C74-A7C8-991718932A93}" Platform="Linked"/>
+									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Death_Player" ID="{790C5744-5425-41F8-B81C-BD0C0ECC17A3}" ShortID="608847545">
 									<PropertyList>
@@ -1883,7 +2267,22 @@ The Audio Content contained in this file is the property of Alexander Brandon.  
 our sole right with regard to this Audio Content is to listen to the Audio Content as part of this project.  
 This Audio Content cannot be used or modified for a commercial purpose nor for public demonstration.</Comment>
 									<PropertyList>
+										<Property Name="Highpass" Type="int16">
+											<ValueList>
+												<Value>8</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>50</Value>
+											</ValueList>
+										</Property>
 										<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>710</Value>
+											</ValueList>
+										</Property>
 										<Property Name="PositioningType" Type="int16" Value="1"/>
 										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 									</PropertyList>
@@ -1895,6 +2294,21 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 											<ObjectRef Name="SFX" ID="{151C0E6C-362D-488B-86D0-E49251035307}" WorkUnitID="{F10B222B-2801-430A-B717-538AC6BBF93D}"/>
 										</Reference>
 									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="204610__pikachu09__monster-snarl-3" ID="{ECA31603-766D-4D36-80DC-C8D493DADDC0}" ShortID="974095749">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.77553124240214"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.447682758004734"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.481598118459638"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.25712936086178"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>204610__pikachu09__monster-snarl-3.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="204610__pikachu09__monster-snarl-3" ID="{ECA31603-766D-4D36-80DC-C8D493DADDC0}" Platform="Linked"/>
+									</ActiveSourceList>
 								</Sound>
 								<RandomSequenceContainer Name="Grunt" ID="{923FB8F9-890E-44D0-AD05-1C905020F514}" ShortID="100">
 									<PropertyList>
@@ -2573,6 +2987,13 @@ www.alexanderbrandon.net
 The Audio Content contained in this file is the property of Alexander Brandon.  Y
 our sole right with regard to this Audio Content is to listen to the Audio Content as part of this project.  
 This Audio Content cannot be used or modified for a commercial purpose nor for public demonstration.</Comment>
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAF928FC-2A2A-4F7A-8A7C-0010690433A5}"/>
@@ -2581,6 +3002,19 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F10B222B-2801-430A-B717-538AC6BBF93D}"/>
 										</Reference>
 									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="220633__albertrella__monster" ID="{A58DACB7-FA38-40E3-9556-D8C4ABA61BB6}" ShortID="996537914">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0824384604315833"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.479641951601939"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>220633__albertrella__monster.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="220633__albertrella__monster" ID="{A58DACB7-FA38-40E3-9556-D8C4ABA61BB6}" Platform="Linked"/>
+									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Death_Goblin" ID="{2E561525-1E49-4558-8E3C-4E4428026686}" ShortID="629270442">
 									<Comment>Audiokinetic Inc. All rights reserved.
@@ -2591,6 +3025,18 @@ www.alexanderbrandon.net
 The Audio Content contained in this file is the property of Alexander Brandon.  Y
 our sole right with regard to this Audio Content is to listen to the Audio Content as part of this project.  
 This Audio Content cannot be used or modified for a commercial purpose nor for public demonstration.</Comment>
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>-480</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAF928FC-2A2A-4F7A-8A7C-0010690433A5}"/>
@@ -2599,6 +3045,21 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F10B222B-2801-430A-B717-538AC6BBF93D}"/>
 										</Reference>
 									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="204610__pikachu09__monster-snarl-3" ID="{1702C665-8E2F-44BB-BEDF-913601A0C66A}" ShortID="753486443">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.603693416097292"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.151488610031905"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.438638661883426"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.53297429256166"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>204610__pikachu09__monster-snarl-3.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="204610__pikachu09__monster-snarl-3" ID="{1702C665-8E2F-44BB-BEDF-913601A0C66A}" Platform="Linked"/>
+									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Death_Knight" ID="{6A062618-D9E4-42DF-8D86-FDA704CA16F4}" ShortID="656664573">
 									<Comment>Audiokinetic Inc. All rights reserved.
@@ -4508,8 +4969,9 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 										<ModifierInfo>
 											<Modifier Name="" ID="{A283360B-6869-4FA7-8895-42F705596BEE}">
 												<PropertyList>
-													<Property Name="Max" Type="Real64" Value="20"/>
-													<Property Name="Min" Type="Real64" Value="-30"/>
+													<Property Name="Enabled" Type="bool" Value="False"/>
+													<Property Name="Max" Type="Real64" Value="10"/>
+													<Property Name="Min" Type="Real64" Value="-10"/>
 												</PropertyList>
 											</Modifier>
 										</ModifierInfo>
@@ -4531,7 +4993,7 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-3</Value>
+												<Value>6</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -4548,20 +5010,50 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 											<Language>SFX</Language>
 											<AudioFile>Ambience Children Group Playground Distant 01.wav</AudioFile>
 										</AudioFileSource>
+										<AudioFileSource Name="Wood Forest SOUND EFFECT - Ambience Background Wald SOUND" ID="{D0AB0A55-9A8A-48D6-9BDC-96BCE3064EC7}" ShortID="934535835">
+											<Language>SFX</Language>
+											<AudioFile>Wood Forest SOUND EFFECT - Ambience Background Wald SOUND.wav</AudioFile>
+										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Ambience Children Group Playground Distant 01" ID="{FC3ACF28-90BF-4790-90CE-6AA26BC96DDA}" Platform="Linked"/>
+										<ActiveSource Name="Wood Forest SOUND EFFECT - Ambience Background Wald SOUND" ID="{D0AB0A55-9A8A-48D6-9BDC-96BCE3064EC7}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 								<RandomSequenceContainer Name="Ambience_one shot" ID="{F0E2BF6F-2DA9-4278-AC1D-EE45EF48E658}" ShortID="493606307">
 									<PropertyList>
+										<Property Name="3DPositionSource" Type="int16" Value="0"/>
+										<Property Name="FollowListenerOrientation" Type="bool" Value="False"/>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{D0D22DE0-3FB9-4A7C-8A44-9852C8A6786A}">
+														<PropertyList>
+															<Property Name="Max" Type="Real64" Value="20"/>
+															<Property Name="Min" Type="Real64" Value="-20"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
 										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+										<Property Name="PositioningType" Type="int16" Value="1"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-15</Value>
+												<Value>6</Value>
 											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{F82215D8-CDA3-4850-A69D-6EE3D406DCBA}">
+														<PropertyList>
+															<Property Name="Max" Type="Real64" Value="10"/>
+															<Property Name="Min" Type="Real64" Value="-10"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
 										</Property>
 									</PropertyList>
 									<ReferenceList>
@@ -4684,6 +5176,188 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
+									<PositioningInfo>
+										<Position Name="" ID="{913322DF-CFA5-403B-9858-A37A8A8158C6}">
+											<PropertyList>
+												<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+											</PropertyList>
+											<ChildrenList>
+												<Path2D Name="1" ID="{E8C8D76A-27FC-461E-AD61-DD374AD74CE9}">
+													<PropertyList>
+														<Property Name="Duration" Type="int32" Value="10000"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>15.82279</XPos>
+															<YPos>-20.06369</YPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+														<Point>
+															<XPos>33.54431</XPos>
+															<YPos>28.02548</YPos>
+															<Flags>0</Flags>
+															<Time>1666</Time>
+														</Point>
+														<Point>
+															<XPos>-0.63292</XPos>
+															<YPos>36.30574</YPos>
+															<Flags>0</Flags>
+															<Time>3333</Time>
+														</Point>
+														<Point>
+															<XPos>-34.17721</XPos>
+															<YPos>23.56688</YPos>
+															<Flags>0</Flags>
+															<Time>5000</Time>
+														</Point>
+														<Point>
+															<XPos>-27.84811</XPos>
+															<YPos>-14.64967</YPos>
+															<Flags>0</Flags>
+															<Time>6666</Time>
+														</Point>
+														<Point>
+															<XPos>-0.63291</XPos>
+															<YPos>-23.56688</YPos>
+															<Flags>0</Flags>
+															<Time>8333</Time>
+														</Point>
+														<Point>
+															<XPos>16.4556962025316</XPos>
+															<YPos>-20.3821656050955</YPos>
+															<Flags>0</Flags>
+															<Time>10000</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+												<Path2D Name="2" ID="{1E6E3356-2336-47EA-8647-A906786BA673}">
+													<PropertyList>
+														<Property Name="Duration" Type="int32" Value="10000"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>60.12658</XPos>
+															<YPos>-12.42038</YPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+														<Point>
+															<XPos>37.97468</XPos>
+															<YPos>-26.11465</YPos>
+															<Flags>0</Flags>
+															<Time>2500</Time>
+														</Point>
+														<Point>
+															<XPos>-32.91139</XPos>
+															<YPos>-40.76433</YPos>
+															<Flags>0</Flags>
+															<Time>5000</Time>
+														</Point>
+														<Point>
+															<XPos>-57.59494</XPos>
+															<YPos>-40.76433</YPos>
+															<Flags>0</Flags>
+															<Time>7500</Time>
+														</Point>
+														<Point>
+															<XPos>-67.72152</XPos>
+															<YPos>-3.18471</YPos>
+															<Flags>0</Flags>
+															<Time>10000</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+												<Path2D Name="3" ID="{359395F1-191B-46E5-B832-7CEEA194DFEA}">
+													<PropertyList>
+														<Property Name="Duration" Type="int32" Value="10000"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>73.41772</XPos>
+															<YPos>33.43949</YPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+														<Point>
+															<XPos>43.03797</XPos>
+															<YPos>54.77707</YPos>
+															<Flags>0</Flags>
+															<Time>2500</Time>
+														</Point>
+														<Point>
+															<XPos>-8.22785</XPos>
+															<YPos>21.0191</YPos>
+															<Flags>0</Flags>
+															<Time>5000</Time>
+														</Point>
+														<Point>
+															<XPos>-37.97468</XPos>
+															<YPos>-8.9172</YPos>
+															<Flags>0</Flags>
+															<Time>7500</Time>
+														</Point>
+														<Point>
+															<XPos>-76.58228</XPos>
+															<YPos>-25.47771</YPos>
+															<Flags>0</Flags>
+															<Time>10000</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+												<Path2D Name="4" ID="{91313F31-1249-4F24-A85A-1F9E0162FB8E}">
+													<PropertyList>
+														<Property Name="Duration" Type="int32" Value="10000"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>39.24051</XPos>
+															<YPos>59.55414</YPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+														<Point>
+															<XPos>64.55696</XPos>
+															<YPos>-48.40765</YPos>
+															<Flags>0</Flags>
+															<Time>1666</Time>
+														</Point>
+														<Point>
+															<XPos>17.72152</XPos>
+															<YPos>-5.09554</YPos>
+															<Flags>0</Flags>
+															<Time>3333</Time>
+														</Point>
+														<Point>
+															<XPos>-1.26582</XPos>
+															<YPos>-39.49045</YPos>
+															<Flags>0</Flags>
+															<Time>5000</Time>
+														</Point>
+														<Point>
+															<XPos>-22.1519</XPos>
+															<YPos>-5.09554</YPos>
+															<Flags>0</Flags>
+															<Time>6666</Time>
+														</Point>
+														<Point>
+															<XPos>-79.11392</XPos>
+															<YPos>-49.04458</YPos>
+															<Flags>0</Flags>
+															<Time>8333</Time>
+														</Point>
+														<Point>
+															<XPos>-56.96203</XPos>
+															<YPos>54.77707</YPos>
+															<Flags>0</Flags>
+															<Time>10000</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+											</ChildrenList>
+										</Position>
+									</PositioningInfo>
 								</RandomSequenceContainer>
 							</ChildrenList>
 						</ActorMixer>

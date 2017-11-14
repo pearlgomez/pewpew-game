@@ -7,5 +7,5 @@ Event	ID	Name			Wwise Object Path	Notes
 	3430883159	Monsters_Aware			\Music\Monsters_Aware	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	988986733	Monster_Unaware	Y:\Desktop\WwiseProject\.cache\Windows\SFX\voice-prompts-male-voice-male-jazz-scat-slow-singing-vocalization-bass-song-human-voice_D3E32E6F.wem		\Actor-Mixer Hierarchy\Music\Monster_Unaware		552944
+	988986733	Monster_Unaware	Y:\Documents\GitHub\pewpew-game\.cache\Windows\SFX\voice-prompts-male-voice-male-jazz-scat-slow-singing-vocalization-bass-song-human-voice_D3E32E6F.wem		\Actor-Mixer Hierarchy\Music\Monster_Unaware		552944
 

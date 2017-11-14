@@ -15,6 +15,9 @@ Event	ID	Name			Wwise Object Path	Notes
 	2829720191	DCP_Signal02			\Default Work Unit\Maps\DCP_the_core\DCP_Signal02	
 	3721111614	DCP_Music			\Default Work Unit\Maps\DCP_the_core\DCP_Music	
 
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	151362964	PlayerHealth			\Default Work Unit\PlayerHealth	
+
 Effect plug-ins	ID	Name	Type				Notes
 	564140752	Default (Custom)	Wwise Matrix Reverb			
 	805262001	Default (Custom)	Wwise Matrix Reverb			
@@ -23,22 +26,23 @@ Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
 	81289994	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Main\Ambience\Ambience_one shot\Silence\Wwise Silence	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	55290557	enter10	Y:\Desktop\WwiseProject\.cache\Windows\SFX\enter10_53CEE377.wem		\Actor-Mixer Hierarchy\Default Work Unit\Maps\DCP_the_core\Map Voices\enter10		194104
-	187024402	Signal01	Y:\Desktop\WwiseProject\.cache\Windows\SFX\signal01_53CEE377.wem		\Actor-Mixer Hierarchy\Default Work Unit\Maps\DCP_the_core\Map Items\Signal01		114734
-	203424728	oneshot3	Y:\Desktop\WwiseProject\.cache\Windows\SFX\oneshot3_53CEE377.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Ambience\Ambience_one shot\oneshot3		1712008
-	209784911	enter12	Y:\Desktop\WwiseProject\.cache\Windows\SFX\enter12_53CEE377.wem		\Actor-Mixer Hierarchy\Default Work Unit\Maps\DCP_the_core\Map Voices\enter12		166134
-	245661189	enter01	Y:\Desktop\WwiseProject\.cache\Windows\SFX\enter01_53CEE377.wem		\Actor-Mixer Hierarchy\Default Work Unit\Maps\DCP_the_core\Map Voices\enter01		158824
-	396065929	enter02	Y:\Desktop\WwiseProject\.cache\Windows\SFX\enter02_53CEE377.wem		\Actor-Mixer Hierarchy\Default Work Unit\Maps\DCP_the_core\Map Voices\enter02		227786
-	405744097	enter07	Y:\Desktop\WwiseProject\.cache\Windows\SFX\enter07_53CEE377.wem		\Actor-Mixer Hierarchy\Default Work Unit\Maps\DCP_the_core\Map Voices\enter07		264664
-	504552545	enter04	Y:\Desktop\WwiseProject\.cache\Windows\SFX\enter04_53CEE377.wem		\Actor-Mixer Hierarchy\Default Work Unit\Maps\DCP_the_core\Map Voices\enter04		262858
-	556001437	Ambience_Bed	Y:\Desktop\WwiseProject\.cache\Windows\SFX\Ambience Children Group Playground Distant 01_9452F465.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Ambience\Ambience_Bed		62917240
-	579081663	enter03	Y:\Desktop\WwiseProject\.cache\Windows\SFX\enter03_53CEE377.wem		\Actor-Mixer Hierarchy\Default Work Unit\Maps\DCP_the_core\Map Voices\enter03		179246
-	603800779	Signal02	Y:\Desktop\WwiseProject\.cache\Windows\SFX\signal02_53CEE377.wem		\Actor-Mixer Hierarchy\Default Work Unit\Maps\DCP_the_core\Map Items\Signal02		6728
-	651618676	enter11	Y:\Desktop\WwiseProject\.cache\Windows\SFX\enter11_53CEE377.wem		\Actor-Mixer Hierarchy\Default Work Unit\Maps\DCP_the_core\Map Voices\enter11		301708
-	705228804	enter05	Y:\Desktop\WwiseProject\.cache\Windows\SFX\enter05_53CEE377.wem		\Actor-Mixer Hierarchy\Default Work Unit\Maps\DCP_the_core\Map Voices\enter05		269074
-	779474542	one shot1	Y:\Desktop\WwiseProject\.cache\Windows\SFX\one_shot_1_53CEE377.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Ambience\Ambience_one shot\one shot1		1649728
-	819733394	enter09	Y:\Desktop\WwiseProject\.cache\Windows\SFX\enter09_53CEE377.wem		\Actor-Mixer Hierarchy\Default Work Unit\Maps\DCP_the_core\Map Voices\enter09		191658
-	882747087	enter06	Y:\Desktop\WwiseProject\.cache\Windows\SFX\enter06_53CEE377.wem		\Actor-Mixer Hierarchy\Default Work Unit\Maps\DCP_the_core\Map Voices\enter06		129936
-	955125784	oneshot2	Y:\Desktop\WwiseProject\.cache\Windows\SFX\oneshot2_53CEE377.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Ambience\Ambience_one shot\oneshot2		1119808
-	965577559	enter08	Y:\Desktop\WwiseProject\.cache\Windows\SFX\enter08_53CEE377.wem		\Actor-Mixer Hierarchy\Default Work Unit\Maps\DCP_the_core\Map Voices\enter08		172054
+	55290557	enter10	Y:\Documents\GitHub\pewpew-game\.cache\Windows\SFX\enter10_53CEE377.wem		\Actor-Mixer Hierarchy\Default Work Unit\Maps\DCP_the_core\Map Voices\enter10		194104
+	187024402	Signal01	Y:\Documents\GitHub\pewpew-game\.cache\Windows\SFX\signal01_53CEE377.wem		\Actor-Mixer Hierarchy\Default Work Unit\Maps\DCP_the_core\Map Items\Signal01		114734
+	203424728	oneshot3	Y:\Documents\GitHub\pewpew-game\.cache\Windows\SFX\oneshot3_53CEE377.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Ambience\Ambience_one shot\oneshot3		1712008
+	209784911	enter12	Y:\Documents\GitHub\pewpew-game\.cache\Windows\SFX\enter12_53CEE377.wem		\Actor-Mixer Hierarchy\Default Work Unit\Maps\DCP_the_core\Map Voices\enter12		166134
+	245661189	enter01	Y:\Documents\GitHub\pewpew-game\.cache\Windows\SFX\enter01_53CEE377.wem		\Actor-Mixer Hierarchy\Default Work Unit\Maps\DCP_the_core\Map Voices\enter01		158824
+	396065929	enter02	Y:\Documents\GitHub\pewpew-game\.cache\Windows\SFX\enter02_53CEE377.wem		\Actor-Mixer Hierarchy\Default Work Unit\Maps\DCP_the_core\Map Voices\enter02		227786
+	405744097	enter07	Y:\Documents\GitHub\pewpew-game\.cache\Windows\SFX\enter07_53CEE377.wem		\Actor-Mixer Hierarchy\Default Work Unit\Maps\DCP_the_core\Map Voices\enter07		264664
+	504552545	enter04	Y:\Documents\GitHub\pewpew-game\.cache\Windows\SFX\enter04_53CEE377.wem		\Actor-Mixer Hierarchy\Default Work Unit\Maps\DCP_the_core\Map Voices\enter04		262858
+	579081663	enter03	Y:\Documents\GitHub\pewpew-game\.cache\Windows\SFX\enter03_53CEE377.wem		\Actor-Mixer Hierarchy\Default Work Unit\Maps\DCP_the_core\Map Voices\enter03		179246
+	603800779	Signal02	Y:\Documents\GitHub\pewpew-game\.cache\Windows\SFX\signal02_53CEE377.wem		\Actor-Mixer Hierarchy\Default Work Unit\Maps\DCP_the_core\Map Items\Signal02		6728
+	651618676	enter11	Y:\Documents\GitHub\pewpew-game\.cache\Windows\SFX\enter11_53CEE377.wem		\Actor-Mixer Hierarchy\Default Work Unit\Maps\DCP_the_core\Map Voices\enter11		301708
+	705228804	enter05	Y:\Documents\GitHub\pewpew-game\.cache\Windows\SFX\enter05_53CEE377.wem		\Actor-Mixer Hierarchy\Default Work Unit\Maps\DCP_the_core\Map Voices\enter05		269074
+	736216333	Heartbeat	Y:\Documents\GitHub\pewpew-game\.cache\Windows\SFX\Heartbeat-SoundBible.com-1259974459_9452F465.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Main Character\Heartbeat		854848
+	779474542	one shot1	Y:\Documents\GitHub\pewpew-game\.cache\Windows\SFX\one_shot_1_53CEE377.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Ambience\Ambience_one shot\one shot1		1649728
+	819733394	enter09	Y:\Documents\GitHub\pewpew-game\.cache\Windows\SFX\enter09_53CEE377.wem		\Actor-Mixer Hierarchy\Default Work Unit\Maps\DCP_the_core\Map Voices\enter09		191658
+	882747087	enter06	Y:\Documents\GitHub\pewpew-game\.cache\Windows\SFX\enter06_53CEE377.wem		\Actor-Mixer Hierarchy\Default Work Unit\Maps\DCP_the_core\Map Voices\enter06		129936
+	934535835	Ambience_Bed	Y:\Documents\GitHub\pewpew-game\.cache\Windows\SFX\Wood Forest SOUND EFFECT - Ambience Background Wald SOUND_9452F465.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Ambience\Ambience_Bed		13160512
+	955125784	oneshot2	Y:\Documents\GitHub\pewpew-game\.cache\Windows\SFX\oneshot2_53CEE377.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Ambience\Ambience_one shot\oneshot2		1119808
+	965577559	enter08	Y:\Documents\GitHub\pewpew-game\.cache\Windows\SFX\enter08_53CEE377.wem		\Actor-Mixer Hierarchy\Default Work Unit\Maps\DCP_the_core\Map Voices\enter08		172054
 

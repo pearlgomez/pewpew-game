@@ -12,6 +12,13 @@
 						<State Name="Story" ID="{9C7E1D55-0381-41F2-A71F-F30BACE8101E}"/>
 					</ChildrenList>
 				</StateGroup>
+				<StateGroup Name="DCP_the_core_Buttons" ID="{A42AD123-759C-4EBA-83EE-9829B02235AB}">
+					<ChildrenList>
+						<State Name="None" ID="{CBB25A1A-158B-460F-80D7-5769B80B502A}"/>
+						<State Name="Enter" ID="{6BEC391B-D503-489F-9DE2-5CD482ECD814}"/>
+						<State Name="Button_1" ID="{4B8832D5-583D-4097-9FC6-94EEF3C53A2C}"/>
+					</ChildrenList>
+				</StateGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</States>

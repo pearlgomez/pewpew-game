@@ -13,6 +13,7 @@ Switch	ID	Name	Switch Group			Notes
 State Group	ID	Name			Wwise Object Path	Notes
 	444815956	PlayerLife			\Default Work Unit\PlayerLife	Player is alive or dead.
 	481714212	PlayerInWater			\Default Work Unit\PlayerInWater	Player is in water.
+	653156830	DCP_the_core_Buttons			\Music\DCP_the_core_Buttons	
 	1642418719	PlayerHasQuad			\Default Work Unit\PlayerHasQuad	Player is in quad damage mode.
 	3826569560	Music_State			\Music\Music_State	
 
@@ -23,6 +24,9 @@ State	ID	Name	State Group			Notes
 	748895195	None	PlayerInWater			
 	979470758	Yes	PlayerInWater			
 	1668749452	No	PlayerInWater			
+	748895195	None	DCP_the_core_Buttons			
+	2368844905	Enter	DCP_the_core_Buttons			
+	2661066113	Button_1	DCP_the_core_Buttons			
 	748895195	None	PlayerHasQuad			
 	979470758	Yes	PlayerHasQuad			
 	1668749452	No	PlayerHasQuad			
