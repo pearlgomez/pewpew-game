@@ -42,9 +42,21 @@
 					<ShortName>enter10.wav</ShortName>
 					<Path>SFX/enter10_53CEE377.wem</Path>
 				</File>
+				<File Id="143472060" Language="SFX">
+					<ShortName>Ambience Children Group Playground Distant 01.wav</ShortName>
+					<Path>SFX/Ambience Children Group Playground Distant 01_9452F465.wem</Path>
+				</File>
+				<File Id="175563677" Language="SFX">
+					<ShortName>oneshot2.wav</ShortName>
+					<Path>SFX/oneshot2_53CEE377.wem</Path>
+				</File>
 				<File Id="187024402" Language="SFX">
 					<ShortName>signal01.wav</ShortName>
 					<Path>SFX/signal01_53CEE377.wem</Path>
+				</File>
+				<File Id="205875690" Language="SFX">
+					<ShortName>oneshot3.wav</ShortName>
+					<Path>SFX/oneshot3_53CEE377.wem</Path>
 				</File>
 				<File Id="209784911" Language="SFX">
 					<ShortName>enter12.wav</ShortName>
@@ -69,6 +81,10 @@
 				<File Id="579081663" Language="SFX">
 					<ShortName>enter03.wav</ShortName>
 					<Path>SFX/enter03_53CEE377.wem</Path>
+				</File>
+				<File Id="585524902" Language="SFX">
+					<ShortName>one_shot_1.wav</ShortName>
+					<Path>SFX/one_shot_1_53CEE377.wem</Path>
 				</File>
 				<File Id="603800779" Language="SFX">
 					<ShortName>signal02.wav</ShortName>
@@ -262,6 +278,10 @@
 				<File Id="396311229" Language="SFX">
 					<ShortName>ShotgunShellsConcrete_4.wav</ShortName>
 					<Path>SFX/ShotgunShellsConcrete_4_76D5B355.wem</Path>
+				</File>
+				<File Id="445463663" Language="SFX">
+					<ShortName>250154__robinhood76__05433-stinger-rocket-deploy.wav</ShortName>
+					<Path>SFX/250154__robinhood76__05433-stinger-rocket-deploy_8DD3EE00.wem</Path>
 				</File>
 				<File Id="483961884" Language="SFX">
 					<ShortName>Zombie Moan-SoundBible.com-565291980.wav</ShortName>

@@ -2663,7 +2663,7 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-11</Value>
+														<Value>-8</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -2719,7 +2719,7 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>12</Value>
+														<Value>-6</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -2884,6 +2884,11 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 											<PropertyList>
 												<Property Name="OverrideEffect" Type="bool" Value="True"/>
 												<Property Name="PositioningType" Type="int16" Value="1"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-17</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -2903,6 +2908,19 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F10B222B-2801-430A-B717-538AC6BBF93D}"/>
 												</Reference>
 											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="250154__robinhood76__05433-stinger-rocket-deploy" ID="{BC176A60-DEFB-4CDA-9A73-C566B581CAE9}" ShortID="445463663">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="1.97594664999479"/>
+														<Property Name="TrimEnd" Type="Real64" Value="2.01525119456973"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>250154__robinhood76__05433-stinger-rocket-deploy.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="250154__robinhood76__05433-stinger-rocket-deploy" ID="{BC176A60-DEFB-4CDA-9A73-C566B581CAE9}" Platform="Linked"/>
+											</ActiveSourceList>
 										</Sound>
 										<Sound Name="Thrust" ID="{A94C3165-9FFF-41BB-8F72-F90CDE96D322}" ShortID="729843633">
 											<Comment>Audiokinetic Inc. All rights reserved.
@@ -4243,6 +4261,14 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F10B222B-2801-430A-B717-538AC6BBF93D}"/>
 										</Reference>
 									</ReferenceList>
+									<ChildrenList>
+										<SourcePlugin Name="Wwise Silence" ID="{AF25F7F2-39DE-4528-944F-7201247976D5}" ShortID="681388969" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+											<Language>SFX</Language>
+										</SourcePlugin>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Wwise Silence" ID="{AF25F7F2-39DE-4528-944F-7201247976D5}" Platform="Linked"/>
+									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Shotgun_Blast" ID="{442073B4-53AD-4016-902E-4D579DE0DF8A}" ShortID="1052191688">
 									<PropertyList>

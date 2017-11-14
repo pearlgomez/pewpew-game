@@ -119,6 +119,7 @@ Effect plug-ins	ID	Name	Type				Notes
 
 Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
 	593025620	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Main\Weapons\Shotgun Shells\Silence\Wwise Silence	
+	681388969	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Main\Weapons\Silence\Wwise Silence	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	9031633	Death_Ogre	Y:\Documents\GitHub\pewpew-game\.cache\Windows\SFX\Zombie Long Death-SoundBible.com-554299929_7704D6E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Monsters\Death_Ogre	Audiokinetic Inc. All rights reserved. Audio content provided by Alexander Brandon © 2008 Alexander Brandon www.alexanderbrandon.net  The Audio Content contained in this file is the property of Alexander Brandon.  Y our sole right with regard to this Audio Content is to listen to the Audio Content as part of this project.   This Audio Content cannot be used or modified for a commercial purpose nor for public demonstration.	123476
@@ -138,6 +139,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	381394182	Foot_Player	Y:\Documents\GitHub\pewpew-game\.cache\Windows\SFX\Cartoon Walking-SoundBible.com-2130722123_78981797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Main Character\Footsteps\Foot_Player		47812
 	389149876	Grunt_Rhino	Y:\Documents\GitHub\pewpew-game\.cache\Windows\SFX\Angry Chipmunk-SoundBible.com-980210050_965A4CA7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Monsters\Grunt\Grunt_Rhino		138696
 	396311229	ShotgunShellsConcrete_4	Y:\Documents\GitHub\pewpew-game\.cache\Windows\SFX\ShotgunShellsConcrete_4_76D5B355.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Weapons\Shotgun Shells\Shotgun Shells Tail\ShotgunShellsConcrete_4		9258
+	445463663	rlaunch	Y:\Documents\GitHub\pewpew-game\.cache\Windows\SFX\250154__robinhood76__05433-stinger-rocket-deploy_8DD3EE00.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Weapons\Rocket Launcher\rlaunch	Audiokinetic Inc. All rights reserved. Audio content provided by Alexander Brandon © 2008 Alexander Brandon www.alexanderbrandon.net  The Audio Content contained in this file is the property of Alexander Brandon.  Y our sole right with regard to this Audio Content is to listen to the Audio Content as part of this project.   This Audio Content cannot be used or modified for a commercial purpose nor for public demonstration.	31930
 	483961884	Monster_Spawn	Y:\Documents\GitHub\pewpew-game\.cache\Windows\SFX\Zombie Moan-SoundBible.com-565291980_56065891.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Monsters\Monster_Spawn		192688
 	509845718	Grunt_Ogre	Y:\Documents\GitHub\pewpew-game\.cache\Windows\SFX\Growling Lion-SoundBible.com-495747737_61B786E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Monsters\Grunt\Grunt_Ogre		91738
 	636178009	Fire_Chaingun	Y:\Documents\GitHub\pewpew-game\.cache\Windows\SFX\Shooting An MP5-SoundBible.com-704967207_953D1720.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Weapons\Fire_Chaingun		8658

@@ -463,7 +463,7 @@
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Explode" ID="{8057D34D-8D1E-402D-96FD-5018A25EFF07}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
+													<ObjectRef Name="ExplodeMini" ID="{416D2A2A-9B50-4443-AB39-49882E7ABE2F}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -628,7 +628,7 @@
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Explode" ID="{8057D34D-8D1E-402D-96FD-5018A25EFF07}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
+													<ObjectRef Name="ExplodeMini" ID="{416D2A2A-9B50-4443-AB39-49882E7ABE2F}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>

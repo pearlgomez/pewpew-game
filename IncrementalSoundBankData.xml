@@ -9,30 +9,28 @@
 				<File Name="Music" Hash="611388178" Timestamp="131516983470000000"/>
 			</Language>
 			<Language ID="393239870">
-				<File Name="DCP_the_core" Hash="895206743" Timestamp="131551069980000000"/>
 				<File Name="Init" Hash="3743387619" Timestamp="131550994280000000"/>
-				<File Name="Main" Hash="2508571970" Timestamp="131551078910000000"/>
+				<File Name="Main" Hash="2405291997" Timestamp="131551088970000000"/>
 				<File Name="Music" Hash="617591633" Timestamp="131550976290000000"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="2665493499" Timestamp="131551078910000000"/>
+				<File Name="" Hash="3060163703" Timestamp="131551093520000000"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
 	<Platform GUID="{6E0CB257-C6C8-4C5C-8366-2740DFC441EC}">
 		<Banks>
 			<Language ID="393239870">
-				<File Name="DCP_the_core" Hash="895206743" Timestamp="131551069980000000"/>
 				<File Name="Init" Hash="1015255221" Timestamp="131550994290000000"/>
-				<File Name="Main" Hash="2508571970" Timestamp="131551078910000000"/>
+				<File Name="Main" Hash="2405291997" Timestamp="131551088980000000"/>
 				<File Name="Music" Hash="617591633" Timestamp="131550976300000000"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="2219751417" Timestamp="131551078910000000"/>
+				<File Name="" Hash="3916987781" Timestamp="131551093530000000"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
