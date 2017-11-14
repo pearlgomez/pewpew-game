@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="125">
 	<RootPaths>
-		<ProjectRoot>/Users/pearlgomez/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/y:/Desktop/WwiseProject/</ProjectRoot>
-		<SourceFilesRoot>/Users/pearlgomez/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/y:/Desktop/WwiseProject/.cache/Windows/</SourceFilesRoot>
-		<SoundBanksRoot>/Users/pearlgomez/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/y:/Desktop/WwiseProject/GeneratedSoundBanks/Windows/</SoundBanksRoot>
+		<ProjectRoot>/Users/amanda/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/y:/Documents/GitHub/pewpew-game/</ProjectRoot>
+		<SourceFilesRoot>/Users/amanda/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/y:/Documents/GitHub/pewpew-game/.cache/Windows/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/amanda/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/y:/Documents/GitHub/pewpew-game/GeneratedSoundBanks/Windows/</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Y:\Desktop\cube\soundbanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Y:\Documents\GitHub\cube\soundbanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -199,13 +199,45 @@
 					<ShortName>Zombie Long Death-SoundBible.com-554299929.wav</ShortName>
 					<Path>SFX/Zombie Long Death-SoundBible.com-554299929_7704D6E2.wem</Path>
 				</File>
+				<File Id="42457730" Language="SFX">
+					<ShortName>ShotgunShellsConcrete_1.wav</ShortName>
+					<Path>SFX/ShotgunShellsConcrete_1_86DBA7E9.wem</Path>
+				</File>
+				<File Id="46033609" Language="SFX">
+					<ShortName>344014__reitanna__heheh.wav</ShortName>
+					<Path>SFX/344014__reitanna__heheh_53CEE377.wem</Path>
+				</File>
+				<File Id="61401203" Language="SFX">
+					<ShortName>341666__sharesynth__electricity00.wav</ShortName>
+					<Path>SFX/341666__sharesynth__electricity00_97728F6A.wem</Path>
+				</File>
+				<File Id="75994475" Language="SFX">
+					<ShortName>ShotgunShellsConcrete_2.wav</ShortName>
+					<Path>SFX/ShotgunShellsConcrete_2_F2C1FCB3.wem</Path>
+				</File>
+				<File Id="93562048" Language="SFX">
+					<ShortName>ShotgunShellsConcrete_4.wav</ShortName>
+					<Path>SFX/ShotgunShellsConcrete_4_E5BB3E0F.wem</Path>
+				</File>
 				<File Id="108686981" Language="SFX">
 					<ShortName>Banana Peel Slip Zip-SoundBible.com-803276918.wav</ShortName>
 					<Path>SFX/Banana Peel Slip Zip-SoundBible.com-803276918_53CEE377.wem</Path>
 				</File>
-				<File Id="197648221" Language="SFX">
-					<ShortName>Pew_Pew-DKnight556-1379997159.wav</ShortName>
-					<Path>SFX/Pew_Pew-DKnight556-1379997159_F109A50D.wem</Path>
+				<File Id="230262097" Language="SFX">
+					<ShortName>ShotgunShellsConcrete_2.wav</ShortName>
+					<Path>SFX/ShotgunShellsConcrete_2_D77EBC17.wem</Path>
+				</File>
+				<File Id="239807211" Language="SFX">
+					<ShortName>144459__hemogrec__don.wav</ShortName>
+					<Path>SFX/144459__hemogrec__don_F109A50D.wem</Path>
+				</File>
+				<File Id="332866304" Language="SFX">
+					<ShortName>341488__rocotilos__woo-hoo.wav</ShortName>
+					<Path>SFX/341488__rocotilos__woo-hoo_ECDF4E70.wem</Path>
+				</File>
+				<File Id="378286723" Language="SFX">
+					<ShortName>163455__lemudcrab__shotgun-shot.wav</ShortName>
+					<Path>SFX/163455__lemudcrab__shotgun-shot_F109A50D.wem</Path>
 				</File>
 				<File Id="381394182" Language="SFX">
 					<ShortName>Cartoon Walking-SoundBible.com-2130722123.wav</ShortName>
@@ -215,21 +247,25 @@
 					<ShortName>Angry Chipmunk-SoundBible.com-980210050.wav</ShortName>
 					<Path>SFX/Angry Chipmunk-SoundBible.com-980210050_965A4CA7.wem</Path>
 				</File>
+				<File Id="396311229" Language="SFX">
+					<ShortName>ShotgunShellsConcrete_4.wav</ShortName>
+					<Path>SFX/ShotgunShellsConcrete_4_3606F43F.wem</Path>
+				</File>
 				<File Id="483961884" Language="SFX">
 					<ShortName>Zombie Moan-SoundBible.com-565291980.wav</ShortName>
-					<Path>SFX/Zombie Moan-SoundBible.com-565291980_3EDC8118.wem</Path>
+					<Path>SFX/Zombie Moan-SoundBible.com-565291980_56065891.wem</Path>
 				</File>
 				<File Id="509845718" Language="SFX">
 					<ShortName>Growling Lion-SoundBible.com-495747737.wav</ShortName>
 					<Path>SFX/Growling Lion-SoundBible.com-495747737_61B786E2.wem</Path>
 				</File>
-				<File Id="577530091" Language="SFX">
-					<ShortName>Kid_Says_Hey_4x-Mike_Koenig-1120910186.wav</ShortName>
-					<Path>SFX/Kid_Says_Hey_4x-Mike_Koenig-1120910186_4CAF982B.wem</Path>
-				</File>
 				<File Id="636178009" Language="SFX">
 					<ShortName>Shooting An MP5-SoundBible.com-704967207.wav</ShortName>
 					<Path>SFX/Shooting An MP5-SoundBible.com-704967207_953D1720.wem</Path>
+				</File>
+				<File Id="641695933" Language="SFX">
+					<ShortName>405275__mousepatrol__what-evanbackoff1.wav</ShortName>
+					<Path>SFX/405275__mousepatrol__what-evanbackoff1_E99D3601.wem</Path>
 				</File>
 				<File Id="643295112" Language="SFX">
 					<ShortName>eiya.wav</ShortName>
@@ -239,9 +275,37 @@
 					<ShortName>Dinosaur Footstep-SoundBible.com-1559542884.wav</ShortName>
 					<Path>SFX/Dinosaur Footstep-SoundBible.com-1559542884_0DFDD2CF.wem</Path>
 				</File>
+				<File Id="677085125" Language="SFX">
+					<ShortName>Pacman_Introduction_Music-KP-826387403.wav</ShortName>
+					<Path>SFX/Pacman_Introduction_Music-KP-826387403_111D9533.wem</Path>
+				</File>
+				<File Id="731234549" Language="SFX">
+					<ShortName>343969__reitanna__hoo-hoo-hoo.wav</ShortName>
+					<Path>SFX/343969__reitanna__hoo-hoo-hoo_EBEE9468.wem</Path>
+				</File>
 				<File Id="752080961" Language="SFX">
 					<ShortName>Comet-SoundBible.com-1256431940.wav</ShortName>
 					<Path>SFX/Comet-SoundBible.com-1256431940_39285A8C.wem</Path>
+				</File>
+				<File Id="772503589" Language="SFX">
+					<ShortName>365635__obxjohn__laser-gun-pew-pew.wav</ShortName>
+					<Path>SFX/365635__obxjohn__laser-gun-pew-pew_CD22BA00.wem</Path>
+				</File>
+				<File Id="860634897" Language="SFX">
+					<ShortName>ShotgunShellsConcrete_3.wav</ShortName>
+					<Path>SFX/ShotgunShellsConcrete_3_D173D4E5.wem</Path>
+				</File>
+				<File Id="863502451" Language="SFX">
+					<ShortName>382017__11linda__come-on.wav</ShortName>
+					<Path>SFX/382017__11linda__come-on_46DD36D6.wem</Path>
+				</File>
+				<File Id="863604603" Language="SFX">
+					<ShortName>ShotgunShellsConcrete_1.wav</ShortName>
+					<Path>SFX/ShotgunShellsConcrete_1_67115F5F.wem</Path>
+				</File>
+				<File Id="875893140" Language="SFX">
+					<ShortName>ShotgunShellsConcrete_3.wav</ShortName>
+					<Path>SFX/ShotgunShellsConcrete_3_BA9E44A8.wem</Path>
 				</File>
 				<File Id="894863162" Language="SFX">
 					<ShortName>Evil Yelling-SoundBible.com-1774362373.wav</ShortName>
@@ -262,6 +326,14 @@
 				<File Id="988986733" Language="SFX">
 					<ShortName>voice-prompts-male-voice-male-jazz-scat-slow-singing-vocalization-bass-song-human-voice.wav</ShortName>
 					<Path>SFX/voice-prompts-male-voice-male-jazz-scat-slow-singing-vocalization-bass-song-human-voice_D3E32E6F.wem</Path>
+				</File>
+				<File Id="1017730034" Language="SFX">
+					<ShortName>376817__original-sound__impact-cinematic.wav</ShortName>
+					<Path>SFX/376817__original-sound__impact-cinematic_F109A50D.wem</Path>
+				</File>
+				<File Id="1036230007" Language="SFX">
+					<ShortName>404561__superphat__assaultrifle2.wav</ShortName>
+					<Path>SFX/404561__superphat__assaultrifle2_8BF76B05.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

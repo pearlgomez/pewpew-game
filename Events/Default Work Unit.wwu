@@ -27,7 +27,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Itempick" ID="{06FAF0EA-B606-4FD0-9274-444C206948AB}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
+											<ObjectRef Name="Itempick_bullets" ID="{06FAF0EA-B606-4FD0-9274-444C206948AB}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -55,7 +55,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Itempick" ID="{06FAF0EA-B606-4FD0-9274-444C206948AB}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
+											<ObjectRef Name="Itempick_health" ID="{FAFA575D-F0FE-4F60-B63C-A5336C1C40DE}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -449,7 +449,7 @@
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Rifle" ID="{1510F866-7AD1-41B7-B1E1-9461304C0A50}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
+													<ObjectRef Name="rifle_2" ID="{959D3EEC-7560-42C2-92DE-4E12C8224687}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -520,7 +520,7 @@
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="CG1" ID="{315F8025-47E2-47F0-AA3E-8C5021C911F6}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
+													<ObjectRef Name="flaunch" ID="{B78E3E02-AF74-4CF4-8464-3BE4688F05B5}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -685,7 +685,7 @@
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Fire_Chaingun" ID="{C6CF2C7E-00CA-4BFF-97E6-EB89BDA16B27}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
+													<ObjectRef Name="CG1" ID="{315F8025-47E2-47F0-AA3E-8C5021C911F6}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -840,6 +840,16 @@
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="Shotgun_Blast" ID="{442073B4-53AD-4016-902E-4D579DE0DF8A}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{A8B6A3AF-80DC-493A-8CD0-BAE65A8CCE91}" ShortID="138643902">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Shotgun Shells" ID="{8D3413A4-1EF1-4DFC-AE71-244A32EB0BC1}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -1395,7 +1405,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Itempick" ID="{06FAF0EA-B606-4FD0-9274-444C206948AB}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
+											<ObjectRef Name="Itempick_bullets" ID="{06FAF0EA-B606-4FD0-9274-444C206948AB}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

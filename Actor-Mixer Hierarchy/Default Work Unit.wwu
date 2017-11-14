@@ -596,7 +596,7 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 										</Panner>
 									</PositioningInfo>
 								</Sound>
-								<Sound Name="Itempick" ID="{06FAF0EA-B606-4FD0-9274-444C206948AB}" ShortID="54">
+								<Sound Name="Itempick_bullets" ID="{06FAF0EA-B606-4FD0-9274-444C206948AB}" ShortID="54">
 									<PropertyList>
 										<Property Name="EnablePanner" Type="bool" Value="True"/>
 										<Property Name="OverrideEffect" Type="bool" Value="True"/>
@@ -612,6 +612,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F10B222B-2801-430A-B717-538AC6BBF93D}"/>
 										</Reference>
 									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="344014__reitanna__heheh" ID="{E8773C72-D90F-4B4F-86E1-7AFF662024A3}" ShortID="46033609">
+											<Language>SFX</Language>
+											<AudioFile>344014__reitanna__heheh.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
 									<PositioningInfo>
 										<Panner Name="" ID="{09878FFE-EDB7-41A1-8281-8224D01604D1}">
 											<PropertyList>
@@ -620,6 +626,9 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 											</PropertyList>
 										</Panner>
 									</PositioningInfo>
+									<ActiveSourceList>
+										<ActiveSource Name="344014__reitanna__heheh" ID="{E8773C72-D90F-4B4F-86E1-7AFF662024A3}" Platform="Linked"/>
+									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Rumble" ID="{1C5D1A4D-CEB6-4DF5-B023-B46C1FD1D9DF}" ShortID="92">
 									<PropertyList>
@@ -972,6 +981,31 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 										</Sound>
 									</ChildrenList>
 								</ActorMixer>
+								<Sound Name="Itempick_health" ID="{FAFA575D-F0FE-4F60-B63C-A5336C1C40DE}" ShortID="673992131">
+									<PropertyList>
+										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAF928FC-2A2A-4F7A-8A7C-0010690433A5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F10B222B-2801-430A-B717-538AC6BBF93D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Pacman_Introduction_Music-KP-826387403" ID="{BE566539-790F-4A1E-BE68-5455E66C2035}" ShortID="677085125">
+											<PropertyList>
+												<Property Name="TrimBegin" Type="Real64" Value="3.20821213970636"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Pacman_Introduction_Music-KP-826387403.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Pacman_Introduction_Music-KP-826387403" ID="{BE566539-790F-4A1E-BE68-5455E66C2035}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 							<PositioningInfo>
 								<Panner Name="" ID="{C238DE05-CAAB-4F79-A631-7E9D5C4120B7}">
@@ -1563,6 +1597,11 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 								<Sound Name="Pain_Player" ID="{C6BE04BB-6E6D-4161-A181-1AD8E9206C2E}" ShortID="105">
 									<PropertyList>
 										<Property Name="EnablePanner" Type="bool" Value="True"/>
+										<Property Name="InitialDelay" Type="Real64">
+											<ValueList>
+												<Value>0.3</Value>
+											</ValueList>
+										</Property>
 										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 										<Property Name="UserAuxSendVolume0" Type="Real64">
 											<ValueList>
@@ -1597,6 +1636,15 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 											<Language>SFX</Language>
 											<AudioFile>Kid_Says_Hey_4x-Mike_Koenig-1120910186.wav</AudioFile>
 										</AudioFileSource>
+										<AudioFileSource Name="405275__mousepatrol__what-evanbackoff1" ID="{66386C8D-C7FA-4C38-945E-8BB533E226DA}" ShortID="641695933">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.605852821070075"/>
+												<Property Name="TrimBegin" Type="Real64" Value="9.54218193185371"/>
+												<Property Name="TrimEnd" Type="Real64" Value="10.5748856041322"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>405275__mousepatrol__what-evanbackoff1.wav</AudioFile>
+										</AudioFileSource>
 									</ChildrenList>
 									<PositioningInfo>
 										<Panner Name="" ID="{36E0A4FD-6609-42B3-96E3-1BECBED83874}">
@@ -1606,7 +1654,7 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 										</Panner>
 									</PositioningInfo>
 									<ActiveSourceList>
-										<ActiveSource Name="Kid_Says_Hey_4x-Mike_Koenig-1120910186" ID="{EA55F33C-930C-40C3-AF9F-EEA0FDED18DE}" Platform="Linked"/>
+										<ActiveSource Name="405275__mousepatrol__what-evanbackoff1" ID="{66386C8D-C7FA-4C38-945E-8BB533E226DA}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 								<RandomSequenceContainer Name="Jump" ID="{C68DCB9A-4A53-4A11-88C8-A181DB28C2C4}" ShortID="273234059">
@@ -2783,6 +2831,7 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 										<Value>25</Value>
 									</ValueList>
 								</Property>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
 								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 								<Property Name="UseMaxSoundPerInstance" Type="bool">
 									<ValueList>
@@ -2980,6 +3029,9 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 										</Property>
 										<Property Name="PositioningType" Type="int16" Value="1"/>
 										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
 													<Modifier Name="" ID="{AA32D412-7FD8-475E-8E35-DFB37708A04D}">
@@ -3013,6 +3065,21 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F10B222B-2801-430A-B717-538AC6BBF93D}"/>
 										</Reference>
 									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="341666__sharesynth__electricity00" ID="{B0D980EC-7714-4BCA-9EC0-48A48AC19662}" ShortID="61401203">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.416490718825823"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.159918377270675"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.318079409736177"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.27583232855505"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>341666__sharesynth__electricity00.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="341666__sharesynth__electricity00" ID="{B0D980EC-7714-4BCA-9EC0-48A48AC19662}" Platform="Linked"/>
+									</ActiveSourceList>
 								</Sound>
 								<Sound Name="OutOfAmmo" ID="{2B93227B-AD4A-49B0-96B0-0E6A16F0FE43}" ShortID="761782043">
 									<Comment>Audiokinetic Inc. All rights reserved.
@@ -3053,6 +3120,18 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F10B222B-2801-430A-B717-538AC6BBF93D}"/>
 										</Reference>
 									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="382017__11linda__come-on" ID="{9435288E-DEBB-4515-8AC1-F711EF4C5F0A}" ShortID="863502451">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.108986439214636"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.526767789537406"/>
+												<Property Name="TrimBegin" Type="Real64" Value="12.5334405096831"/>
+												<Property Name="TrimEnd" Type="Real64" Value="14.0410862521522"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>382017__11linda__come-on.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
 									<PositioningInfo>
 										<Panner Name="" ID="{51C0EF73-050E-49A7-BE19-EAC584648C37}">
 											<PropertyList>
@@ -3061,6 +3140,9 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 											</PropertyList>
 										</Panner>
 									</PositioningInfo>
+									<ActiveSourceList>
+										<ActiveSource Name="382017__11linda__come-on" ID="{9435288E-DEBB-4515-8AC1-F711EF4C5F0A}" Platform="Linked"/>
+									</ActiveSourceList>
 								</Sound>
 								<RandomSequenceContainer Name="Punches" ID="{EC698C98-6F1C-4D65-92D1-A398C1004750}" ShortID="442106010">
 									<PropertyList>
@@ -3335,6 +3417,18 @@ www.alexanderbrandon.net
 The Audio Content contained in this file is the property of Alexander Brandon.  Y
 our sole right with regard to this Audio Content is to listen to the Audio Content as part of this project.  
 This Audio Content cannot be used or modified for a commercial purpose nor for public demonstration.</Comment>
+											<PropertyList>
+												<Property Name="Highpass" Type="int16">
+													<ValueList>
+														<Value>27</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>830</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAF928FC-2A2A-4F7A-8A7C-0010690433A5}"/>
@@ -3343,6 +3437,27 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F10B222B-2801-430A-B717-538AC6BBF93D}"/>
 												</Reference>
 											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="203335__kendrayoder__male-look-over-there" ID="{1A397B6A-BF0B-46CF-9904-2C8271FE0DA9}" ShortID="480088330">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.122645149525893"/>
+														<Property Name="LoopBegin" Type="Real64" Value="0"/>
+														<Property Name="LoopEnd" Type="Real64" Value="0.560190007293946"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.560190007293946"/>
+														<Property Name="VolumeOffset" Type="Real64">
+															<ValueList>
+																<Value>1</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>203335__kendrayoder__male-look-over-there.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="203335__kendrayoder__male-look-over-there" ID="{1A397B6A-BF0B-46CF-9904-2C8271FE0DA9}" Platform="Linked"/>
+											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
 									<PositioningInfo>
@@ -3476,6 +3591,15 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F10B222B-2801-430A-B717-538AC6BBF93D}"/>
 												</Reference>
 											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="144459__hemogrec__don" ID="{6A06A921-D04F-4F50-9F9D-C1021B90F74B}" ShortID="239807211">
+													<Language>SFX</Language>
+													<AudioFile>144459__hemogrec__don.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="144459__hemogrec__don" ID="{6A06A921-D04F-4F50-9F9D-C1021B90F74B}" Platform="Linked"/>
+											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
@@ -3539,6 +3663,7 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 									<PropertyList>
 										<Property Name="3DPositionSource" Type="int16" Value="0"/>
 										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 										<Property Name="PositioningType" Type="int16" Value="1"/>
 										<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 									</PropertyList>
@@ -3569,6 +3694,11 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 														</ModifierInfo>
 													</ModifierList>
 												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>12</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -3588,6 +3718,22 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F10B222B-2801-430A-B717-538AC6BBF93D}"/>
 														</Reference>
 													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="ShotgunShellsConcrete_1" ID="{CEA6B8A4-1A88-4D4A-8210-5EAD453BF451}" ShortID="863604603">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.106496772304837"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.382087656360867"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>ShotgunShellsConcrete_1.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="42457730"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="ShotgunShellsConcrete_1" ID="{CEA6B8A4-1A88-4D4A-8210-5EAD453BF451}" Platform="Linked"/>
+													</ActiveSourceList>
 												</Sound>
 												<Sound Name="ShotgunShellsConcrete_2" ID="{CF6B0172-78B6-4DC9-86E9-804CA7EA0867}" ShortID="350924069">
 													<ReferenceList>
@@ -3598,6 +3744,19 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F10B222B-2801-430A-B717-538AC6BBF93D}"/>
 														</Reference>
 													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="ShotgunShellsConcrete_2" ID="{4999FCB1-D52A-4F41-9EFE-894D9AB81DB6}" ShortID="75994475">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.21136763968899"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.442246138426195"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>ShotgunShellsConcrete_2.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="ShotgunShellsConcrete_2" ID="{4999FCB1-D52A-4F41-9EFE-894D9AB81DB6}" Platform="Linked"/>
+													</ActiveSourceList>
 												</Sound>
 												<Sound Name="ShotgunShellsConcrete_3" ID="{BB263466-315C-4185-BE07-1F90D0A8B5FD}" ShortID="923472889">
 													<ReferenceList>
@@ -3608,6 +3767,19 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F10B222B-2801-430A-B717-538AC6BBF93D}"/>
 														</Reference>
 													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="ShotgunShellsConcrete_3" ID="{48AD4351-5D2A-49DE-A249-B1C3459F162C}" ShortID="860634897">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.152835062544351"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.406476230171135"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>ShotgunShellsConcrete_3.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="ShotgunShellsConcrete_3" ID="{48AD4351-5D2A-49DE-A249-B1C3459F162C}" Platform="Linked"/>
+													</ActiveSourceList>
 												</Sound>
 												<Sound Name="ShotgunShellsConcrete_4" ID="{CE0ECA8D-159F-4FA3-B76D-7FCB51937CDD}" ShortID="213585123">
 													<ReferenceList>
@@ -3618,11 +3790,32 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F10B222B-2801-430A-B717-538AC6BBF93D}"/>
 														</Reference>
 													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="ShotgunShellsConcrete_4" ID="{2F943894-174E-4A21-A77E-3EF688750727}" ShortID="396311229">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.130072393654763"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.227626688895835"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>ShotgunShellsConcrete_4.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="93562048"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="ShotgunShellsConcrete_4" ID="{2F943894-174E-4A21-A77E-3EF688750727}" Platform="Linked"/>
+													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="Shotgun Shells Tail" ID="{2D156512-8AB4-403D-8514-E60841E32485}" ShortID="790109948">
 											<PropertyList>
+												<Property Name="InitialDelay" Type="Real64">
+													<ValueList>
+														<Value>0.3</Value>
+													</ValueList>
+												</Property>
 												<Property Name="Pitch" Type="int32">
 													<ModifierList>
 														<ModifierInfo>
@@ -3635,6 +3828,11 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 															</Modifier>
 														</ModifierInfo>
 													</ModifierList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>12</Value>
+													</ValueList>
 												</Property>
 											</PropertyList>
 											<ReferenceList>
@@ -3655,6 +3853,23 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F10B222B-2801-430A-B717-538AC6BBF93D}"/>
 														</Reference>
 													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="ShotgunShellsConcrete_1" ID="{374814AD-D46E-4A63-951E-FC2FC68DF2DE}" ShortID="42457730">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.063410291906697"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.135763060877159"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.338188223502384"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>ShotgunShellsConcrete_1.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="863604603"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="ShotgunShellsConcrete_1" ID="{374814AD-D46E-4A63-951E-FC2FC68DF2DE}" Platform="Linked"/>
+													</ActiveSourceList>
 												</Sound>
 												<Sound Name="ShotgunShellsConcrete_2" ID="{AD3F7732-6979-4612-9D5B-F5A36E099B75}" ShortID="861093620">
 													<ReferenceList>
@@ -3665,6 +3880,21 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F10B222B-2801-430A-B717-538AC6BBF93D}"/>
 														</Reference>
 													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="ShotgunShellsConcrete_2" ID="{FB5F6027-17B1-4A3F-82A9-275E71A07DEE}" ShortID="230262097">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.206489924926936"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.286159266040479"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.172345921592561"/>
+																<Property Name="TrimEnd" Type="Real64" Value="1.4828252876643"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>ShotgunShellsConcrete_2.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="ShotgunShellsConcrete_2" ID="{FB5F6027-17B1-4A3F-82A9-275E71A07DEE}" Platform="Linked"/>
+													</ActiveSourceList>
 												</Sound>
 												<Sound Name="ShotgunShellsConcrete_3" ID="{F1597575-8215-47EB-BAC7-93EB04FD44E3}" ShortID="980565740">
 													<ReferenceList>
@@ -3675,6 +3905,21 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F10B222B-2801-430A-B717-538AC6BBF93D}"/>
 														</Reference>
 													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="ShotgunShellsConcrete_3" ID="{32569D32-A2F4-4BBD-9D12-423CDE795319}" ShortID="875893140">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.123568773972025"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.138201918258186"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.255267072547473"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.996679716379622"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>ShotgunShellsConcrete_3.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="ShotgunShellsConcrete_3" ID="{32569D32-A2F4-4BBD-9D12-423CDE795319}" Platform="Linked"/>
+													</ActiveSourceList>
 												</Sound>
 												<Sound Name="ShotgunShellsConcrete_4" ID="{055B5EC6-2A04-4BF6-A825-567D1870E382}" ShortID="297074413">
 													<ReferenceList>
@@ -3685,6 +3930,24 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F10B222B-2801-430A-B717-538AC6BBF93D}"/>
 														</Reference>
 													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="ShotgunShellsConcrete_4" ID="{DD8ACAD9-DFB6-4A23-B232-7C94838FBC07}" ShortID="93562048">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0601584820653279"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.13982782317887"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.115439249368602"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.944650758917717"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>ShotgunShellsConcrete_4.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="396311229"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="ShotgunShellsConcrete_4" ID="{DD8ACAD9-DFB6-4A23-B232-7C94838FBC07}" Platform="Linked"/>
+													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
 										</RandomSequenceContainer>
@@ -3835,6 +4098,11 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 											</ChildrenList>
 										</Position>
 									</PositioningInfo>
+									<Playlist>
+										<ItemRef Name="Shotgun Shells Head" ID="{3BB31375-F716-49BA-83C2-E42F889B09E7}"/>
+										<ItemRef Name="Silence" ID="{5B9AA4E7-6C7E-4462-81C0-1CC56B1CD4A6}"/>
+										<ItemRef Name="Shotgun Shells Tail" ID="{2D156512-8AB4-403D-8514-E60841E32485}"/>
+									</Playlist>
 								</RandomSequenceContainer>
 								<ActorMixer Name="Shotgun Pumps" ID="{200DDF49-4C18-41D9-B74D-EDBF0BCE23E7}" ShortID="616088354">
 									<PropertyList>
@@ -3916,6 +4184,11 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 								<Sound Name="Shotgun_Blast" ID="{442073B4-53AD-4016-902E-4D579DE0DF8A}" ShortID="1052191688">
 									<PropertyList>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>-400</Value>
+											</ValueList>
+										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
 												<Value>-9</Value>
@@ -4032,6 +4305,19 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 									<ActiveSourceList>
 										<ActiveSource Name="Comet-SoundBible_com-1256431940" ID="{F999649F-5E93-41D2-841D-C8E1EB9E8942}" Platform="Linked"/>
 									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Fireball_player" ID="{9561AD9F-B35A-460A-9830-ECA4836B80B4}" ShortID="17825708">
+									<PropertyList>
+										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAF928FC-2A2A-4F7A-8A7C-0010690433A5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F10B222B-2801-430A-B717-538AC6BBF93D}"/>
+										</Reference>
+									</ReferenceList>
 								</Sound>
 							</ChildrenList>
 						</ActorMixer>
