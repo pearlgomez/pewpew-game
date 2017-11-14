@@ -46,6 +46,10 @@
 					<ShortName>signal01.wav</ShortName>
 					<Path>SFX/signal01_53CEE377.wem</Path>
 				</File>
+				<File Id="203424728" Language="SFX">
+					<ShortName>oneshot3.wav</ShortName>
+					<Path>SFX/oneshot3_53CEE377.wem</Path>
+				</File>
 				<File Id="209784911" Language="SFX">
 					<ShortName>enter12.wav</ShortName>
 					<Path>SFX/enter12_53CEE377.wem</Path>
@@ -62,13 +66,13 @@
 					<ShortName>enter07.wav</ShortName>
 					<Path>SFX/enter07_53CEE377.wem</Path>
 				</File>
-				<File Id="501119357" Language="SFX">
-					<ShortName>one_shot_1.wav</ShortName>
-					<Path>SFX/one_shot_1_53CEE377.wem</Path>
-				</File>
 				<File Id="504552545" Language="SFX">
 					<ShortName>enter04.wav</ShortName>
 					<Path>SFX/enter04_53CEE377.wem</Path>
+				</File>
+				<File Id="556001437" Language="SFX">
+					<ShortName>Ambience Children Group Playground Distant 01.wav</ShortName>
+					<Path>SFX/Ambience Children Group Playground Distant 01_9452F465.wem</Path>
 				</File>
 				<File Id="579081663" Language="SFX">
 					<ShortName>enter03.wav</ShortName>
@@ -86,13 +90,9 @@
 					<ShortName>enter05.wav</ShortName>
 					<Path>SFX/enter05_53CEE377.wem</Path>
 				</File>
-				<File Id="723240981" Language="SFX">
-					<ShortName>oneshot2.wav</ShortName>
-					<Path>SFX/oneshot2_53CEE377.wem</Path>
-				</File>
-				<File Id="805949607" Language="SFX">
-					<ShortName>oneshot3.wav</ShortName>
-					<Path>SFX/oneshot3_53CEE377.wem</Path>
+				<File Id="779474542" Language="SFX">
+					<ShortName>one_shot_1.wav</ShortName>
+					<Path>SFX/one_shot_1_53CEE377.wem</Path>
 				</File>
 				<File Id="819733394" Language="SFX">
 					<ShortName>enter09.wav</ShortName>
@@ -102,13 +102,13 @@
 					<ShortName>enter06.wav</ShortName>
 					<Path>SFX/enter06_53CEE377.wem</Path>
 				</File>
+				<File Id="955125784" Language="SFX">
+					<ShortName>oneshot2.wav</ShortName>
+					<Path>SFX/oneshot2_53CEE377.wem</Path>
+				</File>
 				<File Id="965577559" Language="SFX">
 					<ShortName>enter08.wav</ShortName>
 					<Path>SFX/enter08_53CEE377.wem</Path>
-				</File>
-				<File Id="980855742" Language="SFX">
-					<ShortName>Ambience Children Group Playground Distant 01.wav</ShortName>
-					<Path>SFX/Ambience Children Group Playground Distant 01_9452F465.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
@@ -117,7 +117,6 @@
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
-				<Event Id="3721111614" Name="DCP_Music" ObjectPath="\Events\Default Work Unit\Maps\DCP_the_core\DCP_Music"/>
 				<Event Id="1563934831" Name="Death_Bauul" ObjectPath="\Events\Default Work Unit\Main\Death\Death_Bauul"/>
 				<Event Id="3102123049" Name="Death_Goblin" ObjectPath="\Events\Default Work Unit\Main\Death\Death_Goblin"/>
 				<Event Id="1714600999" Name="Death_HellPig" ObjectPath="\Events\Default Work Unit\Main\Death\Death_HellPig"/>
@@ -288,10 +287,6 @@
 					<ShortName>Zombie Moan-SoundBible.com-565291980.wav</ShortName>
 					<Path>SFX/Zombie Moan-SoundBible.com-565291980_56065891.wem</Path>
 				</File>
-				<File Id="501119357" Language="SFX">
-					<ShortName>one_shot_1.wav</ShortName>
-					<Path>SFX/one_shot_1_53CEE377.wem</Path>
-				</File>
 				<File Id="509845718" Language="SFX">
 					<ShortName>Growling Lion-SoundBible.com-495747737.wav</ShortName>
 					<Path>SFX/Growling Lion-SoundBible.com-495747737_61B786E2.wem</Path>
@@ -320,17 +315,9 @@
 					<ShortName>343969__reitanna__hoo-hoo-hoo.wav</ShortName>
 					<Path>SFX/343969__reitanna__hoo-hoo-hoo_4BB13AE7.wem</Path>
 				</File>
-				<File Id="723240981" Language="SFX">
-					<ShortName>oneshot2.wav</ShortName>
-					<Path>SFX/oneshot2_53CEE377.wem</Path>
-				</File>
 				<File Id="752080961" Language="SFX">
 					<ShortName>Comet-SoundBible.com-1256431940.wav</ShortName>
 					<Path>SFX/Comet-SoundBible.com-1256431940_39285A8C.wem</Path>
-				</File>
-				<File Id="805949607" Language="SFX">
-					<ShortName>oneshot3.wav</ShortName>
-					<Path>SFX/oneshot3_53CEE377.wem</Path>
 				</File>
 				<File Id="860634897" Language="SFX">
 					<ShortName>ShotgunShellsConcrete_3.wav</ShortName>
@@ -363,10 +350,6 @@
 				<File Id="959326497" Language="SFX">
 					<ShortName>SOUND EFFECT HELLO DARKNESS MY OLD FRIEND(ORIGINAL).wav</ShortName>
 					<Path>SFX/SOUND EFFECT HELLO DARKNESS MY OLD FRIEND(ORIGINAL)_53CEE377.wem</Path>
-				</File>
-				<File Id="980855742" Language="SFX">
-					<ShortName>Ambience Children Group Playground Distant 01.wav</ShortName>
-					<Path>SFX/Ambience Children Group Playground Distant 01_9452F465.wem</Path>
 				</File>
 				<File Id="988986733" Language="SFX">
 					<ShortName>voice-prompts-male-voice-male-jazz-scat-slow-singing-vocalization-bass-song-human-voice.wav</ShortName>

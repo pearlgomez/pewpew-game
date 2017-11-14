@@ -70,7 +70,6 @@ Event	ID	Name			Wwise Object Path	Notes
 	3475891921	End_Rocket_Player			\Default Work Unit\Main\Weapons\End_Rocket_Player	
 	3507362942	Fire_Iceball_Player			\Default Work Unit\Main\Weapons\Fire_Iceball_Player	
 	3638319432	Hit_Fireball_Player			\Default Work Unit\Main\Weapons\Hit_Fireball_Player	
-	3721111614	DCP_Music			\Default Work Unit\Maps\DCP_the_core\DCP_Music	
 	3732061108	PupOut			\Default Work Unit\Main\PupOut	
 	3787035475	Death_Player			\Default Work Unit\Main\Death\Death_Player	
 	3826003282	Foot_Rhino			\Default Work Unit\Main\Foot\Foot_Rhino	
@@ -119,7 +118,6 @@ Effect plug-ins	ID	Name	Type				Notes
 	1062760824	Default (Custom)	Wwise Parametric EQ			
 
 Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
-	513212381	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Main\Ambience\Ambience one shot\Silence\Wwise Silence	
 	593025620	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Main\Weapons\Shotgun Shells\Silence\Wwise Silence	
 	681388969	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Main\Weapons\Silence\Wwise Silence	
 
@@ -143,7 +141,6 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	396311229	ShotgunShellsConcrete_4	Y:\Documents\GitHub\pewpew-game\.cache\Windows\SFX\ShotgunShellsConcrete_4_76D5B355.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Weapons\Shotgun Shells\Shotgun Shells Tail\ShotgunShellsConcrete_4		9258
 	445463663	rlaunch	Y:\Documents\GitHub\pewpew-game\.cache\Windows\SFX\250154__robinhood76__05433-stinger-rocket-deploy_81C0D145.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Weapons\Rocket Launcher\rlaunch	Audiokinetic Inc. All rights reserved. Audio content provided by Alexander Brandon © 2008 Alexander Brandon www.alexanderbrandon.net  The Audio Content contained in this file is the property of Alexander Brandon.  Y our sole right with regard to this Audio Content is to listen to the Audio Content as part of this project.   This Audio Content cannot be used or modified for a commercial purpose nor for public demonstration.	31930
 	483961884	Monster_Spawn	Y:\Documents\GitHub\pewpew-game\.cache\Windows\SFX\Zombie Moan-SoundBible.com-565291980_56065891.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Monsters\Monster_Spawn		192688
-	501119357	oneshot1	Y:\Documents\GitHub\pewpew-game\.cache\Windows\SFX\one_shot_1_53CEE377.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Ambience\Ambience one shot\oneshot1		1649728
 	509845718	Grunt_Ogre	Y:\Documents\GitHub\pewpew-game\.cache\Windows\SFX\Growling Lion-SoundBible.com-495747737_61B786E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Monsters\Grunt\Grunt_Ogre		91738
 	636178009	Fire_Chaingun	Y:\Documents\GitHub\pewpew-game\.cache\Windows\SFX\Shooting An MP5-SoundBible.com-704967207_953D1720.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Weapons\Fire_Chaingun		8658
 	641695933	Pain_Player	Y:\Documents\GitHub\pewpew-game\.cache\Windows\SFX\405275__mousepatrol__what-evanbackoff1_C4C212BA.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Main Character\Pain_Player		182232
@@ -151,9 +148,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	674718906	Foot_Ogre	Y:\Documents\GitHub\pewpew-game\.cache\Windows\SFX\Dinosaur Footstep-SoundBible.com-1559542884_0DFDD2CF.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Monsters\Foot\Foot_Ogre		8590
 	677085125	Itempick_health	Y:\Documents\GitHub\pewpew-game\.cache\Windows\SFX\Pacman_Introduction_Music-KP-826387403_F2279D9A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Items\Itempick_health		206164
 	703339300	Fireball_player	Y:\Documents\GitHub\pewpew-game\.cache\Windows\SFX\343969__reitanna__hoo-hoo-hoo_4BB13AE7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Weapons\Fireball_player		7757
-	723240981	oneshot2	Y:\Documents\GitHub\pewpew-game\.cache\Windows\SFX\oneshot2_53CEE377.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Ambience\Ambience one shot\oneshot2		1119808
 	752080961	Fire_Fireball	Y:\Documents\GitHub\pewpew-game\.cache\Windows\SFX\Comet-SoundBible.com-1256431940_39285A8C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Weapons\Fire_Fireball		15629
-	805949607	oneshot3	Y:\Documents\GitHub\pewpew-game\.cache\Windows\SFX\oneshot3_53CEE377.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Ambience\Ambience one shot\oneshot3		1712008
 	860634897	ShotgunShellsConcrete_3	Y:\Documents\GitHub\pewpew-game\.cache\Windows\SFX\ShotgunShellsConcrete_3_8A189FC2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Weapons\Shotgun Shells\Shotgun Shells Head\ShotgunShellsConcrete_3		4022
 	863502451	WeapLoad	Y:\Documents\GitHub\pewpew-game\.cache\Windows\SFX\382017__11linda__come-on_7EBE03AB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Weapons\WeapLoad	Audiokinetic Inc. All rights reserved. Audio content provided by Alexander Brandon © 2008 Alexander Brandon www.alexanderbrandon.net  The Audio Content contained in this file is the property of Alexander Brandon.  Y our sole right with regard to this Audio Content is to listen to the Audio Content as part of this project.   This Audio Content cannot be used or modified for a commercial purpose nor for public demonstration.	11900
 	863604603	ShotgunShellsConcrete_1	Y:\Documents\GitHub\pewpew-game\.cache\Windows\SFX\ShotgunShellsConcrete_1_2C9BC335.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Weapons\Shotgun Shells\Shotgun Shells Tail\ShotgunShellsConcrete_1		5347
@@ -162,7 +157,6 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	905382295	Foot_Rhino	Y:\Documents\GitHub\pewpew-game\.cache\Windows\SFX\Tap Dancing-SoundBible.com-1631634159_36F53861.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Monsters\Foot\Foot_Rhino		38004
 	936993231	Death_Rat	Y:\Documents\GitHub\pewpew-game\.cache\Windows\SFX\Zombie In Pain-SoundBible.com-134322253_FB0EE930.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Monsters\Death_Rat	Audiokinetic Inc. All rights reserved. Audio content provided by Alexander Brandon © 2008 Alexander Brandon www.alexanderbrandon.net  The Audio Content contained in this file is the property of Alexander Brandon.  Y our sole right with regard to this Audio Content is to listen to the Audio Content as part of this project.   This Audio Content cannot be used or modified for a commercial purpose nor for public demonstration.	117504
 	959326497	Death_Player	Y:\Documents\GitHub\pewpew-game\.cache\Windows\SFX\SOUND EFFECT HELLO DARKNESS MY OLD FRIEND(ORIGINAL)_53CEE377.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Main Character\Death_Player		1609792
-	980855742	Ambience_Bed	Y:\Documents\GitHub\pewpew-game\.cache\Windows\SFX\Ambience Children Group Playground Distant 01_9452F465.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Ambience\Ambience_Bed		62917240
 	988986733	Monster_Unaware	Y:\Documents\GitHub\pewpew-game\.cache\Windows\SFX\voice-prompts-male-voice-male-jazz-scat-slow-singing-vocalization-bass-song-human-voice_D3E32E6F.wem		\Actor-Mixer Hierarchy\Music\Monster_Unaware		552944
 	990557182	rifle_1	Y:\Documents\GitHub\pewpew-game\.cache\Windows\SFX\404561__superphat__assaultrifle2_F109A50D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Weapons\Rifle\rifle_1		26906
 
